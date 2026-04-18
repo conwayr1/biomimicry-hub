@@ -1,0 +1,39 @@
+{{/* Affiliate CTA block rendered at the bottom of every page */}}
+{{ $lb := hugo.Data.affiliates.learn_biomimicry }}
+{{ $ab := hugo.Data.affiliates.amazon_books }}
+<div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin:2.5rem 0 1rem;">
+  <h2 style="border:none;padding:0;margin:0 0 1rem;font-size:1.1rem;color:var(--text);">Go Deeper</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
+
+    {{ with $lb }}
+    <div>
+      <p style="font-weight:600;margin-bottom:.35rem;">🌿 Learn Biomimicry</p>
+      <p style="font-size:.88rem;color:var(--muted);margin-bottom:.6rem;">{{ .cta_text }}</p>
+      <a href="{{ .url }}" target="_blank" rel="noopener sponsored"
+         style="font-size:.88rem;background:var(--green);color:#fff;padding:.4rem .9rem;border-radius:5px;font-weight:600;display:inline-block;">
+        {{ .button_text }}
+      </a>
+    </div>
+    {{ end }}
+
+    {{ with $ab }}
+    <div>
+      <p style="font-weight:600;margin-bottom:.35rem;">📚 Recommended Books</p>
+      {{ range first 2 .default_books }}
+      <p style="font-size:.85rem;margin-bottom:.3rem;">
+        <a href="https://www.amazon.com/dp/{{ .asin }}?tag={{ $ab.tag }}"
+           target="_blank" rel="noopener sponsored">{{ .title }}</a>
+      </p>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div>
+      <p style="font-weight:600;margin-bottom:.35rem;">🔬 Explore Further</p>
+      <p style="font-size:.85rem;color:var(--muted);margin-bottom:.4rem;">The world's largest biomimicry database, curated by the Biomimicry Institute.</p>
+      <a href="https://asknature.org" target="_blank" rel="noopener"
+         style="font-size:.88rem;color:var(--green);">Visit AskNature.org →</a>
+    </div>
+
+  </div>
+</div>

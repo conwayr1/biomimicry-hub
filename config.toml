@@ -1,0 +1,37 @@
+baseURL = "https://biomimicry-hub.com/"
+languageCode = "en-us"
+title = "Biomimicry Hub — Nature-Inspired Design & Engineering"
+# theme = ""  # Using custom layouts directly — no separate theme directory needed
+
+# Hugo built-ins
+enableRobotsTXT = true
+enableGitInfo    = false
+pygmentsUseClasses = true
+
+[params]
+  description   = "Explore how engineers and designers copy nature to solve hard problems. Hundreds of biomimicry examples — from gecko adhesives to whale-fin turbines."
+  author        = "Biomimicry Hub"
+  googleAnalytics = ""  # Add your GA4 measurement ID here: G-XXXXXXXXXX
+  amazonTag     = "AMAZON_TAG"
+
+[taxonomies]
+  taxonomy_group = "taxonomy_groups"
+  industry       = "industries"
+  tag            = "tags"
+
+[outputs]
+  home    = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  page    = ["HTML"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority   = 0.5
+  filename   = "sitemap.xml"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true   # Allow raw HTML in markdown (needed for shortcodes)
+  [markup.highlight]
+    codeFences = true
+    noClasses  = false

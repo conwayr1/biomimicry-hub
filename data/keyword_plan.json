@@ -1,0 +1,1738 @@
+{
+  "meta": {
+    "strategy_count": 57,
+    "page_counts": {
+      "organism": 57,
+      "function": 7,
+      "industry": 20,
+      "list": 12,
+      "total": 96
+    }
+  },
+  "pages": [
+    {
+      "page_type": "organism",
+      "keyword": "how tokay gecko inspired dry adhesives",
+      "title": "How Tokay gecko Inspired Dry Adhesives",
+      "slug": "gecko-adhesion-dry-adhesives",
+      "strategy_ids": [
+        1
+      ],
+      "taxonomy_group": "Attach",
+      "industries": [
+        "materials science",
+        "robotics",
+        "medical devices",
+        "aerospace"
+      ],
+      "description": "How the tokay gecko inspired dry adhesives — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how sacred lotus inspired self-cleaning surfaces",
+      "title": "How Sacred lotus Inspired Self-cleaning Surfaces",
+      "slug": "lotus-leaf-self-cleaning-superhydrophobic",
+      "strategy_ids": [
+        2
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "materials science",
+        "architecture",
+        "textiles",
+        "medical devices"
+      ],
+      "description": "How the sacred lotus inspired self-cleaning surfaces — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how shortfin mako shark inspired drag-reducing surfaces",
+      "title": "How Shortfin mako shark Inspired Drag-reducing Surfaces",
+      "slug": "shark-skin-denticles-drag-reduction",
+      "strategy_ids": [
+        3
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "aerospace",
+        "marine transport",
+        "textiles",
+        "medical devices"
+      ],
+      "description": "How the shortfin mako shark inspired drag-reducing surfaces — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how common kingfisher inspired the Shinkansen bullet train nose",
+      "title": "How Common kingfisher Inspired The Shinkansen Bullet Train Nose",
+      "slug": "kingfisher-beak-shinkansen-bullet-train",
+      "strategy_ids": [
+        4
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "transportation",
+        "aerospace",
+        "engineering"
+      ],
+      "description": "How the common kingfisher inspired the Shinkansen bullet train nose — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how african termite inspired passive building ventilation",
+      "title": "How African termite Inspired Passive Building Ventilation",
+      "slug": "termite-mound-passive-ventilation-architecture",
+      "strategy_ids": [
+        5
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "architecture",
+        "energy",
+        "HVAC"
+      ],
+      "description": "How the african termite inspired passive building ventilation — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how golden silk orb-weaver spider inspired synthetic spider silk",
+      "title": "How Golden silk orb-weaver spider Inspired Synthetic Spider Silk",
+      "slug": "spider-silk-tensile-strength-synthetic-fibers",
+      "strategy_ids": [
+        6
+      ],
+      "taxonomy_group": "Make",
+      "industries": [
+        "materials science",
+        "medical devices",
+        "defense",
+        "textiles"
+      ],
+      "description": "How the golden silk orb-weaver spider inspired synthetic spider silk — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how humpback whale inspired wind turbine blades",
+      "title": "How Humpback whale Inspired Wind Turbine Blades",
+      "slug": "humpback-whale-tubercles-wind-turbines",
+      "strategy_ids": [
+        7
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "energy",
+        "aerospace",
+        "marine transport"
+      ],
+      "description": "How the humpback whale inspired wind turbine blades — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how morpho butterfly inspired structural color and anti-counterfeiting",
+      "title": "How Morpho butterfly Inspired Structural Color and Anti-counterfeiting",
+      "slug": "morpho-butterfly-structural-color-anti-counterfeiting",
+      "strategy_ids": [
+        8
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "materials science",
+        "electronics",
+        "security",
+        "textiles"
+      ],
+      "description": "How the morpho butterfly inspired structural color and anti-counterfeiting — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how cocklebur inspired Velcro",
+      "title": "How Cocklebur Inspired Velcro",
+      "slug": "cocklebur-velcro-hook-loop-fastening",
+      "strategy_ids": [
+        9
+      ],
+      "taxonomy_group": "Attach",
+      "industries": [
+        "textiles",
+        "medical devices",
+        "aerospace",
+        "consumer products"
+      ],
+      "description": "How the cocklebur inspired Velcro — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how california mussel inspired underwater surgical adhesives",
+      "title": "How California mussel Inspired Underwater Surgical Adhesives",
+      "slug": "mussel-adhesive-proteins-underwater-surgical-glue",
+      "strategy_ids": [
+        10
+      ],
+      "taxonomy_group": "Attach",
+      "industries": [
+        "medical devices",
+        "marine engineering",
+        "construction"
+      ],
+      "description": "How the california mussel inspired underwater surgical adhesives — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how boxfish inspired aerodynamic vehicle design",
+      "title": "How Boxfish Inspired Aerodynamic Vehicle Design",
+      "slug": "boxfish-aerodynamics-mercedes-bionic-car",
+      "strategy_ids": [
+        11
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "transportation",
+        "marine engineering",
+        "aerospace"
+      ],
+      "description": "How the boxfish inspired aerodynamic vehicle design — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how namibian fog-basking beetle inspired fog-harvesting water collection",
+      "title": "How Namibian fog-basking beetle Inspired Fog-harvesting Water Collection",
+      "slug": "namibian-beetle-fog-collection-water-harvesting",
+      "strategy_ids": [
+        12
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "water",
+        "architecture",
+        "materials science",
+        "humanitarian technology"
+      ],
+      "description": "How the namibian fog-basking beetle inspired fog-harvesting water collection — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how honeybee inspired honeycomb structural panels",
+      "title": "How Honeybee Inspired Honeycomb Structural Panels",
+      "slug": "honeycomb-structure-aerospace-lightweight-panels",
+      "strategy_ids": [
+        13
+      ],
+      "taxonomy_group": "Make",
+      "industries": [
+        "aerospace",
+        "architecture",
+        "packaging",
+        "materials science"
+      ],
+      "description": "How the honeybee inspired honeycomb structural panels — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how european pinecone inspired humidity-responsive building facades",
+      "title": "How European pinecone Inspired Humidity-responsive Building Facades",
+      "slug": "pinecone-humidity-responsive-adaptive-facades",
+      "strategy_ids": [
+        14
+      ],
+      "taxonomy_group": "Modify",
+      "industries": [
+        "architecture",
+        "textiles",
+        "robotics",
+        "energy"
+      ],
+      "description": "How the european pinecone inspired humidity-responsive building facades — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how pileated woodpecker inspired impact-absorbing helmets",
+      "title": "How Pileated woodpecker Inspired Impact-absorbing Helmets",
+      "slug": "woodpecker-skull-shock-absorption-helmets",
+      "strategy_ids": [
+        15
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "sports equipment",
+        "aerospace",
+        "defense",
+        "packaging"
+      ],
+      "description": "How the pileated woodpecker inspired impact-absorbing helmets — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how bombardier beetle inspired pulsed combustion and drug injection",
+      "title": "How Bombardier beetle Inspired Pulsed Combustion and Drug Injection",
+      "slug": "bombardier-beetle-pulsed-combustion-drug-injection",
+      "strategy_ids": [
+        16
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "medical devices",
+        "energy",
+        "defense"
+      ],
+      "description": "How the bombardier beetle inspired pulsed combustion and drug injection — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how red-eyed tree frog inspired wet-surface adhesive grippers",
+      "title": "How Red-eyed tree frog Inspired Wet-surface Adhesive Grippers",
+      "slug": "tree-frog-wet-adhesion-surgical-robots",
+      "strategy_ids": [
+        17
+      ],
+      "taxonomy_group": "Attach",
+      "industries": [
+        "robotics",
+        "medical devices",
+        "manufacturing"
+      ],
+      "description": "How the red-eyed tree frog inspired wet-surface adhesive grippers — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how mantis shrimp inspired impact-resistant composite armor",
+      "title": "How Mantis shrimp Inspired Impact-resistant Composite Armor",
+      "slug": "mantis-shrimp-helicoidal-impact-resistant-composites",
+      "strategy_ids": [
+        18
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "defense",
+        "aerospace",
+        "sports equipment",
+        "materials science"
+      ],
+      "description": "How the mantis shrimp inspired impact-resistant composite armor — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how desert locust inspired collision-avoidance sensors",
+      "title": "How Desert locust Inspired Collision-avoidance Sensors",
+      "slug": "locust-collision-detection-autonomous-vehicles",
+      "strategy_ids": [
+        19
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "robotics",
+        "transportation",
+        "defense",
+        "agriculture"
+      ],
+      "description": "How the desert locust inspired collision-avoidance sensors — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how pitcher plant inspired SLIPS non-stick coatings",
+      "title": "How Pitcher plant Inspired SLIPS Non-stick Coatings",
+      "slug": "pitcher-plant-slippery-surface-slips-coating",
+      "strategy_ids": [
+        20
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "aerospace",
+        "medical devices",
+        "marine engineering",
+        "food packaging"
+      ],
+      "description": "How the pitcher plant inspired SLIPS non-stick coatings — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how peregrine falcon inspired jet engine air intakes",
+      "title": "How Peregrine falcon Inspired Jet Engine Air Intakes",
+      "slug": "peregrine-falcon-nostril-jet-engine-intake",
+      "strategy_ids": [
+        21
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "aerospace",
+        "energy"
+      ],
+      "description": "How the peregrine falcon inspired jet engine air intakes — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how cuttlefish inspired color-changing flexible displays",
+      "title": "How Cuttlefish Inspired Color-changing Flexible Displays",
+      "slug": "cuttlefish-color-changing-skin-flexible-displays",
+      "strategy_ids": [
+        22
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "electronics",
+        "robotics",
+        "medical devices",
+        "textiles"
+      ],
+      "description": "How the cuttlefish inspired color-changing flexible displays — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how basking shark inspired water filtration membranes",
+      "title": "How Basking shark Inspired Water Filtration Membranes",
+      "slug": "basking-shark-gill-rakers-water-filtration",
+      "strategy_ids": [
+        23
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "water",
+        "environmental technology",
+        "marine engineering"
+      ],
+      "description": "How the basking shark inspired water filtration membranes — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how migratory monarch butterfly inspired GPS-free navigation algorithms",
+      "title": "How Migratory monarch butterfly Inspired GPS-free Navigation Algorithms",
+      "slug": "monarch-butterfly-navigation-gps-denied-robots",
+      "strategy_ids": [
+        24
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "robotics",
+        "defense",
+        "agriculture"
+      ],
+      "description": "How the migratory monarch butterfly inspired GPS-free navigation algorithms — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how leafcutter ant inspired sustainable fungal farming systems",
+      "title": "How Leafcutter ant Inspired Sustainable Fungal Farming Systems",
+      "slug": "leafcutter-ant-fungal-farming-sustainable-agriculture",
+      "strategy_ids": [
+        25
+      ],
+      "taxonomy_group": "Make",
+      "industries": [
+        "agriculture",
+        "biotechnology",
+        "food science"
+      ],
+      "description": "How the leafcutter ant inspired sustainable fungal farming systems — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how bone inspired hierarchical composite materials",
+      "title": "How Bone Inspired Hierarchical Composite Materials",
+      "slug": "bone-hierarchical-composite-aerospace-materials",
+      "strategy_ids": [
+        26
+      ],
+      "taxonomy_group": "Make",
+      "industries": [
+        "aerospace",
+        "medical devices",
+        "materials science"
+      ],
+      "description": "How the bone inspired hierarchical composite materials — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how saguaro cactus inspired expandable and foldable structures",
+      "title": "How Saguaro cactus Inspired Expandable and Foldable Structures",
+      "slug": "saguaro-cactus-pleated-structure-expandable-design",
+      "strategy_ids": [
+        27
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "packaging",
+        "aerospace",
+        "energy",
+        "architecture"
+      ],
+      "description": "How the saguaro cactus inspired expandable and foldable structures — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how archerfish inspired precision liquid-jet systems",
+      "title": "How Archerfish Inspired Precision Liquid-jet Systems",
+      "slug": "archerfish-precision-liquid-jet-inkjet-printing",
+      "strategy_ids": [
+        28
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "manufacturing",
+        "medical devices",
+        "electronics"
+      ],
+      "description": "How the archerfish inspired precision liquid-jet systems — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how venus flytrap inspired snap-through soft robot actuators",
+      "title": "How Venus flytrap Inspired Snap-through Soft Robot Actuators",
+      "slug": "venus-flytrap-snap-through-soft-robotics",
+      "strategy_ids": [
+        29
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "robotics",
+        "aerospace",
+        "medical devices"
+      ],
+      "description": "How the venus flytrap inspired snap-through soft robot actuators — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how abalone shell inspired ultra-tough ceramic composites",
+      "title": "How Abalone shell Inspired Ultra-tough Ceramic Composites",
+      "slug": "abalone-nacre-tough-ceramic-composites",
+      "strategy_ids": [
+        30
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "defense",
+        "medical devices",
+        "materials science"
+      ],
+      "description": "How the abalone shell inspired ultra-tough ceramic composites — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how bioluminescent dinoflagellate inspired high-efficiency bioluminescent lighting",
+      "title": "How Bioluminescent dinoflagellate Inspired High-efficiency Bioluminescent Lighting",
+      "slug": "dinoflagellate-bioluminescence-efficient-lighting",
+      "strategy_ids": [
+        31
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "biotechnology",
+        "medical devices",
+        "environmental technology"
+      ],
+      "description": "How the bioluminescent dinoflagellate inspired high-efficiency bioluminescent lighting — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how dung beetle inspired polarized-light navigation",
+      "title": "How Dung beetle Inspired Polarized-light Navigation",
+      "slug": "dung-beetle-polarized-light-navigation",
+      "strategy_ids": [
+        32
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "robotics",
+        "transportation",
+        "defense"
+      ],
+      "description": "How the dung beetle inspired polarized-light navigation — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how blue whale inspired long-range underwater acoustic communication",
+      "title": "How Blue whale Inspired Long-range Underwater Acoustic Communication",
+      "slug": "blue-whale-low-frequency-underwater-communication",
+      "strategy_ids": [
+        33
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "marine engineering",
+        "defense",
+        "medical devices"
+      ],
+      "description": "How the blue whale inspired long-range underwater acoustic communication — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how bone-eating worm inspired chemosynthetic bioprocessing",
+      "title": "How Bone-eating worm Inspired Chemosynthetic Bioprocessing",
+      "slug": "osedax-worm-symbiotic-digestion-bioprocessing",
+      "strategy_ids": [
+        34
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "biotechnology",
+        "environmental technology",
+        "materials science"
+      ],
+      "description": "How the bone-eating worm inspired chemosynthetic bioprocessing — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how indian flying fox bat inspired morphing aircraft wings",
+      "title": "How Indian flying fox bat Inspired Morphing Aircraft Wings",
+      "slug": "bat-wing-membrane-morphing-aircraft-wings",
+      "strategy_ids": [
+        35
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "aerospace",
+        "robotics"
+      ],
+      "description": "How the indian flying fox bat inspired morphing aircraft wings — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how glass sponge inspired diagonal-braced structural lattices",
+      "title": "How Glass sponge Inspired Diagonal-braced Structural Lattices",
+      "slug": "glass-sponge-lattice-skyscraper-diagonal-bracing",
+      "strategy_ids": [
+        36
+      ],
+      "taxonomy_group": "Make",
+      "industries": [
+        "architecture",
+        "materials science",
+        "aerospace"
+      ],
+      "description": "How the glass sponge inspired diagonal-braced structural lattices — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how spittlebug inspired biodegradable foam insulation",
+      "title": "How Spittlebug Inspired Biodegradable Foam Insulation",
+      "slug": "spittlebug-foam-biodegradable-insulation-packaging",
+      "strategy_ids": [
+        37
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "packaging",
+        "construction",
+        "environmental technology"
+      ],
+      "description": "How the spittlebug inspired biodegradable foam insulation — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how bone-dry wood frog inspired cryopreservation technology",
+      "title": "How Bone-dry wood frog Inspired Cryopreservation Technology",
+      "slug": "wood-frog-freeze-tolerance-cryopreservation",
+      "strategy_ids": [
+        38
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "medical devices",
+        "biotechnology",
+        "food science"
+      ],
+      "description": "How the bone-dry wood frog inspired cryopreservation technology — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how desert ant inspired dead-reckoning robot navigation",
+      "title": "How Desert ant Inspired Dead-reckoning Robot Navigation",
+      "slug": "desert-ant-path-integration-robot-navigation",
+      "strategy_ids": [
+        39
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "robotics",
+        "defense",
+        "mining"
+      ],
+      "description": "How the desert ant inspired dead-reckoning robot navigation — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how sea cucumber inspired variable-stiffness neural implants",
+      "title": "How Sea cucumber Inspired Variable-stiffness Neural Implants",
+      "slug": "sea-cucumber-variable-stiffness-neural-implants",
+      "strategy_ids": [
+        40
+      ],
+      "taxonomy_group": "Modify",
+      "industries": [
+        "medical devices",
+        "robotics"
+      ],
+      "description": "How the sea cucumber inspired variable-stiffness neural implants — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how lily pad inspired lightweight ribbed structural panels",
+      "title": "How Lily pad Inspired Lightweight Ribbed Structural Panels",
+      "slug": "lily-pad-ribbed-structure-lightweight-architecture",
+      "strategy_ids": [
+        41
+      ],
+      "taxonomy_group": "Make",
+      "industries": [
+        "architecture",
+        "aerospace",
+        "materials science"
+      ],
+      "description": "How the lily pad inspired lightweight ribbed structural panels — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how turritopsis dohrnii jellyfish inspired cellular reprogramming and stem cells",
+      "title": "How Turritopsis dohrnii jellyfish Inspired Cellular Reprogramming and Stem Cells",
+      "slug": "immortal-jellyfish-cellular-reprogramming-stem-cells",
+      "strategy_ids": [
+        42
+      ],
+      "taxonomy_group": "Modify",
+      "industries": [
+        "biotechnology",
+        "medical devices"
+      ],
+      "description": "How the turritopsis dohrnii jellyfish inspired cellular reprogramming and stem cells — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how mangrove tree inspired aquaporin desalination membranes",
+      "title": "How Mangrove tree Inspired Aquaporin Desalination Membranes",
+      "slug": "mangrove-root-aquaporin-desalination-membranes",
+      "strategy_ids": [
+        43
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "water",
+        "environmental technology",
+        "energy"
+      ],
+      "description": "How the mangrove tree inspired aquaporin desalination membranes — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how bees inspired swarm intelligence algorithms",
+      "title": "How Bees Inspired Swarm Intelligence Algorithms",
+      "slug": "bee-swarm-intelligence-distributed-optimization",
+      "strategy_ids": [
+        44
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "robotics",
+        "transportation",
+        "computing"
+      ],
+      "description": "How the bees inspired swarm intelligence algorithms — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how flying squirrel inspired membrane wing aircraft and wingsuits",
+      "title": "How Flying squirrel Inspired Membrane Wing Aircraft and Wingsuits",
+      "slug": "flying-squirrel-patagium-wingsuit-membrane-wing",
+      "strategy_ids": [
+        45
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "aerospace",
+        "defense",
+        "sports equipment"
+      ],
+      "description": "How the flying squirrel inspired membrane wing aircraft and wingsuits — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how baobab tree inspired passive evaporative cooling structures",
+      "title": "How Baobab tree Inspired Passive Evaporative Cooling Structures",
+      "slug": "baobab-water-storage-evaporative-cooling-architecture",
+      "strategy_ids": [
+        46
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "architecture",
+        "water",
+        "construction"
+      ],
+      "description": "How the baobab tree inspired passive evaporative cooling structures — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how sea snail inspired viscoelastic reversible adhesives",
+      "title": "How Sea snail Inspired Viscoelastic Reversible Adhesives",
+      "slug": "sea-snail-mucus-viscoelastic-adhesive-climbing-robots",
+      "strategy_ids": [
+        47
+      ],
+      "taxonomy_group": "Attach",
+      "industries": [
+        "robotics",
+        "medical devices",
+        "materials science"
+      ],
+      "description": "How the sea snail inspired viscoelastic reversible adhesives — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how lichen inspired living building materials and biocement",
+      "title": "How Lichen Inspired Living Building Materials and Biocement",
+      "slug": "lichen-symbiosis-biocement-living-building-materials",
+      "strategy_ids": [
+        48
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "environmental technology",
+        "construction",
+        "biotechnology"
+      ],
+      "description": "How the lichen inspired living building materials and biocement — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how bombardier frog inspired safety warning color design",
+      "title": "How Bombardier frog Inspired Safety Warning Color Design",
+      "slug": "fire-bellied-toad-aposematism-safety-warning-design",
+      "strategy_ids": [
+        49
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "safety",
+        "consumer products",
+        "transportation"
+      ],
+      "description": "How the bombardier frog inspired safety warning color design — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how pistol shrimp inspired cavitation-based cleaning and microfluidics",
+      "title": "How Pistol shrimp Inspired Cavitation-based Cleaning and Microfluidics",
+      "slug": "pistol-shrimp-cavitation-cleaning-microfluidics",
+      "strategy_ids": [
+        50
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "marine engineering",
+        "medical devices",
+        "manufacturing"
+      ],
+      "description": "How the pistol shrimp inspired cavitation-based cleaning and microfluidics — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how homing pigeon inspired cognitive mapping for autonomous vehicles",
+      "title": "How Homing pigeon Inspired Cognitive Mapping for Autonomous Vehicles",
+      "slug": "homing-pigeon-cognitive-mapping-autonomous-navigation",
+      "strategy_ids": [
+        51
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "robotics",
+        "transportation",
+        "defense"
+      ],
+      "description": "How the homing pigeon inspired cognitive mapping for autonomous vehicles — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how electric eel inspired soft biobatteries",
+      "title": "How Electric eel Inspired Soft Biobatteries",
+      "slug": "electric-eel-stacked-electrocytes-soft-biobattery",
+      "strategy_ids": [
+        52
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "energy",
+        "robotics",
+        "medical devices"
+      ],
+      "description": "How the electric eel inspired soft biobatteries — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how dragonfly inspired micro air vehicle wings",
+      "title": "How Dragonfly Inspired Micro Air Vehicle Wings",
+      "slug": "dragonfly-corrugated-wings-micro-air-vehicles",
+      "strategy_ids": [
+        53
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "aerospace",
+        "robotics",
+        "defense"
+      ],
+      "description": "How the dragonfly inspired micro air vehicle wings — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how brittle star inspired biomimetic microlens arrays",
+      "title": "How Brittle star Inspired Biomimetic Microlens Arrays",
+      "slug": "brittlestar-calcite-microlens-optical-fiber",
+      "strategy_ids": [
+        54
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "electronics",
+        "medical devices",
+        "materials science"
+      ],
+      "description": "How the brittle star inspired biomimetic microlens arrays — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how platypus inspired electroreception sensors",
+      "title": "How Platypus Inspired Electroreception Sensors",
+      "slug": "platypus-electroreception-underwater-sensor-cardiac",
+      "strategy_ids": [
+        55
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "medical devices",
+        "defense",
+        "robotics"
+      ],
+      "description": "How the platypus inspired electroreception sensors — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how thorny devil lizard inspired capillary wicking microfluidic devices",
+      "title": "How Thorny devil lizard Inspired Capillary Wicking Microfluidic Devices",
+      "slug": "thorny-devil-capillary-wicking-microfluidic-chips",
+      "strategy_ids": [
+        56
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "medical devices",
+        "textiles",
+        "water",
+        "materials science"
+      ],
+      "description": "How the thorny devil lizard inspired capillary wicking microfluidic devices — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how saharan silver ant inspired passive radiative cooling materials",
+      "title": "How Saharan silver ant Inspired Passive Radiative Cooling Materials",
+      "slug": "silver-ant-hairs-radiative-cooling-building-materials",
+      "strategy_ids": [
+        57
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "energy",
+        "architecture",
+        "materials science"
+      ],
+      "description": "How the saharan silver ant inspired passive radiative cooling materials — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "function",
+      "keyword": "biomimicry for adhesion and attachment",
+      "title": "Biomimicry for Adhesion And Attachment: How Nature Solves the Problem",
+      "slug": "biomimicry-for-adhesion-and-attachment",
+      "strategy_ids": [
+        1,
+        9,
+        10,
+        17,
+        47
+      ],
+      "taxonomy_group": "Attach",
+      "industries": [],
+      "description": "How nature's adhesion and attachment strategies have inspired engineering solutions — 5 biological examples with real-world applications."
+    },
+    {
+      "page_type": "function",
+      "keyword": "biomimicry for materials and manufacturing",
+      "title": "Biomimicry for Materials And Manufacturing: How Nature Solves the Problem",
+      "slug": "biomimicry-for-materials-and-manufacturing",
+      "strategy_ids": [
+        6,
+        13,
+        25,
+        26,
+        36,
+        41
+      ],
+      "taxonomy_group": "Make",
+      "industries": [],
+      "description": "How nature's materials and manufacturing strategies have inspired engineering solutions — 6 biological examples with real-world applications."
+    },
+    {
+      "page_type": "function",
+      "keyword": "biomimicry for shape-changing and adaptation",
+      "title": "Biomimicry for Shape-Changing And Adaptation: How Nature Solves the Problem",
+      "slug": "biomimicry-for-shape-changing-and-adaptation",
+      "strategy_ids": [
+        14,
+        40,
+        42
+      ],
+      "taxonomy_group": "Modify",
+      "industries": [],
+      "description": "How nature's shape-changing and adaptation strategies have inspired engineering solutions — 3 biological examples with real-world applications."
+    },
+    {
+      "page_type": "function",
+      "keyword": "biomimicry for movement and locomotion",
+      "title": "Biomimicry for Movement And Locomotion: How Nature Solves the Problem",
+      "slug": "biomimicry-for-movement-and-locomotion",
+      "strategy_ids": [
+        3,
+        4,
+        7,
+        11,
+        21,
+        29,
+        35,
+        45,
+        50,
+        53
+      ],
+      "taxonomy_group": "Move",
+      "industries": [],
+      "description": "How nature's movement and locomotion strategies have inspired engineering solutions — 10 biological examples with real-world applications."
+    },
+    {
+      "page_type": "function",
+      "keyword": "biomimicry for resource processing and efficiency",
+      "title": "Biomimicry for Resource Processing And Efficiency: How Nature Solves the Problem",
+      "slug": "biomimicry-for-resource-processing-and-efficiency",
+      "strategy_ids": [
+        5,
+        12,
+        23,
+        27,
+        34,
+        38,
+        43,
+        46,
+        48,
+        52,
+        56
+      ],
+      "taxonomy_group": "Process",
+      "industries": [],
+      "description": "How nature's resource processing and efficiency strategies have inspired engineering solutions — 11 biological examples with real-world applications."
+    },
+    {
+      "page_type": "function",
+      "keyword": "biomimicry for protection and defense",
+      "title": "Biomimicry for Protection And Defense: How Nature Solves the Problem",
+      "slug": "biomimicry-for-protection-and-defense",
+      "strategy_ids": [
+        2,
+        15,
+        16,
+        18,
+        20,
+        30,
+        37,
+        49,
+        57
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [],
+      "description": "How nature's protection and defense strategies have inspired engineering solutions — 9 biological examples with real-world applications."
+    },
+    {
+      "page_type": "function",
+      "keyword": "biomimicry for sensing and navigation",
+      "title": "Biomimicry for Sensing And Navigation: How Nature Solves the Problem",
+      "slug": "biomimicry-for-sensing-and-navigation",
+      "strategy_ids": [
+        8,
+        19,
+        22,
+        24,
+        28,
+        31,
+        32,
+        33,
+        39,
+        44,
+        51,
+        54,
+        55
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [],
+      "description": "How nature's sensing and navigation strategies have inspired engineering solutions — 13 biological examples with real-world applications."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in medical devices and healthcare",
+      "title": "Biomimicry in Medical Devices and Healthcare: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-medical-devices-and-healthcare",
+      "strategy_ids": [
+        1,
+        2,
+        3,
+        6,
+        9,
+        10,
+        16,
+        17,
+        20,
+        22,
+        26,
+        28,
+        29,
+        30,
+        31,
+        33,
+        38,
+        40,
+        42,
+        47,
+        50,
+        52,
+        54,
+        55,
+        56
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "medical devices"
+      ],
+      "description": "How nature is transforming medical devices and healthcare — 25 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in aerospace engineering",
+      "title": "Biomimicry in Aerospace Engineering: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-aerospace-engineering",
+      "strategy_ids": [
+        1,
+        3,
+        4,
+        7,
+        9,
+        11,
+        13,
+        15,
+        18,
+        20,
+        21,
+        26,
+        27,
+        29,
+        35,
+        36,
+        41,
+        45,
+        53
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "aerospace"
+      ],
+      "description": "How nature is transforming aerospace engineering — 19 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in robotics",
+      "title": "Biomimicry in Robotics: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-robotics",
+      "strategy_ids": [
+        1,
+        14,
+        17,
+        19,
+        22,
+        24,
+        29,
+        32,
+        35,
+        39,
+        40,
+        44,
+        47,
+        51,
+        52,
+        53,
+        55
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "robotics"
+      ],
+      "description": "How nature is transforming robotics — 17 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in materials science",
+      "title": "Biomimicry in Materials Science: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-materials-science",
+      "strategy_ids": [
+        1,
+        2,
+        6,
+        8,
+        12,
+        13,
+        18,
+        26,
+        30,
+        34,
+        36,
+        41,
+        47,
+        54,
+        56,
+        57
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "materials science"
+      ],
+      "description": "How nature is transforming materials science — 16 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in defense and security",
+      "title": "Biomimicry in Defense and Security: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-defense-and-security",
+      "strategy_ids": [
+        6,
+        15,
+        16,
+        18,
+        19,
+        24,
+        30,
+        32,
+        33,
+        39,
+        45,
+        51,
+        53,
+        55
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "defense"
+      ],
+      "description": "How nature is transforming defense and security — 14 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in architecture and construction",
+      "title": "Biomimicry in Architecture and Construction: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-architecture-and-construction",
+      "strategy_ids": [
+        2,
+        5,
+        10,
+        12,
+        13,
+        14,
+        27,
+        36,
+        37,
+        41,
+        46,
+        48,
+        57
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "architecture"
+      ],
+      "description": "How nature is transforming architecture and construction — 13 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in energy",
+      "title": "Biomimicry in Energy: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-energy",
+      "strategy_ids": [
+        5,
+        7,
+        14,
+        16,
+        21,
+        27,
+        43,
+        52,
+        57
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "energy"
+      ],
+      "description": "How nature is transforming energy — 9 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in textiles and wearables",
+      "title": "Biomimicry in Textiles and Wearables: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-textiles-and-wearables",
+      "strategy_ids": [
+        2,
+        3,
+        6,
+        8,
+        9,
+        14,
+        22,
+        56
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "textiles"
+      ],
+      "description": "How nature is transforming textiles and wearables — 8 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in transportation",
+      "title": "Biomimicry in Transportation: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-transportation",
+      "strategy_ids": [
+        4,
+        11,
+        19,
+        32,
+        44,
+        49,
+        51
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "transportation"
+      ],
+      "description": "How nature is transforming transportation — 7 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in marine engineering",
+      "title": "Biomimicry in Marine Engineering: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-marine-engineering",
+      "strategy_ids": [
+        10,
+        11,
+        20,
+        23,
+        33,
+        50
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "marine engineering"
+      ],
+      "description": "How nature is transforming marine engineering — 6 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in environmental technology",
+      "title": "Biomimicry in Environmental Technology: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-environmental-technology",
+      "strategy_ids": [
+        23,
+        31,
+        34,
+        37,
+        43,
+        48
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "environmental technology"
+      ],
+      "description": "How nature is transforming environmental technology — 6 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in biotechnology",
+      "title": "Biomimicry in Biotechnology: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-biotechnology",
+      "strategy_ids": [
+        25,
+        31,
+        34,
+        38,
+        42,
+        48
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "biotechnology"
+      ],
+      "description": "How nature is transforming biotechnology — 6 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in water technology",
+      "title": "Biomimicry in Water Technology: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-water-technology",
+      "strategy_ids": [
+        12,
+        23,
+        43,
+        46,
+        56
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "water"
+      ],
+      "description": "How nature is transforming water technology — 5 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in electronics and displays",
+      "title": "Biomimicry in Electronics and Displays: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-electronics-and-displays",
+      "strategy_ids": [
+        8,
+        22,
+        28,
+        54
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "electronics"
+      ],
+      "description": "How nature is transforming electronics and displays — 4 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in packaging",
+      "title": "Biomimicry in Packaging: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-packaging",
+      "strategy_ids": [
+        13,
+        15,
+        27,
+        37
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "packaging"
+      ],
+      "description": "How nature is transforming packaging — 4 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in sports equipment",
+      "title": "Biomimicry in Sports Equipment: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-sports-equipment",
+      "strategy_ids": [
+        15,
+        18,
+        45
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "sports equipment"
+      ],
+      "description": "How nature is transforming sports equipment — 3 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in manufacturing",
+      "title": "Biomimicry in Manufacturing: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-manufacturing",
+      "strategy_ids": [
+        17,
+        28,
+        50
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "manufacturing"
+      ],
+      "description": "How nature is transforming manufacturing — 3 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in agriculture",
+      "title": "Biomimicry in Agriculture: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-agriculture",
+      "strategy_ids": [
+        19,
+        24,
+        25
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "agriculture"
+      ],
+      "description": "How nature is transforming agriculture — 3 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in consumer products",
+      "title": "Biomimicry in Consumer Products: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-consumer-products",
+      "strategy_ids": [
+        9,
+        49
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "consumer products"
+      ],
+      "description": "How nature is transforming consumer products — 2 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in food science",
+      "title": "Biomimicry in Food Science: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-food-science",
+      "strategy_ids": [
+        25,
+        38
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "food science"
+      ],
+      "description": "How nature is transforming food science — 2 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "list",
+      "keyword": "best biomimicry examples in materials science",
+      "title": "10 Best Biomimicry Examples in Materials Science",
+      "slug": "best-biomimicry-examples-materials-science",
+      "strategy_ids": [
+        1,
+        2,
+        6,
+        8,
+        12,
+        13,
+        18,
+        26,
+        30,
+        34
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "materials science"
+      ],
+      "description": "The ten most impactful nature-inspired innovations in materials science, from gecko adhesives to abalone-tough ceramics."
+    },
+    {
+      "page_type": "list",
+      "keyword": "best biomimicry examples in architecture",
+      "title": "8 Best Biomimicry Examples in Architecture",
+      "slug": "best-biomimicry-examples-architecture",
+      "strategy_ids": [
+        2,
+        5,
+        12,
+        13,
+        14,
+        27,
+        36,
+        41
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "architecture"
+      ],
+      "description": "How nature's structures are reshaping building design — from termite-inspired ventilation to lily-pad floor plates."
+    },
+    {
+      "page_type": "list",
+      "keyword": "best biomimicry examples in robotics",
+      "title": "10 Best Biomimicry Examples in Robotics",
+      "slug": "best-biomimicry-examples-robotics",
+      "strategy_ids": [
+        1,
+        14,
+        17,
+        19,
+        22,
+        24,
+        29,
+        32,
+        35,
+        39
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "robotics"
+      ],
+      "description": "Ten nature-inspired robots and robotic systems — from gecko-grip climbers to locust-speed collision avoidance."
+    },
+    {
+      "page_type": "list",
+      "keyword": "best biomimicry examples in medical devices",
+      "title": "8 Best Biomimicry Examples in Medical Devices",
+      "slug": "best-biomimicry-examples-medical-devices",
+      "strategy_ids": [
+        1,
+        2,
+        3,
+        6,
+        9,
+        10,
+        16,
+        17
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "medical devices"
+      ],
+      "description": "How biology is transforming medicine: mussel glue for surgery, sea cucumber neural implants, and more."
+    },
+    {
+      "page_type": "list",
+      "keyword": "best biomimicry examples in aerospace",
+      "title": "8 Best Biomimicry Examples in Aerospace",
+      "slug": "best-biomimicry-examples-aerospace",
+      "strategy_ids": [
+        1,
+        3,
+        4,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "aerospace"
+      ],
+      "description": "Nature's blueprints for flight: whale-fin turbines, shark-skin aircraft, bat-wing morphing, and more."
+    },
+    {
+      "page_type": "list",
+      "keyword": "nature-inspired water solutions biomimicry",
+      "title": "Nature-Inspired Water Solutions: 5 Biomimicry Examples",
+      "slug": "nature-inspired-water-solutions",
+      "strategy_ids": [
+        12,
+        23,
+        43,
+        46,
+        56
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "water"
+      ],
+      "description": "From fog-collecting beetles to mangrove desalination membranes — how nature solves the world's water challenges."
+    },
+    {
+      "page_type": "list",
+      "keyword": "nature-inspired adhesives biomimicry",
+      "title": "Nature-Inspired Adhesives: 5 Biomimicry Examples",
+      "slug": "nature-inspired-adhesives",
+      "strategy_ids": [
+        1,
+        9,
+        10,
+        17,
+        47
+      ],
+      "taxonomy_group": "Attach",
+      "industries": [],
+      "description": "Geckos, mussels, tree frogs, and more — the natural world's remarkably varied toolkit for sticking things together."
+    },
+    {
+      "page_type": "list",
+      "keyword": "biomimicry for navigation nature-inspired",
+      "title": "Biomimicry for Navigation: 5 Nature-Inspired Solutions",
+      "slug": "biomimicry-navigation-nature-inspired",
+      "strategy_ids": [
+        8,
+        19,
+        22,
+        24,
+        28
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [],
+      "description": "How desert ants, monarch butterflies, dung beetles, and homing pigeons solve navigation — and what engineers have learned from each."
+    },
+    {
+      "page_type": "list",
+      "keyword": "nature-inspired structural materials",
+      "title": "6 Nature-Inspired Structural Materials",
+      "slug": "nature-inspired-structural-materials",
+      "strategy_ids": [
+        6,
+        13,
+        25,
+        26,
+        36,
+        41
+      ],
+      "taxonomy_group": "Make",
+      "industries": [],
+      "description": "Bone, nacre, spider silk, honeycomb — how nature engineers materials that outperform our best synthetics."
+    },
+    {
+      "page_type": "list",
+      "keyword": "biomimicry passive cooling energy",
+      "title": "Passive Cooling and Energy: 5 Biomimicry Examples",
+      "slug": "biomimicry-passive-cooling-energy",
+      "strategy_ids": [
+        5,
+        7,
+        14,
+        16,
+        21
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "energy"
+      ],
+      "description": "Termite mounds, silver ants, pinecones — nature's zero-energy approaches to thermal management."
+    },
+    {
+      "page_type": "list",
+      "keyword": "most famous biomimicry examples",
+      "title": "10 Most Famous Biomimicry Examples of All Time",
+      "slug": "most-famous-biomimicry-examples",
+      "strategy_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        12,
+        13
+      ],
+      "taxonomy_group": null,
+      "industries": [],
+      "description": "The classic cases every biomimicry student knows — Velcro, the Shinkansen, Lotusan paint, and seven more that changed how we think about design."
+    },
+    {
+      "page_type": "list",
+      "keyword": "biomimicry in defense military technology",
+      "title": "Biomimicry in Defense: 6 Nature-Inspired Military Technologies",
+      "slug": "biomimicry-defense-military-technology",
+      "strategy_ids": [
+        6,
+        15,
+        16,
+        18,
+        19,
+        24
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "defense"
+      ],
+      "description": "From mantis shrimp armor to locust collision avoidance — how the military looks to nature for next-generation technology."
+    }
+  ]
+}

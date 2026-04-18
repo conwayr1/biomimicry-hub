@@ -1,0 +1,29 @@
+{
+  "learn_biomimicry": {
+    "name": "Learn Biomimicry Courses",
+    "url": "https://www.learnbiomimicry.com/short-courses?ref=AFFILIATE_ID",
+    "cta_text": "Courses endorsed by the Biomimicry Institute — from one-day introductions to the full Practitioner Programme.",
+    "button_text": "Browse Courses →",
+    "commission": "20-25% on short courses, 10% on Practitioner Programme"
+  },
+  "amazon_books": {
+    "tag": "AMAZON_TAG",
+    "default_books": [
+      {
+        "title": "Biomimicry: Innovation Inspired by Nature",
+        "author": "Janine Benyus",
+        "asin": "0061958921"
+      },
+      {
+        "title": "The Shark's Paintbrush",
+        "author": "Jay Harman",
+        "asin": "1940468329"
+      },
+      {
+        "title": "Biomimicry in Architecture",
+        "author": "Michael Pawlyn",
+        "asin": "1859466281"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{{/* SEO partial — renders <title>, meta description, Open Graph, and Schema.org */}}
+{{ $title := .Title }}
+{{ $desc  := .Description | default .Site.Params.description }}
+{{ $url   := .Permalink }}
+{{ $site  := .Site.Title }}
+
+<title>{{ $title }} | {{ $site }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ $url }}">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="article">
+<meta property="og:title"       content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url"         content="{{ $url }}">
+<meta property="og:site_name"   content="{{ $site }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary">
+<meta name="twitter:title"       content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+
+<!-- Schema.org Article -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ $title | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "url": {{ $url | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ $site | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }}
+  }{{ with .Date }},
+  "datePublished": "{{ .Format "2006-01-02" }}"{{ end }}
+}
+</script>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ partial "seo.html" . }}
+  <style>
+    /* ── Reset & base ─────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green:  #2d6a4f;
+      --green-light: #40916c;
+      --green-pale:  #d8f3dc;
+      --text:   #1a1a1a;
+      --muted:  #555;
+      --border: #e0e0e0;
+      --bg:     #ffffff;
+      --bg-alt: #f7f9f7;
+      --max-w:  860px;
+      --serif:  Georgia, "Times New Roman", serif;
+      --sans:   system-ui, -apple-system, sans-serif;
+    }
+    body { font-family: var(--sans); color: var(--text); background: var(--bg); line-height: 1.7; }
+    a { color: var(--green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    img { max-width: 100%; height: auto; display: block; }
+
+    /* ── Layout ───────────────────────────────────────────────────── */
+    .site-header { background: var(--green); padding: 0 1.5rem; }
+    .site-header__inner { max-width: var(--max-w); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 58px; }
+    .site-header__logo { color: #fff; font-weight: 700; font-size: 1.15rem; letter-spacing: -.5px; }
+    .site-header__logo span { opacity: .75; font-weight: 400; }
+    .site-nav a { color: rgba(255,255,255,.85); font-size: .9rem; margin-left: 1.5rem; }
+    .site-nav a:hover { color: #fff; text-decoration: none; }
+
+    .breadcrumb { background: var(--bg-alt); border-bottom: 1px solid var(--border); font-size: .82rem; color: var(--muted); }
+    .breadcrumb__inner { max-width: var(--max-w); margin: 0 auto; padding: .55rem 1.5rem; }
+    .breadcrumb a { color: var(--green); }
+    .breadcrumb span { margin: 0 .35rem; }
+
+    main { max-width: var(--max-w); margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+    .site-footer { background: var(--bg-alt); border-top: 1px solid var(--border); padding: 2rem 1.5rem; font-size: .85rem; color: var(--muted); text-align: center; }
+    .site-footer a { color: var(--green); }
+
+    /* ── Typography ───────────────────────────────────────────────── */
+    h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.25; margin-bottom: 1rem; }
+    h2 { font-size: 1.35rem; margin: 2.2rem 0 .7rem; color: var(--green); border-bottom: 2px solid var(--green-pale); padding-bottom: .3rem; }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 .5rem; }
+    p  { margin-bottom: 1.1rem; }
+    ul, ol { margin: .5rem 0 1.1rem 1.5rem; }
+    li { margin-bottom: .35rem; }
+    strong { color: var(--text); }
+    blockquote { border-left: 4px solid var(--green-pale); padding: .6rem 1rem; margin: 1.2rem 0; color: var(--muted); font-style: italic; }
+
+    /* ── Components ───────────────────────────────────────────────── */
+    .tag-list { display: flex; flex-wrap: wrap; gap: .4rem; margin: .8rem 0 1.5rem; }
+    .tag { background: var(--green-pale); color: var(--green); font-size: .78rem; padding: .2rem .65rem; border-radius: 20px; font-weight: 500; }
+
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2rem; margin: 1.5rem 0; }
+    .card { border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; background: var(--bg); transition: box-shadow .15s; }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+    .card__kingdom { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: .3rem; }
+    .card__title { font-weight: 600; font-size: 1rem; margin-bottom: .5rem; }
+    .card__title a { color: var(--text); }
+    .card__title a:hover { color: var(--green); text-decoration: none; }
+    .card__body { font-size: .88rem; color: var(--muted); line-height: 1.55; }
+
+    .principle-box { background: var(--green-pale); border-left: 4px solid var(--green); border-radius: 0 6px 6px 0; padding: 1rem 1.2rem; margin: 1.5rem 0; }
+    .principle-box__label { font-size: .75rem; font-weight: 700; color: var(--green); text-transform: uppercase; letter-spacing: .06em; margin-bottom: .35rem; }
+
+    .related-links { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+    .related-links h2 { border: none; padding: 0; font-size: 1.1rem; margin-bottom: .8rem; }
+    .related-links ul { margin-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: .5rem; }
+    .related-links li a { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 6px; padding: .35rem .8rem; font-size: .88rem; display: block; }
+    .related-links li a:hover { border-color: var(--green); text-decoration: none; }
+
+    /* ── Ad placeholders ──────────────────────────────────────────── */
+    .ad-placeholder { background: var(--bg-alt); border: 1px dashed var(--border); border-radius: 6px; padding: 1.2rem; text-align: center; color: var(--muted); font-size: .82rem; margin: 2rem 0; }
+
+    @media (max-width: 600px) {
+      .site-nav { display: none; }
+      main { padding: 1.5rem 1rem 3rem; }
+    }
+  </style>
+  {{ if .Site.Params.googleAnalytics }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","{{ .Site.Params.googleAnalytics }}");</script>
+  {{ end }}
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__logo" href="/">Biomimicry Hub <span>— Nature-Inspired Design</span></a>
+    <nav class="site-nav">
+      <a href="/organisms/">Organisms</a>
+      <a href="/functions/">By Function</a>
+      <a href="/industries/">By Industry</a>
+      <a href="/lists/">Best Of</a>
+    </nav>
+  </div>
+</header>
+
+{{ block "breadcrumb" . }}{{ end }}
+
+<main>
+  {{ block "main" . }}{{ end }}
+</main>
+
+<footer class="site-footer">
+  <p>© {{ now.Year }} Biomimicry Hub &nbsp;·&nbsp;
+     <a href="/about/">About</a> &nbsp;·&nbsp;
+     <a href="https://asknature.org" rel="noopener">AskNature.org</a> &nbsp;·&nbsp;
+     <a href="/sitemap.xml">Sitemap</a>
+  </p>
+  <p style="margin-top:.5rem">Content is for educational purposes. Affiliate links help support this site.</p>
+</footer>
+
+</body>
+</html>

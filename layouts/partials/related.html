@@ -1,0 +1,17 @@
+{{/* Renders the "Related Strategies" section.
+     Expects .Params.related_slugs to be a list of slugs. */}}
+{{ if .Params.related_slugs }}
+<div class="related-links">
+  <h2>Related Strategies</h2>
+  <ul>
+    {{ range .Params.related_slugs }}
+      {{ $slug := . }}
+      {{ range where $.Site.Pages "Section" "organisms" }}
+        {{ if eq .File.ContentBaseName $slug }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

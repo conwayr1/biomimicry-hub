@@ -1,0 +1,22 @@
+{{ define "breadcrumb" }}
+<div class="breadcrumb">
+  <div class="breadcrumb__inner">
+    <a href="/">Home</a><span>›</span>{{ .Title }}
+  </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ with .Description }}<p style="color:var(--muted);font-size:1.05rem;margin-bottom:1.5rem;">{{ . }}</p>{{ end }}
+
+<div class="card-grid">
+  {{ range where .Pages "Kind" "page" }}
+  <div class="card">
+    {{ with .Params.kingdom }}<div class="card__kingdom">{{ . }}</div>{{ end }}
+    <div class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+    <div class="card__body">{{ .Description | truncate 120 }}</div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

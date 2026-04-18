@@ -1,0 +1,55 @@
+{{ define "breadcrumb" }}{{ end }}
+
+{{ define "main" }}
+<div style="text-align:center; padding: 1rem 0 2.5rem;">
+  <h1 style="font-size:clamp(1.8rem,5vw,2.8rem); margin-bottom:.75rem;">
+    Nature's Greatest Engineering Tricks
+  </h1>
+  <p style="font-size:1.1rem; color:var(--muted); max-width:580px; margin:0 auto 2rem;">
+    Biomimicry is what happens when engineers stop guessing and start copying nature's
+    3.8-billion-year head start. Explore {{ len (where .Site.Pages "Section" "organisms") }}
+    documented strategies — from gecko adhesives to whale-fin turbines.
+  </p>
+  <div style="display:flex; gap:.75rem; justify-content:center; flex-wrap:wrap;">
+    <a href="/organisms/" style="background:var(--green);color:#fff;padding:.65rem 1.4rem;border-radius:6px;font-weight:600;">Browse All Organisms</a>
+    <a href="/lists/most-famous-biomimicry-examples/" style="background:var(--green-pale);color:var(--green);padding:.65rem 1.4rem;border-radius:6px;font-weight:600;">10 Famous Examples</a>
+  </div>
+</div>
+
+<!-- Ad placeholder (activate when traffic ≥ 10k sessions/month) -->
+<div class="ad-placeholder">Ad unit · 728×90 leaderboard · Activate when traffic justifies</div>
+
+<h2>Browse by Function</h2>
+<div class="card-grid">
+  {{ range where (where .Site.Pages "Section" "functions") "Kind" "page" }}
+  <div class="card">
+    <div class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+    <div class="card__body">{{ .Description | truncate 110 }}</div>
+  </div>
+  {{ end }}
+</div>
+
+<h2>Browse by Industry</h2>
+<div class="card-grid">
+  {{ range where (where .Site.Pages "Section" "industries") "Kind" "page" }}
+  {{/* Short label: first industry tag, title-cased */}}
+  {{ $label := index .Params.industries 0 | title }}
+  <div class="card">
+    <div class="card__title"><a href="{{ .RelPermalink }}">{{ $label }}</a></div>
+    <div class="card__body">{{ .Description | truncate 110 }}</div>
+  </div>
+  {{ end }}
+</div>
+
+<h2>Best-Of Lists</h2>
+<div class="card-grid">
+  {{ range where (where .Site.Pages "Section" "lists") "Kind" "page" }}
+  <div class="card">
+    <div class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+    <div class="card__body">{{ .Description | truncate 110 }}</div>
+  </div>
+  {{ end }}
+</div>
+
+{{ partial "affiliate-cta.html" . }}
+{{ end }}

@@ -1,0 +1,51 @@
+{{/* Usage: {{< affiliate "learn-biomimicry" >}} or {{< affiliate "amazon-book" "0061958921" >}} */}}
+{{ $type := .Get 0 }}
+{{ $asin := .Get 1 }}
+{{ $data := hugo.Data.affiliates }}
+
+{{ if eq $type "learn-biomimicry" }}
+  {{ with $data.learn_biomimicry }}
+  <div style="background:var(--green-pale);border:1px solid var(--green-light);border-radius:8px;padding:1.2rem 1.4rem;margin:1.5rem 0;">
+    <p style="font-weight:700;color:var(--green);margin-bottom:.4rem;">🌿 Want to learn biomimicry?</p>
+    <p style="margin-bottom:.75rem;font-size:.95rem;">{{ .cta_text }}</p>
+    <a href="{{ .url }}" target="_blank" rel="noopener sponsored"
+       style="background:var(--green);color:#fff;padding:.55rem 1.2rem;border-radius:6px;font-weight:600;font-size:.9rem;display:inline-block;">
+      {{ .button_text }}
+    </a>
+  </div>
+  {{ end }}
+
+{{ else if eq $type "amazon-book" }}
+  {{ with $data.amazon_books }}
+    {{ $tag := .tag }}
+    {{ $books := .default_books }}
+    {{ if $asin }}
+      {{ range $books }}
+        {{ if eq .asin $asin }}
+        <div style="border:1px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin:1rem 0;display:flex;gap:1rem;align-items:flex-start;">
+          <div>
+            <p style="font-weight:600;margin-bottom:.25rem;">📖 {{ .title }}</p>
+            <p style="font-size:.88rem;color:var(--muted);margin-bottom:.6rem;">by {{ .author }}</p>
+            <a href="https://www.amazon.com/dp/{{ .asin }}?tag={{ $tag }}" target="_blank" rel="noopener sponsored"
+               style="font-size:.88rem;background:var(--green);color:#fff;padding:.4rem .9rem;border-radius:5px;font-weight:600;">
+              View on Amazon →
+            </a>
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    {{ else }}
+      {{/* No ASIN given — show all default books */}}
+      <div style="border:1px solid var(--border);border-radius:8px;padding:1.2rem;margin:1.5rem 0;">
+        <p style="font-weight:700;margin-bottom:.8rem;">📚 Recommended Reading</p>
+        {{ range $books }}
+        <div style="margin-bottom:.8rem;padding-bottom:.8rem;border-bottom:1px solid var(--border);">
+          <strong>{{ .title }}</strong> <span style="color:var(--muted);font-size:.88rem;">by {{ .author }}</span><br>
+          <a href="https://www.amazon.com/dp/{{ .asin }}?tag={{ $tag }}" target="_blank" rel="noopener sponsored"
+             style="font-size:.85rem;">View on Amazon →</a>
+        </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

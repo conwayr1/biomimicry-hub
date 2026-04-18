@@ -1,0 +1,45 @@
+{{ define "breadcrumb" }}
+<div class="breadcrumb">
+  <div class="breadcrumb__inner">
+    <a href="/">Home</a><span>›</span>
+    <a href="/lists/">Best Of</a><span>›</span>
+    {{ .Title }}
+  </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}
+  <p style="font-size:1.05rem;color:var(--muted);margin-bottom:1.5rem;">{{ . }}</p>
+  {{ end }}
+
+  {{ .Content }}
+
+  {{ with .Params.strategy_slugs }}
+  <div style="margin-top:1.5rem;">
+    {{ $counter := 0 }}
+    {{ range . }}
+      {{ $slug := . }}
+      {{ range where $.Site.Pages "Section" "organisms" }}
+        {{ if eq .File.ContentBaseName $slug }}
+          {{ $counter = add $counter 1 }}
+          <div style="display:flex;gap:1rem;margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid var(--border);">
+            <div style="font-size:2rem;font-weight:700;color:var(--green-pale);min-width:2.5rem;line-height:1;">{{ $counter }}</div>
+            <div>
+              <h3 style="margin:0 0 .35rem;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              {{ with .Params.kingdom }}<span class="tag" style="margin-bottom:.5rem;display:inline-block;">{{ . }}</span>{{ end }}
+              <p style="margin:.4rem 0 0;color:var(--muted);font-size:.92rem;">{{ .Description }}</p>
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="ad-placeholder">Ad unit · 728×90 leaderboard · Activate when traffic justifies</div>
+  {{ partial "affiliate-cta.html" . }}
+</article>
+{{ end }}

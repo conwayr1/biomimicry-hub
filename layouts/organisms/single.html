@@ -1,0 +1,51 @@
+{{ define "breadcrumb" }}
+<div class="breadcrumb">
+  <div class="breadcrumb__inner">
+    <a href="/">Home</a><span>›</span>
+    <a href="/organisms/">Organisms</a><span>›</span>
+    {{ .Title }}
+  </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Params.organism_scientific }}
+  <p style="color:var(--muted);font-style:italic;margin-top:-.5rem;margin-bottom:1rem;">
+    <em>{{ . }}</em>
+    {{ with $.Params.kingdom }} · {{ . }}{{ end }}
+    {{ with $.Params.habitat }} · {{ . }}{{ end }}
+  </p>
+  {{ end }}
+
+  {{ with .Params.taxonomy_group }}
+  <div class="tag-list">
+    <span class="tag">{{ . }}</span>
+    {{ range $.Params.industries }}<span class="tag">{{ . }}</span>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ .Content }}
+
+  {{ with .Params.key_principle }}
+  <div class="principle-box">
+    <div class="principle-box__label">The Design Principle</div>
+    <p style="margin:0">{{ . }}</p>
+  </div>
+  {{ end }}
+
+  {{ with .Params.source_url }}
+  <p style="font-size:.85rem;color:var(--muted);margin-top:1.5rem;">
+    Source: <a href="{{ . }}" rel="noopener noreferrer" target="_blank">AskNature.org</a>
+  </p>
+  {{ end }}
+
+  <!-- Ad placeholder -->
+  <div class="ad-placeholder">Ad unit · 300×250 rectangle · Activate when traffic justifies</div>
+
+  {{ partial "affiliate-cta.html" . }}
+  {{ partial "related.html" . }}
+</article>
+{{ end }}

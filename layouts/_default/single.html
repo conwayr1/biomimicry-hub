@@ -1,0 +1,14 @@
+{{ define "breadcrumb" }}
+<div class="breadcrumb">
+  <div class="breadcrumb__inner">
+    <a href="/">Home</a><span>›</span>
+    <a href="/{{ .Section }}/">{{ .Section | title }}</a><span>›</span>
+    {{ .Title }}
+  </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ end }}

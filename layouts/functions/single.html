@@ -1,0 +1,41 @@
+{{ define "breadcrumb" }}
+<div class="breadcrumb">
+  <div class="breadcrumb__inner">
+    <a href="/">Home</a><span>›</span>
+    <a href="/functions/">By Function</a><span>›</span>
+    {{ .Title }}
+  </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}
+  <p style="font-size:1.05rem;color:var(--muted);margin-bottom:1.5rem;">{{ . }}</p>
+  {{ end }}
+
+  {{ .Content }}
+
+  {{ with .Params.strategy_slugs }}
+  <h2>Nature's Solutions</h2>
+  <div class="card-grid">
+    {{ range . }}
+      {{ $slug := . }}
+      {{ range where $.Site.Pages "Section" "organisms" }}
+        {{ if eq .File.ContentBaseName $slug }}
+        <div class="card">
+          {{ with .Params.kingdom }}<div class="card__kingdom">{{ . }}</div>{{ end }}
+          <div class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+          <div class="card__body">{{ .Description | truncate 120 }}</div>
+        </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="ad-placeholder">Ad unit · 728×90 leaderboard · Activate when traffic justifies</div>
+  {{ partial "affiliate-cta.html" . }}
+</article>
+{{ end }}

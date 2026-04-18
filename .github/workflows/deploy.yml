@@ -1,0 +1,68 @@
+# deploy.yml — Build Hugo site and deploy to GitHub Pages on every push to main.
+#
+# Prerequisites (one-time setup in your GitHub repo):
+#   1. Go to Settings > Pages
+#   2. Under "Source", select "GitHub Actions"
+#   3. Save — that's it. This workflow does everything else automatically.
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:   # Allows manual trigger from GitHub Actions tab
+
+# Grant the workflow permission to write to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only allow one deployment at a time
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.160.1
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Full history for Hugo's .GitInfo and lastmod
+
+      - name: Install Hugo Extended
+        run: |
+          wget -q "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          tar -xzf hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz
+          sudo mv hugo /usr/local/bin/
+          hugo version
+
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        # --minify shrinks HTML/CSS/JS for faster page loads
+        # --baseURL is set automatically to your GitHub Pages URL
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
