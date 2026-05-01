@@ -1,7 +1,7 @@
 +++
 title       = "How Mangrove tree Inspired Aquaporin Desalination Membranes"
 description = "How the mangrove tree inspired aquaporin desalination membranes — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "mangrove-root-aquaporin-desalination-membranes"
 type        = "organisms"
 kingdom     = "Plant"
@@ -9,7 +9,7 @@ organism_scientific = "Rhizophora mangle"
 habitat     = "Tropical and subtropical intertidal coastal zones"
 taxonomy_group = "Process"
 industries  = ["water", "environmental technology", "energy"]
-related_slugs = ["basking-shark-gill-rakers-water-filtration", "thorny-devil-capillary-wicking-microfluidic-chips", "termite-mound-passive-ventilation-architecture", "saguaro-cactus-pleated-structure-expandable-design"]
+related_slugs = ["whale-shark-crossflow-filtration-water-treatment", "basking-shark-gill-rakers-water-filtration", "toucan-beak-thermal-radiator-heat-management", "thorny-devil-capillary-wicking-microfluidic-chips"]
 key_principle = "Aquaporin protein channels create a single-file pathway that water molecules can traverse in milliseconds while ion size and charge prevent salt passage — achieving near-perfect selectivity with minimal energy, unlike pressure-driven membrane systems."
 source_url  = "https://asknature.org/strategy/roots-filter-salt-from-seawater/"
 +++

@@ -1,7 +1,7 @@
 +++
 title       = "How Lily pad Inspired Lightweight Ribbed Structural Panels"
 description = "How the lily pad inspired lightweight ribbed structural panels — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "lily-pad-ribbed-structure-lightweight-architecture"
 type        = "organisms"
 kingdom     = "Plant"
@@ -9,7 +9,7 @@ organism_scientific = "Victoria amazonica"
 habitat     = "Amazon River basin, South America"
 taxonomy_group = "Make"
 industries  = ["architecture", "aerospace", "materials science"]
-related_slugs = ["honeycomb-structure-aerospace-lightweight-panels", "glass-sponge-lattice-skyscraper-diagonal-bracing", "bone-hierarchical-composite-aerospace-materials", "spider-silk-tensile-strength-synthetic-fibers"]
+related_slugs = ["honeycomb-structure-aerospace-lightweight-panels", "glass-sponge-lattice-skyscraper-diagonal-bracing", "fire-ant-raft-self-assembling-modular-robotics", "bone-hierarchical-composite-aerospace-materials"]
 key_principle = "Alternating load-bearing ribs with lightweight infill panels (whether air, lightweight foam, or low-density material) creates a composite slab with extremely high stiffness-to-weight ratio — the ribs handle bending stress, the infill handles shear."
 source_url  = "https://asknature.org/strategy/leaf-supports-heavy-loads/"
 +++

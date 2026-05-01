@@ -1,7 +1,7 @@
 +++
 title       = "How Boxfish Inspired Aerodynamic Vehicle Design"
 description = "How the boxfish inspired aerodynamic vehicle design — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "boxfish-aerodynamics-mercedes-bionic-car"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Ostracion cubicus"
 habitat     = "Coral reefs of the Indo-Pacific"
 taxonomy_group = "Move"
 industries  = ["transportation", "marine engineering", "aerospace"]
-related_slugs = ["kingfisher-beak-shinkansen-bullet-train", "venus-flytrap-snap-through-soft-robotics", "shark-skin-denticles-drag-reduction", "pistol-shrimp-cavitation-cleaning-microfluidics"]
+related_slugs = ["nautilus-shell-pressure-vessel-buoyancy-design", "kingfisher-beak-shinkansen-bullet-train", "venus-flytrap-snap-through-soft-robotics", "starling-murmuration-swarm-robotics-autonomous-drones"]
 key_principle = "A convex hull shape generates leading-edge vortices that provide passive hydrodynamic stability, reducing the energy needed for active course correction."
 source_url  = "https://asknature.org/strategy/boxlike-body-is-hydrodynamic/"
 +++

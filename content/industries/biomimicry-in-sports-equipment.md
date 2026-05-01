@@ -1,7 +1,7 @@
 +++
 title       = "Biomimicry in Sports Equipment: Nature-Inspired Solutions"
-description = "How nature is transforming sports equipment — 3 biomimicry examples with real-world products and research. Swimsuits, helmets, and shoe soles refined by millions of years of biology."
-date        = "2026-04-18"
+description = "How nature is transforming sports equipment — 3 biomimicry examples with real-world products and research. Swimsuits, helmets, and shoe soles refined by..."
+date        = "2026-04-29"
 slug        = "biomimicry-in-sports-equipment"
 type        = "industries"
 industries  = ["sports equipment"]

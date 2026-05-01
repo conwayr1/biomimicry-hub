@@ -1,7 +1,7 @@
 +++
 title       = "How Leafcutter ant Inspired Sustainable Fungal Farming Systems"
 description = "How the leafcutter ant inspired sustainable fungal farming systems — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "leafcutter-ant-fungal-farming-sustainable-agriculture"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Atta cephalotes"
 habitat     = "Tropical and subtropical forests of Central and South America"
 taxonomy_group = "Make"
 industries  = ["agriculture", "biotechnology", "food science"]
-related_slugs = ["wood-frog-freeze-tolerance-cryopreservation", "spider-silk-tensile-strength-synthetic-fibers", "lily-pad-ribbed-structure-lightweight-architecture", "honeycomb-structure-aerospace-lightweight-panels"]
+related_slugs = ["wood-frog-freeze-tolerance-cryopreservation", "tardigrade-cryptobiosis-vaccine-storage-radiation", "spider-silk-tensile-strength-synthetic-fibers", "sandcastle-worm-underwater-adhesive-surgical-glue"]
 key_principle = "Cultivating a single, optimized microbial partner in a controlled environment converts otherwise indigestible raw materials into targeted nutritional outputs — a highly efficient closed-loop production system."
 source_url  = "https://asknature.org/strategy/ants-cultivate-fungi-for-food/"
 +++

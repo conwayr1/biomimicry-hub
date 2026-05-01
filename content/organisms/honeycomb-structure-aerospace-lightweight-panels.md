@@ -1,7 +1,7 @@
 +++
 title       = "How Honeybee Inspired Honeycomb Structural Panels"
 description = "How the honeybee inspired honeycomb structural panels — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "honeycomb-structure-aerospace-lightweight-panels"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Apis mellifera"
 habitat     = "Every continent except Antarctica; domesticated worldwide"
 taxonomy_group = "Make"
 industries  = ["aerospace", "architecture", "packaging", "materials science"]
-related_slugs = ["lily-pad-ribbed-structure-lightweight-architecture", "glass-sponge-lattice-skyscraper-diagonal-bracing", "bone-hierarchical-composite-aerospace-materials", "spider-silk-tensile-strength-synthetic-fibers"]
+related_slugs = ["lily-pad-ribbed-structure-lightweight-architecture", "glass-sponge-lattice-skyscraper-diagonal-bracing", "fire-ant-raft-self-assembling-modular-robotics", "bone-hierarchical-composite-aerospace-materials"]
 key_principle = "The hexagonal tessellation achieves the highest area-to-perimeter ratio of any regular polygon, and the resulting sandwich structure has an extremely high stiffness-to-weight ratio by separating load-bearing skins with a lightweight core."
 source_url  = "https://asknature.org/strategy/honeycomb-maximizes-storage/"
 +++

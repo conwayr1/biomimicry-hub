@@ -1,18 +1,18 @@
 +++
 title       = "Biomimicry for Resource Processing and Efficiency"
-description = "How nature's resource processing and efficiency strategies have inspired engineering solutions — 11 biological examples with real-world applications."
-date        = "2026-04-18"
+description = "How nature's resource processing and efficiency strategies have inspired engineering solutions — 17 biological examples with real-world applications."
+date        = "2026-04-29"
 slug        = "biomimicry-for-resource-processing-and-efficiency"
 type        = "functions"
 taxonomy_group = "Process"
-strategy_slugs = ["termite-mound-passive-ventilation-architecture", "namibian-beetle-fog-collection-water-harvesting", "basking-shark-gill-rakers-water-filtration", "saguaro-cactus-pleated-structure-expandable-design", "osedax-worm-symbiotic-digestion-bioprocessing", "wood-frog-freeze-tolerance-cryopreservation", "mangrove-root-aquaporin-desalination-membranes", "baobab-water-storage-evaporative-cooling-architecture", "lichen-symbiosis-biocement-living-building-materials", "electric-eel-stacked-electrocytes-soft-biobattery", "thorny-devil-capillary-wicking-microfluidic-chips"]
+strategy_slugs = ["termite-mound-passive-ventilation-architecture", "namibian-beetle-fog-collection-water-harvesting", "basking-shark-gill-rakers-water-filtration", "saguaro-cactus-pleated-structure-expandable-design", "osedax-worm-symbiotic-digestion-bioprocessing", "wood-frog-freeze-tolerance-cryopreservation", "mangrove-root-aquaporin-desalination-membranes", "baobab-water-storage-evaporative-cooling-architecture", "lichen-symbiosis-biocement-living-building-materials", "electric-eel-stacked-electrocytes-soft-biobattery", "thorny-devil-capillary-wicking-microfluidic-chips", "toucan-beak-thermal-radiator-heat-management", "polar-bear-fur-solar-collector-thermal-insulation", "whale-shark-crossflow-filtration-water-treatment", "leaf-venation-network-heat-exchanger-microfluidics", "camel-thermoregulation-passive-building-cooling", "penguin-huddle-collective-thermal-management"]
 +++
 
 ## The Challenge
 
 Every organism is a chemical processing plant: filtering water, converting sunlight, storing energy, managing heat. Biology performs these functions with a precision and efficiency that industrial processes rarely match — and without the toxic byproducts that conventional chemistry often generates.
 
-This page brings together **11 biological strategies** that all address the
+This page brings together **17 biological strategies** that all address the
 **process** challenge in different ways — drawn from organisms across kingdoms,
 habitats, and evolutionary lineages. Taken together, they reveal a set of design
 principles that engineers are actively translating into real-world technologies.

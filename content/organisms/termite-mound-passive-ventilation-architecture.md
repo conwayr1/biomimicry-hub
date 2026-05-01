@@ -1,7 +1,7 @@
 +++
 title       = "How African termite Inspired Passive Building Ventilation"
 description = "How the african termite inspired passive building ventilation — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "termite-mound-passive-ventilation-architecture"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Macrotermes michaelseni"
 habitat     = "Sub-Saharan African savanna"
 taxonomy_group = "Process"
 industries  = ["architecture", "energy", "HVAC"]
-related_slugs = ["saguaro-cactus-pleated-structure-expandable-design", "namibian-beetle-fog-collection-water-harvesting", "mangrove-root-aquaporin-desalination-membranes", "electric-eel-stacked-electrocytes-soft-biobattery"]
+related_slugs = ["toucan-beak-thermal-radiator-heat-management", "saguaro-cactus-pleated-structure-expandable-design", "polar-bear-fur-solar-collector-thermal-insulation", "penguin-huddle-collective-thermal-management"]
 key_principle = "Distributed thermal mass combined with a network of convective flow channels creates a self-regulating temperature system driven entirely by natural pressure differentials."
 source_url  = "https://asknature.org/strategy/mound-maintains-temperature/"
 +++

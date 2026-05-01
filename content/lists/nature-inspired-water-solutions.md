@@ -1,6 +1,6 @@
 +++
 title       = "Nature-Inspired Water Solutions: 5 Biomimicry Examples"
-description = "From fog-collecting beetles to mangrove desalination membranes — how nature solves the world's water challenges. Passive, energy-free water collection and filtration drawn from nature."
+description = "From fog-collecting beetles to mangrove desalination membranes — how nature solves the world's water challenges. Passive, energy-free water collection and..."
 date        = "2026-04-18"
 slug        = "nature-inspired-water-solutions"
 type        = "lists"

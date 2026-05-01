@@ -1,7 +1,7 @@
 +++
 title       = "How Sacred lotus Inspired Self-cleaning Surfaces"
 description = "How the sacred lotus inspired self-cleaning surfaces — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "lotus-leaf-self-cleaning-superhydrophobic"
 type        = "organisms"
 kingdom     = "Plant"
@@ -9,7 +9,7 @@ organism_scientific = "Nelumbo nucifera"
 habitat     = "Muddy ponds and slow-moving rivers across Asia"
 taxonomy_group = "Protect"
 industries  = ["materials science", "architecture", "textiles", "medical devices"]
-related_slugs = ["silver-ant-hairs-radiative-cooling-building-materials", "abalone-nacre-tough-ceramic-composites", "thorny-devil-capillary-wicking-microfluidic-chips", "spider-silk-tensile-strength-synthetic-fibers"]
+related_slugs = ["hagfish-slime-fiber-protective-materials", "silver-ant-hairs-radiative-cooling-building-materials", "seahorse-tail-flexible-armor-surgical-robotics", "abalone-nacre-tough-ceramic-composites"]
 key_principle = "A micro-rough surface coated with hydrophobic wax creates a composite solid-air interface that maximizes water contact angle, causing droplets to roll rather than spread."
 source_url  = "https://asknature.org/strategy/superhydrophobic-surfaces-stay-clean/"
 +++

@@ -1,7 +1,7 @@
 +++
 title       = "How Saharan Silver Ants Inspired Passive Cooling"
 description = "How the saharan silver ant inspired passive radiative cooling materials — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "silver-ant-hairs-radiative-cooling-building-materials"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Cataglyphis bombycina"
 habitat     = "Saharan Desert sand"
 taxonomy_group = "Protect"
 industries  = ["energy", "architecture", "materials science"]
-related_slugs = ["lotus-leaf-self-cleaning-superhydrophobic", "mantis-shrimp-helicoidal-impact-resistant-composites", "bombardier-beetle-pulsed-combustion-drug-injection", "abalone-nacre-tough-ceramic-composites"]
+related_slugs = ["lotus-leaf-self-cleaning-superhydrophobic", "seahorse-tail-flexible-armor-surgical-robotics", "polar-bear-fur-solar-collector-thermal-insulation", "mantis-shrimp-helicoidal-impact-resistant-composites"]
 key_principle = "A surface that is simultaneously highly reflective in the solar spectrum (0.3–2.5 μm) and highly emissive in the atmospheric transparency window (8–13 μm) loses heat faster than it gains it — achieving sub-ambient cooling with zero energy input. The ant demonstrates this principle in biology; the exact hair geometry responsible is still being characterized."
 source_url  = "https://asknature.org/strategy/hair-reflects-solar-radiation/"
 +++

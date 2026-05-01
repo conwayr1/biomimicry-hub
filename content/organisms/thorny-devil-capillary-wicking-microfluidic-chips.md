@@ -1,7 +1,7 @@
 +++
 title       = "How the Thorny Devil Inspired Microfluidic Chip Design"
 description = "How the thorny devil lizard inspired capillary wicking microfluidic devices — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "thorny-devil-capillary-wicking-microfluidic-chips"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Moloch horridus"
 habitat     = "Australian desert scrubland"
 taxonomy_group = "Process"
 industries  = ["medical devices", "textiles", "water", "materials science"]
-related_slugs = ["namibian-beetle-fog-collection-water-harvesting", "wood-frog-freeze-tolerance-cryopreservation", "spider-silk-tensile-strength-synthetic-fibers", "osedax-worm-symbiotic-digestion-bioprocessing"]
+related_slugs = ["polar-bear-fur-solar-collector-thermal-insulation", "namibian-beetle-fog-collection-water-harvesting", "camel-thermoregulation-passive-building-cooling", "wood-frog-freeze-tolerance-cryopreservation"]
 key_principle = "A network of open capillary channels with specific geometry (width, depth, contact angle) wicks fluid passively in one direction — no pump, no power source, driven purely by surface energy gradients."
 source_url  = "https://asknature.org/strategy/scales-collect-water-for-drinking/"
 +++

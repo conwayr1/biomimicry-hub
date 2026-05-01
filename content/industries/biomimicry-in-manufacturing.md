@@ -1,18 +1,18 @@
 +++
 title       = "Biomimicry in Manufacturing: Nature-Inspired Solutions"
-description = "How nature is transforming manufacturing — 3 biomimicry examples with real-world products and research. Self-assembly and room-temperature fabrication, as nature does it."
-date        = "2026-04-18"
+description = "How nature is transforming manufacturing — 4 biomimicry examples with real-world products and research. Self-assembly and room-temperature fabrication, as..."
+date        = "2026-04-29"
 slug        = "biomimicry-in-manufacturing"
 type        = "industries"
 industries  = ["manufacturing"]
-strategy_slugs = ["tree-frog-wet-adhesion-surgical-robots", "archerfish-precision-liquid-jet-inkjet-printing", "pistol-shrimp-cavitation-cleaning-microfluidics"]
+strategy_slugs = ["tree-frog-wet-adhesion-surgical-robots", "archerfish-precision-liquid-jet-inkjet-printing", "pistol-shrimp-cavitation-cleaning-microfluidics", "elephant-trunk-soft-robotics-flexible-manipulation"]
 +++
 
 ## Why Manufacturing Needs Nature
 
 Advanced manufacturing increasingly requires precision at micro and nano scales, the ability to process fragile or wet materials, and fabrication of complex three-dimensional structures. Biological systems that build intricate structures at room temperature — from bone to silk to shell — offer manufacturing blueprints that conventional machining cannot replicate.
 
-This page documents **3 biological strategies** with direct relevance to
+This page documents **4 biological strategies** with direct relevance to
 manufacturing. Each links to a full organism page with the biological mechanism,
 the engineering principle, and the products or research that have already emerged.
 

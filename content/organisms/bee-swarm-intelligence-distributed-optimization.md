@@ -1,7 +1,7 @@
 +++
 title       = "How Bees Inspired Swarm Intelligence Algorithms"
 description = "How the bees inspired swarm intelligence algorithms — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "bee-swarm-intelligence-distributed-optimization"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Apis mellifera"
 habitat     = "Worldwide, wherever flowers bloom"
 taxonomy_group = "Sense"
 industries  = ["robotics", "transportation", "computing"]
-related_slugs = ["locust-collision-detection-autonomous-vehicles", "homing-pigeon-cognitive-mapping-autonomous-navigation", "dung-beetle-polarized-light-navigation", "platypus-electroreception-underwater-sensor-cardiac"]
+related_slugs = ["slime-mold-network-optimization-distributed-computing", "locust-collision-detection-autonomous-vehicles", "homing-pigeon-cognitive-mapping-autonomous-navigation", "dung-beetle-polarized-light-navigation"]
 key_principle = "A positive-feedback quorum-sensing mechanism allows distributed agents to reach consensus on the best option among many — with no central coordinator — by amplifying signals proportional to option quality."
 source_url  = "https://asknature.org/strategy/swarm-makes-collective-decisions/"
 +++

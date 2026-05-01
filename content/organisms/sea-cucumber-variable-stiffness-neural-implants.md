@@ -1,7 +1,7 @@
 +++
 title       = "How Sea cucumber Inspired Variable-stiffness Neural Implants"
 description = "How the sea cucumber inspired variable-stiffness neural implants — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "sea-cucumber-variable-stiffness-neural-implants"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Cucumaria frondosa"
 habitat     = "Cold Atlantic and Pacific ocean floors"
 taxonomy_group = "Modify"
 industries  = ["medical devices", "robotics"]
-related_slugs = ["pinecone-humidity-responsive-adaptive-facades", "immortal-jellyfish-cellular-reprogramming-stem-cells", "venus-flytrap-snap-through-soft-robotics", "tree-frog-wet-adhesion-surgical-robots"]
+related_slugs = ["tardigrade-cryptobiosis-vaccine-storage-radiation", "pinecone-humidity-responsive-adaptive-facades", "immortal-jellyfish-cellular-reprogramming-stem-cells", "venus-flytrap-snap-through-soft-robotics"]
 key_principle = "Reinforcing a polymer matrix with nanofibers that can be chemically switched between bonded (stiff) and unbonded (soft) states creates a material whose modulus spans orders of magnitude — tunable, reversible, and biocompatible."
 source_url  = "https://asknature.org/strategy/body-wall-changes-stiffness/"
 +++

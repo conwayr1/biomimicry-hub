@@ -1,7 +1,7 @@
 +++
 title       = "How Pistol Shrimp Inspired Cavitation Microfluidics"
 description = "How the pistol shrimp inspired cavitation-based cleaning and microfluidics — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "pistol-shrimp-cavitation-cleaning-microfluidics"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Alpheus heterochaelis"
 habitat     = "Tropical and subtropical shallow marine habitats worldwide"
 taxonomy_group = "Move"
 industries  = ["marine engineering", "medical devices", "manufacturing"]
-related_slugs = ["venus-flytrap-snap-through-soft-robotics", "shark-skin-denticles-drag-reduction", "boxfish-aerodynamics-mercedes-bionic-car", "tree-frog-wet-adhesion-surgical-robots"]
+related_slugs = ["elephant-trunk-soft-robotics-flexible-manipulation", "venus-flytrap-snap-through-soft-robotics", "shark-skin-denticles-drag-reduction", "nautilus-shell-pressure-vessel-buoyancy-design"]
 key_principle = "Spring-loaded elastic energy storage in a latch mechanism enables near-instantaneous energy release, creating water jets and cavitation bubbles far beyond what continuous-force muscles could generate — a general template for power-amplified micro-actuators."
 source_url  = "https://asknature.org/strategy/snapping-claw-creates-cavitation-bubble/"
 +++

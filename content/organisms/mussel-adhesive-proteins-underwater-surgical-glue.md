@@ -1,7 +1,7 @@
 +++
 title       = "How California mussel Inspired Underwater Surgical Adhesives"
 description = "How the california mussel inspired underwater surgical adhesives — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "mussel-adhesive-proteins-underwater-surgical-glue"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Mytilus californianus"
 habitat     = "Rocky intertidal zones along the Pacific coast of North America"
 taxonomy_group = "Attach"
 industries  = ["medical devices", "marine engineering", "construction"]
-related_slugs = ["tree-frog-wet-adhesion-surgical-robots", "sea-snail-mucus-viscoelastic-adhesive-climbing-robots", "gecko-adhesion-dry-adhesives", "cocklebur-velcro-hook-loop-fastening"]
+related_slugs = ["tree-frog-wet-adhesion-surgical-robots", "sea-snail-mucus-viscoelastic-adhesive-climbing-robots", "sandcastle-worm-underwater-adhesive-surgical-glue", "gecko-adhesion-dry-adhesives"]
 key_principle = "Catechol groups (DOPA) form reversible coordination bonds and covalent cross-links with metal oxides on wet surfaces, displacing water molecules to achieve adhesion where conventional glues fail."
 source_url  = "https://asknature.org/strategy/adhesive-proteins-bond-to-wet-surfaces/"
 +++

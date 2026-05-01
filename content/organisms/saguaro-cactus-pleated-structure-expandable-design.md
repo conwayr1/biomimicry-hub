@@ -1,7 +1,7 @@
 +++
 title       = "How Saguaro cactus Inspired Expandable and Foldable Structures"
 description = "How the saguaro cactus inspired expandable and foldable structures — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "saguaro-cactus-pleated-structure-expandable-design"
 type        = "organisms"
 kingdom     = "Plant"
@@ -9,7 +9,7 @@ organism_scientific = "Carnegiea gigantea"
 habitat     = "Sonoran Desert of Arizona and northwestern Mexico"
 taxonomy_group = "Process"
 industries  = ["packaging", "aerospace", "energy", "architecture"]
-related_slugs = ["termite-mound-passive-ventilation-architecture", "namibian-beetle-fog-collection-water-harvesting", "mangrove-root-aquaporin-desalination-membranes", "honeycomb-structure-aerospace-lightweight-panels"]
+related_slugs = ["toucan-beak-thermal-radiator-heat-management", "termite-mound-passive-ventilation-architecture", "polar-bear-fur-solar-collector-thermal-insulation", "penguin-huddle-collective-thermal-management"]
 key_principle = "A pleated or corrugated geometry allows large, reversible volume changes while maintaining structural integrity — the fold geometry distributes strain so no single point bears catastrophic stress."
 source_url  = "https://asknature.org/strategy/accordion-like-trunk-stores-water/"
 +++

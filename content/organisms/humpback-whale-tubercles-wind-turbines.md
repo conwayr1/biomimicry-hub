@@ -1,7 +1,7 @@
 +++
 title       = "How Humpback whale Inspired Wind Turbine Blades"
 description = "How the humpback whale inspired wind turbine blades — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "humpback-whale-tubercles-wind-turbines"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Megaptera novaeangliae"
 habitat     = "All major oceans, migratory between polar feeding grounds and tropical breeding grounds"
 taxonomy_group = "Move"
 industries  = ["energy", "aerospace", "marine transport"]
-related_slugs = ["shark-skin-denticles-drag-reduction", "peregrine-falcon-nostril-jet-engine-intake", "venus-flytrap-snap-through-soft-robotics", "kingfisher-beak-shinkansen-bullet-train"]
+related_slugs = ["shark-skin-denticles-drag-reduction", "peregrine-falcon-nostril-jet-engine-intake", "maple-samara-autorotation-micro-air-vehicles", "venus-flytrap-snap-through-soft-robotics"]
 key_principle = "Sinusoidal leading-edge bumps generate chordwise vortices that energize the boundary layer, delaying flow separation and maintaining lift at angles of attack that would otherwise cause stall."
 source_url  = "https://asknature.org/strategy/bumpy-flippers-improve-maneuverability/"
 +++

@@ -1,6 +1,6 @@
 +++
 title       = "10 Best Biomimicry Examples in Robotics"
-description = "Ten nature-inspired robots and robotic systems — from gecko-grip climbers to locust-speed collision avoidance. From gecko-grip climbers to swarm intelligence platforms."
+description = "Ten nature-inspired robots and robotic systems — from gecko-grip climbers to locust-speed collision avoidance. From gecko-grip climbers to swarm intelligence..."
 date        = "2026-04-18"
 slug        = "best-biomimicry-examples-robotics"
 type        = "lists"

@@ -12,7 +12,7 @@ pygmentsUseClasses = true
   description   = "Explore how engineers and designers copy nature to solve hard problems. Hundreds of biomimicry examples — from gecko adhesives to whale-fin turbines."
   author        = "Biomimicry Hub"
   googleAnalytics = ""  # Add your GA4 measurement ID here: G-XXXXXXXXXX
-  amazonTag     = "AMAZON_TAG"
+  amazonTag     = "biomimicryhub-20"
 
 [taxonomies]
   taxonomy_group = "taxonomy_groups"

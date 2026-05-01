@@ -1,6 +1,6 @@
 +++
 title       = "8 Best Biomimicry Examples in Architecture"
-description = "How nature's structures are reshaping building design — from termite-inspired ventilation to lily-pad floor plates. From passive ventilation towers to load-optimised shells."
+description = "How nature's structures are reshaping building design — from termite-inspired ventilation to lily-pad floor plates. From passive ventilation towers to..."
 date        = "2026-04-18"
 slug        = "best-biomimicry-examples-architecture"
 type        = "lists"

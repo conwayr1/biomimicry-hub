@@ -1,7 +1,7 @@
 +++
 title       = "How Brittle star Inspired Biomimetic Microlens Arrays"
 description = "How the brittle star inspired biomimetic microlens arrays — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "brittlestar-calcite-microlens-optical-fiber"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Ophiocoma wendtii"
 habitat     = "Caribbean and Atlantic coral reefs"
 taxonomy_group = "Sense"
 industries  = ["electronics", "medical devices", "materials science"]
-related_slugs = ["morpho-butterfly-structural-color-anti-counterfeiting", "cuttlefish-color-changing-skin-flexible-displays", "archerfish-precision-liquid-jet-inkjet-printing", "platypus-electroreception-underwater-sensor-cardiac"]
+related_slugs = ["rattlesnake-pit-organ-infrared-sensor-thermal-camera", "moth-eye-nanostructure-anti-reflective-coating", "morpho-butterfly-structural-color-anti-counterfeiting", "firefly-bioluminescence-efficient-led-lighting"]
 key_principle = "Calcite's birefringence is precisely compensated by the specific crystal orientation and lens geometry in each spicule, producing diffraction-limited performance in a lens 0.05 mm across — a lesson in leveraging material anisotropy to eliminate aberration."
 source_url  = "https://asknature.org/strategy/skin-contains-optical-lenses/"
 +++

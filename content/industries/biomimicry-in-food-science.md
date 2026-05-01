@@ -1,18 +1,18 @@
 +++
 title       = "Biomimicry in Food Science: Nature-Inspired Solutions"
-description = "How nature is transforming food science — 2 biomimicry examples with real-world products and research. Antifungal coatings and fermentation pathways drawn from biology."
-date        = "2026-04-18"
+description = "How nature is transforming food science — 4 biomimicry examples with real-world products and research. Antifungal coatings and fermentation pathways drawn..."
+date        = "2026-04-29"
 slug        = "biomimicry-in-food-science"
 type        = "industries"
 industries  = ["food science"]
-strategy_slugs = ["leafcutter-ant-fungal-farming-sustainable-agriculture", "wood-frog-freeze-tolerance-cryopreservation"]
+strategy_slugs = ["leafcutter-ant-fungal-farming-sustainable-agriculture", "wood-frog-freeze-tolerance-cryopreservation", "whale-shark-crossflow-filtration-water-treatment", "tardigrade-cryptobiosis-vaccine-storage-radiation"]
 +++
 
 ## Why Food Science Needs Nature
 
 Food science biomimicry ranges from cryopreservation inspired by freeze-tolerant frogs to fermentation systems inspired by leafcutter ant fungiculture. Biology offers models for processing, preservation, and nutrient conversion that the food industry is beginning to systematically explore.
 
-This page documents **2 biological strategies** with direct relevance to
+This page documents **4 biological strategies** with direct relevance to
 food science. Each links to a full organism page with the biological mechanism,
 the engineering principle, and the products or research that have already emerged.
 

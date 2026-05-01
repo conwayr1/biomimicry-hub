@@ -1,7 +1,7 @@
 +++
 title       = "How Flying squirrel Inspired Membrane Wing Aircraft and Wingsuits"
 description = "How the flying squirrel inspired membrane wing aircraft and wingsuits — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "flying-squirrel-patagium-wingsuit-membrane-wing"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Glaucomys sabrinus"
 habitat     = "North American coniferous and mixed forests"
 taxonomy_group = "Move"
 industries  = ["aerospace", "defense", "sports equipment"]
-related_slugs = ["dragonfly-corrugated-wings-micro-air-vehicles", "woodpecker-skull-shock-absorption-helmets", "venus-flytrap-snap-through-soft-robotics", "shark-skin-denticles-drag-reduction"]
+related_slugs = ["maple-samara-autorotation-micro-air-vehicles", "hummingbird-hovering-flight-micro-air-vehicles", "dragonfly-corrugated-wings-micro-air-vehicles", "woodpecker-skull-shock-absorption-helmets"]
 key_principle = "A tensioned membrane wing between limbs creates lift through glide rather than powered flight, achieves precise steering through differential tension, and collapses to near-zero drag when not in use."
 source_url  = "https://asknature.org/strategy/gliding-membrane-enables-flight/"
 +++

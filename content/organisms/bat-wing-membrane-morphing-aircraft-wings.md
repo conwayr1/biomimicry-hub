@@ -1,7 +1,7 @@
 +++
 title       = "How Indian flying fox bat Inspired Morphing Aircraft Wings"
 description = "How the indian flying fox bat inspired morphing aircraft wings — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "bat-wing-membrane-morphing-aircraft-wings"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Pteropus giganteus"
 habitat     = "South and Southeast Asian forests"
 taxonomy_group = "Move"
 industries  = ["aerospace", "robotics"]
-related_slugs = ["venus-flytrap-snap-through-soft-robotics", "dragonfly-corrugated-wings-micro-air-vehicles", "shark-skin-denticles-drag-reduction", "peregrine-falcon-nostril-jet-engine-intake"]
+related_slugs = ["venus-flytrap-snap-through-soft-robotics", "maple-samara-autorotation-micro-air-vehicles", "hummingbird-hovering-flight-micro-air-vehicles", "elephant-trunk-soft-robotics-flexible-manipulation"]
 key_principle = "A membrane wing with embedded flow sensors and anisotropic compliance allows continuous, passive shape adaptation to airflow — achieving near-optimal aerodynamics across a wide speed range without mechanical actuators."
 source_url  = "https://asknature.org/strategy/wing-membrane-enables-precise-flight/"
 +++

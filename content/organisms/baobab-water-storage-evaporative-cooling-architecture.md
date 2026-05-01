@@ -1,7 +1,7 @@
 +++
 title       = "How Baobab tree Inspired Passive Evaporative Cooling Structures"
 description = "How the baobab tree inspired passive evaporative cooling structures — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "baobab-water-storage-evaporative-cooling-architecture"
 type        = "organisms"
 kingdom     = "Plant"
@@ -9,7 +9,7 @@ organism_scientific = "Adansonia digitata"
 habitat     = "African savanna, dry deciduous forests"
 taxonomy_group = "Process"
 industries  = ["architecture", "water", "construction"]
-related_slugs = ["namibian-beetle-fog-collection-water-harvesting", "thorny-devil-capillary-wicking-microfluidic-chips", "termite-mound-passive-ventilation-architecture", "saguaro-cactus-pleated-structure-expandable-design"]
+related_slugs = ["namibian-beetle-fog-collection-water-harvesting", "whale-shark-crossflow-filtration-water-treatment", "toucan-beak-thermal-radiator-heat-management", "thorny-devil-capillary-wicking-microfluidic-chips"]
 key_principle = "A fibrous, low-density tissue that absorbs and releases large volumes of water without structural collapse enables passive thermal regulation through evaporation — a natural heat sink that requires no energy input."
 source_url  = "https://asknature.org/strategy/trunk-stores-large-amounts-of-water/"
 +++

@@ -1,7 +1,7 @@
 +++
 title       = "How Homing Pigeons Inspired Autonomous Navigation AI"
 description = "How the homing pigeon inspired cognitive mapping for autonomous vehicles — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "homing-pigeon-cognitive-mapping-autonomous-navigation"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Columba livia domestica"
 habitat     = "Worldwide; domesticated from cliff-dwelling rock pigeons"
 taxonomy_group = "Sense"
 industries  = ["robotics", "transportation", "defense"]
-related_slugs = ["locust-collision-detection-autonomous-vehicles", "dung-beetle-polarized-light-navigation", "platypus-electroreception-underwater-sensor-cardiac", "monarch-butterfly-navigation-gps-denied-robots"]
+related_slugs = ["locust-collision-detection-autonomous-vehicles", "dung-beetle-polarized-light-navigation", "platypus-electroreception-underwater-sensor-cardiac", "octopus-chromatophores-adaptive-camouflage-displays"]
 key_principle = "Fusing multiple redundant sensory modalities into a single probabilistic spatial model — rather than relying on any one sensor — creates a navigation system that is robust to individual sensor failure and works in diverse environments."
 source_url  = "https://asknature.org/strategy/pigeon-navigates-using-multiple-cues/"
 +++

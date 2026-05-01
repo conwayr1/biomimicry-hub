@@ -1,7 +1,7 @@
 +++
 title       = "How Red-eyed tree frog Inspired Wet-surface Adhesive Grippers"
 description = "How the red-eyed tree frog inspired wet-surface adhesive grippers — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "tree-frog-wet-adhesion-surgical-robots"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Agalychnis callidryas"
 habitat     = "Tropical rainforests of Central and South America"
 taxonomy_group = "Attach"
 industries  = ["robotics", "medical devices", "manufacturing"]
-related_slugs = ["sea-snail-mucus-viscoelastic-adhesive-climbing-robots", "gecko-adhesion-dry-adhesives", "mussel-adhesive-proteins-underwater-surgical-glue", "cocklebur-velcro-hook-loop-fastening"]
+related_slugs = ["sea-snail-mucus-viscoelastic-adhesive-climbing-robots", "gecko-adhesion-dry-adhesives", "mussel-adhesive-proteins-underwater-surgical-glue", "elephant-trunk-soft-robotics-flexible-manipulation"]
 key_principle = "Structured soft surfaces with drainage channels maintain a thin, uniform fluid film that generates capillary adhesion while preventing hydroplaning — works best on smooth surfaces in wet conditions."
 source_url  = "https://asknature.org/strategy/toe-pads-adhere-to-wet-surfaces/"
 +++

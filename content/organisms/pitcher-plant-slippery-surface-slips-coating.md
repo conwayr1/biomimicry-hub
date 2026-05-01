@@ -1,7 +1,7 @@
 +++
 title       = "How Pitcher plant Inspired SLIPS Non-stick Coatings"
 description = "How the pitcher plant inspired SLIPS non-stick coatings — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "pitcher-plant-slippery-surface-slips-coating"
 type        = "organisms"
 kingdom     = "Plant"
@@ -9,7 +9,7 @@ organism_scientific = "Nepenthes rafflesiana"
 habitat     = "Tropical peat swamps and heath forests of Borneo"
 taxonomy_group = "Protect"
 industries  = ["aerospace", "medical devices", "marine engineering", "food packaging"]
-related_slugs = ["woodpecker-skull-shock-absorption-helmets", "mantis-shrimp-helicoidal-impact-resistant-composites", "lotus-leaf-self-cleaning-superhydrophobic", "bombardier-beetle-pulsed-combustion-drug-injection"]
+related_slugs = ["woodpecker-skull-shock-absorption-helmets", "seahorse-tail-flexible-armor-surgical-robotics", "mantis-shrimp-helicoidal-impact-resistant-composites", "lotus-leaf-self-cleaning-superhydrophobic"]
 key_principle = "A structured porous surface infused with a lubricating liquid creates a molecularly smooth, replenishing interface that cannot be displaced by most solids or liquids — far more durable than dry superhydrophobic surfaces."
 source_url  = "https://asknature.org/strategy/slippery-rim-traps-insects/"
 +++

@@ -1,7 +1,7 @@
 +++
 title       = "How Electric eel Inspired Soft Biobatteries"
 description = "How the electric eel inspired soft biobatteries — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "electric-eel-stacked-electrocytes-soft-biobattery"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Electrophorus electricus"
 habitat     = "Murky freshwater rivers and floodplains of South America"
 taxonomy_group = "Process"
 industries  = ["energy", "robotics", "medical devices"]
-related_slugs = ["wood-frog-freeze-tolerance-cryopreservation", "thorny-devil-capillary-wicking-microfluidic-chips", "termite-mound-passive-ventilation-architecture", "saguaro-cactus-pleated-structure-expandable-design"]
+related_slugs = ["penguin-huddle-collective-thermal-management", "camel-thermoregulation-passive-building-cooling", "wood-frog-freeze-tolerance-cryopreservation", "toucan-beak-thermal-radiator-heat-management"]
 key_principle = "Stacking ion-gradient generators in series multiplies voltage while parallel arrays multiply current — the same electrical engineering principle as batteries, but implemented in soft, biocompatible tissue with ionic rather than electron flow."
 source_url  = "https://asknature.org/strategy/electric-organ-generates-high-voltage/"
 +++

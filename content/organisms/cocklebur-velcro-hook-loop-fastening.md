@@ -1,7 +1,7 @@
 +++
 title       = "How Cocklebur Inspired Velcro Hook-and-Loop Fasteners"
-description = "How the cocklebur inspired Velcro — the biological mechanism, the engineering principle, and real-world applications. One of the most commercially successful biomimicry inventions of all time."
-date        = "2026-04-18"
+description = "How the cocklebur inspired Velcro — the biological mechanism, the engineering principle, and real-world applications. One of the most commercially successful..."
+date        = "2026-04-29"
 slug        = "cocklebur-velcro-hook-loop-fastening"
 type        = "organisms"
 kingdom     = "Plant"

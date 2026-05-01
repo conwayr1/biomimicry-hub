@@ -1,7 +1,7 @@
 +++
 title       = "How Dung beetle Inspired Polarized-light Navigation"
 description = "How the dung beetle inspired polarized-light navigation — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "dung-beetle-polarized-light-navigation"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Scarabaeus satyrus"
 habitat     = "Sub-Saharan African savanna"
 taxonomy_group = "Sense"
 industries  = ["robotics", "transportation", "defense"]
-related_slugs = ["locust-collision-detection-autonomous-vehicles", "homing-pigeon-cognitive-mapping-autonomous-navigation", "platypus-electroreception-underwater-sensor-cardiac", "monarch-butterfly-navigation-gps-denied-robots"]
+related_slugs = ["locust-collision-detection-autonomous-vehicles", "homing-pigeon-cognitive-mapping-autonomous-navigation", "platypus-electroreception-underwater-sensor-cardiac", "octopus-chromatophores-adaptive-camouflage-displays"]
 key_principle = "Detecting the polarization pattern of scattered light (from the sun, moon, or Milky Way) provides a global directional reference that is available even on overcast nights and in GPS-denied environments."
 source_url  = "https://asknature.org/strategy/beetle-navigates-by-milky-way/"
 +++

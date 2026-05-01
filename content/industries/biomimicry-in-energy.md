@@ -1,18 +1,18 @@
 +++
 title       = "Biomimicry in Energy: Nature-Inspired Solutions"
-description = "How nature is transforming energy — 9 biomimicry examples with real-world products and research. Whale-fin turbines and bio-inspired solar cells are reshaping energy."
-date        = "2026-04-18"
+description = "How nature is transforming energy — 19 biomimicry examples with real-world products and research. Whale-fin turbines and bio-inspired solar cells are..."
+date        = "2026-04-29"
 slug        = "biomimicry-in-energy"
 type        = "industries"
 industries  = ["energy"]
-strategy_slugs = ["termite-mound-passive-ventilation-architecture", "humpback-whale-tubercles-wind-turbines", "pinecone-humidity-responsive-adaptive-facades", "bombardier-beetle-pulsed-combustion-drug-injection", "peregrine-falcon-nostril-jet-engine-intake", "saguaro-cactus-pleated-structure-expandable-design", "mangrove-root-aquaporin-desalination-membranes", "electric-eel-stacked-electrocytes-soft-biobattery", "silver-ant-hairs-radiative-cooling-building-materials"]
+strategy_slugs = ["termite-mound-passive-ventilation-architecture", "humpback-whale-tubercles-wind-turbines", "pinecone-humidity-responsive-adaptive-facades", "bombardier-beetle-pulsed-combustion-drug-injection", "peregrine-falcon-nostril-jet-engine-intake", "saguaro-cactus-pleated-structure-expandable-design", "mangrove-root-aquaporin-desalination-membranes", "electric-eel-stacked-electrocytes-soft-biobattery", "silver-ant-hairs-radiative-cooling-building-materials", "toucan-beak-thermal-radiator-heat-management", "polar-bear-fur-solar-collector-thermal-insulation", "firefly-bioluminescence-efficient-led-lighting", "moth-eye-nanostructure-anti-reflective-coating", "diatom-silica-frustule-nanofabrication-templates", "maple-samara-autorotation-micro-air-vehicles", "rattlesnake-pit-organ-infrared-sensor-thermal-camera", "leaf-venation-network-heat-exchanger-microfluidics", "camel-thermoregulation-passive-building-cooling", "penguin-huddle-collective-thermal-management"]
 +++
 
 ## Why Energy Needs Nature
 
 The energy sector needs materials and systems that capture, store, and distribute power more efficiently than current technology allows. Biological systems — which have been running on solar energy for billions of years — offer surprising models: passive cooling without refrigerants, wind capture geometries that work at low speeds, and soft power sources that charge without rigid electrodes.
 
-This page documents **9 biological strategies** with direct relevance to
+This page documents **19 biological strategies** with direct relevance to
 energy. Each links to a full organism page with the biological mechanism,
 the engineering principle, and the products or research that have already emerged.
 

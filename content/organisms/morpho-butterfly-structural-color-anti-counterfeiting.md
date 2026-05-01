@@ -1,7 +1,7 @@
 +++
 title       = "How Morpho Butterflies Inspired Structural Color Tech"
 description = "How the morpho butterfly inspired structural color and anti-counterfeiting — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "morpho-butterfly-structural-color-anti-counterfeiting"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Morpho menelaus"
 habitat     = "Tropical rainforests of Central and South America"
 taxonomy_group = "Sense"
 industries  = ["materials science", "electronics", "security", "textiles"]
-related_slugs = ["cuttlefish-color-changing-skin-flexible-displays", "brittlestar-calcite-microlens-optical-fiber", "archerfish-precision-liquid-jet-inkjet-printing", "thorny-devil-capillary-wicking-microfluidic-chips"]
+related_slugs = ["octopus-chromatophores-adaptive-camouflage-displays", "moth-eye-nanostructure-anti-reflective-coating", "cuttlefish-color-changing-skin-flexible-displays", "chameleon-photonic-crystal-smart-windows-camouflage"]
 key_principle = "Nano-scale periodic structures with spacing matched to specific light wavelengths produce vivid, angle-dependent color through optical interference rather than chemical pigmentation — making the color permanent and fade-proof."
 source_url  = "https://asknature.org/strategy/wing-scales-create-iridescent-color/"
 +++

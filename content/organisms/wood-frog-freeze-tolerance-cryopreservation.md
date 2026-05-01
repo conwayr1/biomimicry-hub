@@ -1,7 +1,7 @@
 +++
 title       = "How Bone-dry wood frog Inspired Cryopreservation Technology"
 description = "How the bone-dry wood frog inspired cryopreservation technology — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "wood-frog-freeze-tolerance-cryopreservation"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Rana sylvatica"
 habitat     = "Northern forests of North America, as far north as the Arctic Circle"
 taxonomy_group = "Process"
 industries  = ["medical devices", "biotechnology", "food science"]
-related_slugs = ["thorny-devil-capillary-wicking-microfluidic-chips", "osedax-worm-symbiotic-digestion-bioprocessing", "lichen-symbiosis-biocement-living-building-materials", "electric-eel-stacked-electrocytes-soft-biobattery"]
+related_slugs = ["whale-shark-crossflow-filtration-water-treatment", "thorny-devil-capillary-wicking-microfluidic-chips", "tardigrade-cryptobiosis-vaccine-storage-radiation", "osedax-worm-symbiotic-digestion-bioprocessing"]
 key_principle = "Rapidly increasing intracellular solute concentration (cryoprotectant loading) before freezing depresses the freezing point inside cells and prevents ice nucleation in cytoplasm — allowing controlled extracellular ice formation without cell death."
 source_url  = "https://asknature.org/strategy/wood-frog-survives-freezing/"
 +++

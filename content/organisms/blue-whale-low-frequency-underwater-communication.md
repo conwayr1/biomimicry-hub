@@ -1,7 +1,7 @@
 +++
 title       = "How Blue Whales Inspired Underwater Communication"
 description = "How the blue whale inspired long-range underwater acoustic communication — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "blue-whale-low-frequency-underwater-communication"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Balaenoptera musculus"
 habitat     = "All major oceans"
 taxonomy_group = "Sense"
 industries  = ["marine engineering", "defense", "medical devices"]
-related_slugs = ["platypus-electroreception-underwater-sensor-cardiac", "monarch-butterfly-navigation-gps-denied-robots", "locust-collision-detection-autonomous-vehicles", "homing-pigeon-cognitive-mapping-autonomous-navigation"]
+related_slugs = ["crocodile-skin-pressure-sensors-soft-robotics", "rattlesnake-pit-organ-infrared-sensor-thermal-camera", "platypus-electroreception-underwater-sensor-cardiac", "octopus-chromatophores-adaptive-camouflage-displays"]
 key_principle = "A U-fold of tissue that vibrates through air recirculation — not airflow — enables sound production at depth where compressed air cannot be spared, applicable to any acoustic system requiring efficient, contained vibration."
 source_url  = "https://asknature.org/strategy/blue-whale-calls-travel-across-oceans/"
 +++

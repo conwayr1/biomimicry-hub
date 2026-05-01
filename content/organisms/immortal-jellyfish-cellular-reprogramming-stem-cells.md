@@ -1,7 +1,7 @@
 +++
 title       = "How the Immortal Jellyfish Inspired Stem Cell Research"
-description = "How the turritopsis dohrnii jellyfish inspired cellular reprogramming and stem cells — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+description = "How the turritopsis dohrnii jellyfish inspired cellular reprogramming and stem cells — the biological mechanism, the engineering principle, and real-world..."
+date        = "2026-04-29"
 slug        = "immortal-jellyfish-cellular-reprogramming-stem-cells"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Turritopsis dohrnii"
 habitat     = "Mediterranean Sea and tropical oceans worldwide"
 taxonomy_group = "Modify"
 industries  = ["biotechnology", "medical devices"]
-related_slugs = ["sea-cucumber-variable-stiffness-neural-implants", "wood-frog-freeze-tolerance-cryopreservation", "pinecone-humidity-responsive-adaptive-facades", "dinoflagellate-bioluminescence-efficient-lighting"]
+related_slugs = ["tardigrade-cryptobiosis-vaccine-storage-radiation", "sea-cucumber-variable-stiffness-neural-implants", "wood-frog-freeze-tolerance-cryopreservation", "pinecone-humidity-responsive-adaptive-facades"]
 key_principle = "Applying a defined set of transcription factors to a differentiated adult cell can reset its epigenetic program to a pluripotent state — reversing the developmental clock and enabling the cell to differentiate into any tissue type."
 source_url  = "https://asknature.org/strategy/jellyfish-reverses-its-life-cycle/"
 +++

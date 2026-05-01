@@ -1,6 +1,6 @@
 +++
 title       = "6 Nature-Inspired Structural Materials"
-description = "Bone, nacre, spider silk, honeycomb — how nature engineers materials that outperform our best synthetics. Lightweight, tough, and self-assembling — lessons from living structures."
+description = "Bone, nacre, spider silk, honeycomb — how nature engineers materials that outperform our best synthetics. Lightweight, tough, and self-assembling — lessons..."
 date        = "2026-04-18"
 slug        = "nature-inspired-structural-materials"
 type        = "lists"

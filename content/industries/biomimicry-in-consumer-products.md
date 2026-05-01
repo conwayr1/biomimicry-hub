@@ -1,7 +1,7 @@
 +++
 title       = "Biomimicry in Consumer Products: Nature-Inspired Solutions"
-description = "How nature is transforming consumer products — 2 biomimicry examples with real-world products and research. Nature-inspired ideas are quietly embedded in everyday objects."
-date        = "2026-04-18"
+description = "How nature is transforming consumer products — 2 biomimicry examples with real-world products and research. Nature-inspired ideas are quietly embedded in..."
+date        = "2026-04-29"
 slug        = "biomimicry-in-consumer-products"
 type        = "industries"
 industries  = ["consumer products"]

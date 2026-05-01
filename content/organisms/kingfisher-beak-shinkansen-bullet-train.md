@@ -1,7 +1,7 @@
 +++
 title       = "How Common kingfisher Inspired The Shinkansen Bullet Train Nose"
 description = "How the common kingfisher inspired the Shinkansen bullet train nose — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "kingfisher-beak-shinkansen-bullet-train"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Alcedo atthis"
 habitat     = "Rivers, lakes, and streams across Europe, Asia, and Africa"
 taxonomy_group = "Move"
 industries  = ["transportation", "aerospace", "engineering"]
-related_slugs = ["boxfish-aerodynamics-mercedes-bionic-car", "venus-flytrap-snap-through-soft-robotics", "shark-skin-denticles-drag-reduction", "peregrine-falcon-nostril-jet-engine-intake"]
+related_slugs = ["boxfish-aerodynamics-mercedes-bionic-car", "venus-flytrap-snap-through-soft-robotics", "starling-murmuration-swarm-robotics-autonomous-drones", "shark-skin-denticles-drag-reduction"]
 key_principle = "A gradually tapering, asymmetric profile minimizes pressure wave generation when transitioning between media of different densities — applicable to any high-speed vehicle entering a constricted space such as a tunnel."
 source_url  = "https://asknature.org/strategy/beak-shape-smooths-water-entry/"
 +++

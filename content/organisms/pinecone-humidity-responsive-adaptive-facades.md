@@ -1,7 +1,7 @@
 +++
 title       = "How Pinecones Inspired Humidity-responsive Architecture"
 description = "How the european pinecone inspired humidity-responsive building facades — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "pinecone-humidity-responsive-adaptive-facades"
 type        = "organisms"
 kingdom     = "Plant"
@@ -9,7 +9,7 @@ organism_scientific = "Pinus sylvestris"
 habitat     = "European and Asian temperate forests"
 taxonomy_group = "Modify"
 industries  = ["architecture", "textiles", "robotics", "energy"]
-related_slugs = ["sea-cucumber-variable-stiffness-neural-implants", "termite-mound-passive-ventilation-architecture", "silver-ant-hairs-radiative-cooling-building-materials", "saguaro-cactus-pleated-structure-expandable-design"]
+related_slugs = ["sea-cucumber-variable-stiffness-neural-implants", "polar-bear-fur-solar-collector-thermal-insulation", "penguin-huddle-collective-thermal-management", "camel-thermoregulation-passive-building-cooling"]
 key_principle = "Bilayer structures of materials with different hygroscopic or thermal expansion coefficients create autonomous, reversible shape changes in response to environmental conditions — no energy input, no control system."
 source_url  = "https://asknature.org/strategy/scales-open-and-close-in-response-to-humidity/"
 +++

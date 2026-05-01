@@ -1,7 +1,7 @@
 +++
 title       = "How Basking shark Inspired Water Filtration Membranes"
 description = "How the basking shark inspired water filtration membranes — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "basking-shark-gill-rakers-water-filtration"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Cetorhinus maximus"
 habitat     = "Temperate ocean waters worldwide"
 taxonomy_group = "Process"
 industries  = ["water", "environmental technology", "marine engineering"]
-related_slugs = ["mangrove-root-aquaporin-desalination-membranes", "thorny-devil-capillary-wicking-microfluidic-chips", "osedax-worm-symbiotic-digestion-bioprocessing", "namibian-beetle-fog-collection-water-harvesting"]
+related_slugs = ["whale-shark-crossflow-filtration-water-treatment", "mangrove-root-aquaporin-desalination-membranes", "thorny-devil-capillary-wicking-microfluidic-chips", "osedax-worm-symbiotic-digestion-bioprocessing"]
 key_principle = "A branching, high-surface-area filter geometry with precisely tuned pore size captures target particles while allowing water to flow through with minimal resistance — passive, clog-resistant filtration."
 source_url  = "https://asknature.org/strategy/gill-rakers-filter-plankton/"
 +++

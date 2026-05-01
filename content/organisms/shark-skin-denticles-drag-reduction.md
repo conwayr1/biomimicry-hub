@@ -1,7 +1,7 @@
 +++
 title       = "How Shortfin mako shark Inspired Drag-reducing Surfaces"
 description = "How the shortfin mako shark inspired drag-reducing surfaces — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "shark-skin-denticles-drag-reduction"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Isurus oxyrinchus"
 habitat     = "Open ocean, worldwide temperate and tropical seas"
 taxonomy_group = "Move"
 industries  = ["aerospace", "marine transport", "textiles", "medical devices"]
-related_slugs = ["venus-flytrap-snap-through-soft-robotics", "humpback-whale-tubercles-wind-turbines", "pistol-shrimp-cavitation-cleaning-microfluidics", "peregrine-falcon-nostril-jet-engine-intake"]
+related_slugs = ["venus-flytrap-snap-through-soft-robotics", "humpback-whale-tubercles-wind-turbines", "elephant-trunk-soft-robotics-flexible-manipulation", "pistol-shrimp-cavitation-cleaning-microfluidics"]
 key_principle = "Precisely spaced riblet microstructures align with flow direction to manage the turbulent boundary layer, reducing skin-friction drag by up to 10%."
 source_url  = "https://asknature.org/strategy/skin-reduces-drag/"
 +++

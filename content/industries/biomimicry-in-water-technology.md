@@ -1,18 +1,18 @@
 +++
 title       = "Biomimicry in Water Technology: Nature-Inspired Solutions"
-description = "How nature is transforming water technology — 5 biomimicry examples with real-world products and research. Beetles, cacti, and mangroves inspire passive water-harvesting systems."
-date        = "2026-04-18"
+description = "How nature is transforming water technology — 6 biomimicry examples with real-world products and research. Beetles, cacti, and mangroves inspire passive..."
+date        = "2026-04-29"
 slug        = "biomimicry-in-water-technology"
 type        = "industries"
 industries  = ["water"]
-strategy_slugs = ["namibian-beetle-fog-collection-water-harvesting", "basking-shark-gill-rakers-water-filtration", "mangrove-root-aquaporin-desalination-membranes", "baobab-water-storage-evaporative-cooling-architecture", "thorny-devil-capillary-wicking-microfluidic-chips"]
+strategy_slugs = ["namibian-beetle-fog-collection-water-harvesting", "basking-shark-gill-rakers-water-filtration", "mangrove-root-aquaporin-desalination-membranes", "baobab-water-storage-evaporative-cooling-architecture", "thorny-devil-capillary-wicking-microfluidic-chips", "whale-shark-crossflow-filtration-water-treatment"]
 +++
 
 ## Why Water Needs Nature
 
 Biomimicry is producing significant advances in water.
 
-This page documents **5 biological strategies** with direct relevance to
+This page documents **6 biological strategies** with direct relevance to
 water. Each links to a full organism page with the biological mechanism,
 the engineering principle, and the products or research that have already emerged.
 

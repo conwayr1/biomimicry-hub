@@ -1,18 +1,18 @@
 +++
 title       = "Biomimicry for Materials: Nature-Inspired Manufacturing"
-description = "How nature's materials and manufacturing strategies have inspired engineering solutions — 6 biological examples with real-world applications."
-date        = "2026-04-18"
+description = "How nature's materials and manufacturing strategies have inspired engineering solutions — 9 biological examples with real-world applications."
+date        = "2026-04-29"
 slug        = "biomimicry-for-materials-and-manufacturing"
 type        = "functions"
 taxonomy_group = "Make"
-strategy_slugs = ["spider-silk-tensile-strength-synthetic-fibers", "honeycomb-structure-aerospace-lightweight-panels", "leafcutter-ant-fungal-farming-sustainable-agriculture", "bone-hierarchical-composite-aerospace-materials", "glass-sponge-lattice-skyscraper-diagonal-bracing", "lily-pad-ribbed-structure-lightweight-architecture"]
+strategy_slugs = ["spider-silk-tensile-strength-synthetic-fibers", "honeycomb-structure-aerospace-lightweight-panels", "leafcutter-ant-fungal-farming-sustainable-agriculture", "bone-hierarchical-composite-aerospace-materials", "glass-sponge-lattice-skyscraper-diagonal-bracing", "lily-pad-ribbed-structure-lightweight-architecture", "fire-ant-raft-self-assembling-modular-robotics", "sandcastle-worm-underwater-adhesive-surgical-glue", "diatom-silica-frustule-nanofabrication-templates"]
 +++
 
 ## The Challenge
 
 Biological manufacturing operates under remarkable constraints: ambient temperature, water as the primary solvent, no toxic feedstocks, and structures that must assemble themselves. The result is a toolkit of materials — silk, bone, nacre, honeycomb — that combine properties (toughness + stiffness, strength + flexibility) that remain difficult or impossible to replicate in a conventional factory.
 
-This page brings together **6 biological strategies** that all address the
+This page brings together **9 biological strategies** that all address the
 **make** challenge in different ways — drawn from organisms across kingdoms,
 habitats, and evolutionary lineages. Taken together, they reveal a set of design
 principles that engineers are actively translating into real-world technologies.

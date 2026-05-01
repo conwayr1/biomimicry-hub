@@ -1,7 +1,7 @@
 +++
 title       = "How Platypus Inspired Electroreception Sensors"
 description = "How the platypus inspired electroreception sensors — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "platypus-electroreception-underwater-sensor-cardiac"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Ornithorhynchus anatinus"
 habitat     = "Eastern Australian rivers and streams"
 taxonomy_group = "Sense"
 industries  = ["medical devices", "defense", "robotics"]
-related_slugs = ["monarch-butterfly-navigation-gps-denied-robots", "locust-collision-detection-autonomous-vehicles", "homing-pigeon-cognitive-mapping-autonomous-navigation", "dung-beetle-polarized-light-navigation"]
+related_slugs = ["crocodile-skin-pressure-sensors-soft-robotics", "rattlesnake-pit-organ-infrared-sensor-thermal-camera", "octopus-chromatophores-adaptive-camouflage-displays", "monarch-butterfly-navigation-gps-denied-robots"]
 key_principle = "An array of electroreceptors with overlapping fields and differential readout allows triangulation of an electric dipole source — pinpointing the precise location of a bioelectric signal without any emitted signal from the detector itself."
 source_url  = "https://asknature.org/strategy/bill-detects-electric-fields/"
 +++

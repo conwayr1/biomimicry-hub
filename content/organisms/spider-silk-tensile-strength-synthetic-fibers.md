@@ -1,7 +1,7 @@
 +++
 title       = "How Golden silk orb-weaver spider Inspired Synthetic Spider Silk"
 description = "How the golden silk orb-weaver spider inspired synthetic spider silk — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "spider-silk-tensile-strength-synthetic-fibers"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Nephila clavipes"
 habitat     = "Tropical and subtropical forests worldwide"
 taxonomy_group = "Make"
 industries  = ["materials science", "medical devices", "defense", "textiles"]
-related_slugs = ["bone-hierarchical-composite-aerospace-materials", "thorny-devil-capillary-wicking-microfluidic-chips", "lotus-leaf-self-cleaning-superhydrophobic", "lily-pad-ribbed-structure-lightweight-architecture"]
+related_slugs = ["sandcastle-worm-underwater-adhesive-surgical-glue", "hagfish-slime-fiber-protective-materials", "fire-ant-raft-self-assembling-modular-robotics", "diatom-silica-frustule-nanofabrication-templates"]
 key_principle = "Beta-sheet protein nanocrystals embedded in an amorphous matrix create a hierarchical structure that is simultaneously stiff (crystalline regions) and flexible (amorphous regions), dissipating energy without fracture."
 source_url  = "https://asknature.org/strategy/silk-is-stronger-than-steel/"
 +++

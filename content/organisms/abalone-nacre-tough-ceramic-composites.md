@@ -1,7 +1,7 @@
 +++
 title       = "How Abalone shell Inspired Ultra-tough Ceramic Composites"
 description = "How the abalone shell inspired ultra-tough ceramic composites — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "abalone-nacre-tough-ceramic-composites"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Haliotis rufescens"
 habitat     = "Rocky kelp forest habitats of the California coast"
 taxonomy_group = "Protect"
 industries  = ["defense", "medical devices", "materials science"]
-related_slugs = ["mantis-shrimp-helicoidal-impact-resistant-composites", "lotus-leaf-self-cleaning-superhydrophobic", "bombardier-beetle-pulsed-combustion-drug-injection", "woodpecker-skull-shock-absorption-helmets"]
+related_slugs = ["seahorse-tail-flexible-armor-surgical-robotics", "hagfish-slime-fiber-protective-materials", "mantis-shrimp-helicoidal-impact-resistant-composites", "lotus-leaf-self-cleaning-superhydrophobic"]
 key_principle = "Arranging brittle platelets in a staggered, brick-and-mortar architecture with compliant organic mortar forces cracks to deflect at every platelet interface, spreading fracture energy over an enormous surface area."
 source_url  = "https://asknature.org/strategy/shell-is-extremely-tough/"
 +++

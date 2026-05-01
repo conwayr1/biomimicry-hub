@@ -1,12 +1,12 @@
 {
   "meta": {
-    "strategy_count": 57,
+    "strategy_count": 82,
     "page_counts": {
-      "organism": 57,
+      "organism": 82,
       "function": 7,
-      "industry": 20,
+      "industry": 21,
       "list": 12,
-      "total": 96
+      "total": 122
     }
   },
   "pages": [
@@ -935,6 +935,430 @@
       "description": "How the saharan silver ant inspired passive radiative cooling materials — the biological mechanism, the engineering principle, and real-world applications."
     },
     {
+      "page_type": "organism",
+      "keyword": "how common octopus inspired adaptive camouflage and flexible displays",
+      "title": "How Common octopus Inspired Adaptive Camouflage and Flexible Displays",
+      "slug": "octopus-chromatophores-adaptive-camouflage-displays",
+      "strategy_ids": [
+        58
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "electronics",
+        "defense",
+        "robotics",
+        "textiles"
+      ],
+      "description": "How the common octopus inspired adaptive camouflage and flexible displays — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how toco toucan inspired lightweight thermal management panels",
+      "title": "How Toco toucan Inspired Lightweight Thermal Management Panels",
+      "slug": "toucan-beak-thermal-radiator-heat-management",
+      "strategy_ids": [
+        59
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "electronics",
+        "architecture",
+        "aerospace",
+        "energy"
+      ],
+      "description": "How the toco toucan inspired lightweight thermal management panels — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how polar bear inspired fiber-optic solar collectors",
+      "title": "How Polar bear Inspired Fiber-optic Solar Collectors",
+      "slug": "polar-bear-fur-solar-collector-thermal-insulation",
+      "strategy_ids": [
+        60
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "energy",
+        "architecture",
+        "textiles",
+        "materials science"
+      ],
+      "description": "How the polar bear inspired fiber-optic solar collectors — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how common firefly inspired high-efficiency LED coatings",
+      "title": "How Common firefly Inspired High-efficiency LED Coatings",
+      "slug": "firefly-bioluminescence-efficient-led-lighting",
+      "strategy_ids": [
+        61
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "energy",
+        "electronics",
+        "medical devices",
+        "biotechnology"
+      ],
+      "description": "How the common firefly inspired high-efficiency LED coatings — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how moth inspired anti-reflective surface coatings",
+      "title": "How Moth Inspired Anti-reflective Surface Coatings",
+      "slug": "moth-eye-nanostructure-anti-reflective-coating",
+      "strategy_ids": [
+        62
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "energy",
+        "electronics",
+        "materials science",
+        "optics"
+      ],
+      "description": "How the moth inspired anti-reflective surface coatings — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how ruby-throated hummingbird inspired hovering micro air vehicles",
+      "title": "How Ruby-throated hummingbird Inspired Hovering Micro Air Vehicles",
+      "slug": "hummingbird-hovering-flight-micro-air-vehicles",
+      "strategy_ids": [
+        63
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "aerospace",
+        "robotics",
+        "defense"
+      ],
+      "description": "How the ruby-throated hummingbird inspired hovering micro air vehicles — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how physarum polycephalum inspired network optimization algorithms",
+      "title": "How Physarum polycephalum Inspired Network Optimization Algorithms",
+      "slug": "slime-mold-network-optimization-distributed-computing",
+      "strategy_ids": [
+        64
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "computing",
+        "transportation",
+        "logistics",
+        "environmental technology"
+      ],
+      "description": "How the physarum polycephalum inspired network optimization algorithms — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how fire ant inspired self-assembling modular robotics",
+      "title": "How Fire ant Inspired Self-assembling Modular Robotics",
+      "slug": "fire-ant-raft-self-assembling-modular-robotics",
+      "strategy_ids": [
+        65
+      ],
+      "taxonomy_group": "Make",
+      "industries": [
+        "robotics",
+        "materials science",
+        "architecture",
+        "defense"
+      ],
+      "description": "How the fire ant inspired self-assembling modular robotics — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how lined seahorse inspired flexible protective armor",
+      "title": "How Lined seahorse Inspired Flexible Protective Armor",
+      "slug": "seahorse-tail-flexible-armor-surgical-robotics",
+      "strategy_ids": [
+        66
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "defense",
+        "medical devices",
+        "robotics",
+        "materials science"
+      ],
+      "description": "How the lined seahorse inspired flexible protective armor — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how whale shark inspired self-cleaning water filtration membranes",
+      "title": "How Whale shark Inspired Self-cleaning Water Filtration Membranes",
+      "slug": "whale-shark-crossflow-filtration-water-treatment",
+      "strategy_ids": [
+        67
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "water",
+        "environmental technology",
+        "food science",
+        "marine engineering"
+      ],
+      "description": "How the whale shark inspired self-cleaning water filtration membranes — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how sandcastle worm inspired underwater surgical adhesives",
+      "title": "How Sandcastle worm Inspired Underwater Surgical Adhesives",
+      "slug": "sandcastle-worm-underwater-adhesive-surgical-glue",
+      "strategy_ids": [
+        68
+      ],
+      "taxonomy_group": "Make",
+      "industries": [
+        "medical devices",
+        "marine engineering",
+        "construction",
+        "materials science"
+      ],
+      "description": "How the sandcastle worm inspired underwater surgical adhesives — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how hagfish inspired ultra-strong lightweight fibres",
+      "title": "How Hagfish Inspired Ultra-strong Lightweight Fibres",
+      "slug": "hagfish-slime-fiber-protective-materials",
+      "strategy_ids": [
+        69
+      ],
+      "taxonomy_group": "Protect",
+      "industries": [
+        "defense",
+        "materials science",
+        "medical devices",
+        "textiles"
+      ],
+      "description": "How the hagfish inspired ultra-strong lightweight fibres — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how marine diatom inspired nanofabrication templates",
+      "title": "How Marine diatom Inspired Nanofabrication Templates",
+      "slug": "diatom-silica-frustule-nanofabrication-templates",
+      "strategy_ids": [
+        70
+      ],
+      "taxonomy_group": "Make",
+      "industries": [
+        "electronics",
+        "medical devices",
+        "materials science",
+        "energy"
+      ],
+      "description": "How the marine diatom inspired nanofabrication templates — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how maple tree inspired single-wing micro air vehicles",
+      "title": "How Maple tree Inspired Single-wing Micro Air Vehicles",
+      "slug": "maple-samara-autorotation-micro-air-vehicles",
+      "strategy_ids": [
+        71
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "aerospace",
+        "robotics",
+        "defense",
+        "energy"
+      ],
+      "description": "How the maple tree inspired single-wing micro air vehicles — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how nautilus inspired deep-sea pressure vessel design",
+      "title": "How Nautilus Inspired Deep-sea Pressure Vessel Design",
+      "slug": "nautilus-shell-pressure-vessel-buoyancy-design",
+      "strategy_ids": [
+        72
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "marine engineering",
+        "aerospace",
+        "architecture",
+        "materials science"
+      ],
+      "description": "How the nautilus inspired deep-sea pressure vessel design — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how rattlesnake inspired ultra-sensitive infrared sensors",
+      "title": "How Rattlesnake Inspired Ultra-sensitive Infrared Sensors",
+      "slug": "rattlesnake-pit-organ-infrared-sensor-thermal-camera",
+      "strategy_ids": [
+        73
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "defense",
+        "medical devices",
+        "electronics",
+        "energy"
+      ],
+      "description": "How the rattlesnake inspired ultra-sensitive infrared sensors — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how leaf venation inspired efficient heat exchanger networks",
+      "title": "How Leaf venation Inspired Efficient Heat Exchanger Networks",
+      "slug": "leaf-venation-network-heat-exchanger-microfluidics",
+      "strategy_ids": [
+        74
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "energy",
+        "electronics",
+        "architecture",
+        "computing"
+      ],
+      "description": "How the leaf venation inspired efficient heat exchanger networks — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how american crocodile inspired distributed pressure-sensing robotic skin",
+      "title": "How American crocodile Inspired Distributed Pressure-sensing Robotic Skin",
+      "slug": "crocodile-skin-pressure-sensors-soft-robotics",
+      "strategy_ids": [
+        75
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "robotics",
+        "medical devices",
+        "marine engineering",
+        "defense"
+      ],
+      "description": "How the american crocodile inspired distributed pressure-sensing robotic skin — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how bactrian camel inspired passive building thermal management",
+      "title": "How Bactrian camel Inspired Passive Building Thermal Management",
+      "slug": "camel-thermoregulation-passive-building-cooling",
+      "strategy_ids": [
+        76
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "architecture",
+        "energy",
+        "medical devices",
+        "textiles"
+      ],
+      "description": "How the bactrian camel inspired passive building thermal management — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how emperor penguin inspired collective thermal management systems",
+      "title": "How Emperor penguin Inspired Collective Thermal Management Systems",
+      "slug": "penguin-huddle-collective-thermal-management",
+      "strategy_ids": [
+        77
+      ],
+      "taxonomy_group": "Process",
+      "industries": [
+        "energy",
+        "computing",
+        "robotics",
+        "architecture"
+      ],
+      "description": "How the emperor penguin inspired collective thermal management systems — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how mycorrhizal fungi network inspired decentralized mesh communication networks",
+      "title": "How Mycorrhizal fungi network Inspired Decentralized Mesh Communication Networks",
+      "slug": "mycorrhizal-network-distributed-computing-internet",
+      "strategy_ids": [
+        78
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "computing",
+        "environmental technology",
+        "agriculture",
+        "logistics"
+      ],
+      "description": "How the mycorrhizal fungi network inspired decentralized mesh communication networks — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how starling murmuration inspired autonomous drone swarm coordination",
+      "title": "How Starling murmuration Inspired Autonomous Drone Swarm Coordination",
+      "slug": "starling-murmuration-swarm-robotics-autonomous-drones",
+      "strategy_ids": [
+        79
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "robotics",
+        "transportation",
+        "computing",
+        "defense"
+      ],
+      "description": "How the starling murmuration inspired autonomous drone swarm coordination — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how tardigrade inspired room-temperature vaccine storage",
+      "title": "How Tardigrade Inspired Room-temperature Vaccine Storage",
+      "slug": "tardigrade-cryptobiosis-vaccine-storage-radiation",
+      "strategy_ids": [
+        80
+      ],
+      "taxonomy_group": "Modify",
+      "industries": [
+        "biotechnology",
+        "medical devices",
+        "defense",
+        "food science"
+      ],
+      "description": "How the tardigrade inspired room-temperature vaccine storage — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how veiled chameleon inspired electrochromic smart windows",
+      "title": "How Veiled chameleon Inspired Electrochromic Smart Windows",
+      "slug": "chameleon-photonic-crystal-smart-windows-camouflage",
+      "strategy_ids": [
+        81
+      ],
+      "taxonomy_group": "Sense",
+      "industries": [
+        "architecture",
+        "defense",
+        "electronics",
+        "materials science"
+      ],
+      "description": "How the veiled chameleon inspired electrochromic smart windows — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
+      "page_type": "organism",
+      "keyword": "how african elephant inspired soft robotic arms",
+      "title": "How African elephant Inspired Soft Robotic Arms",
+      "slug": "elephant-trunk-soft-robotics-flexible-manipulation",
+      "strategy_ids": [
+        82
+      ],
+      "taxonomy_group": "Move",
+      "industries": [
+        "robotics",
+        "medical devices",
+        "manufacturing",
+        "aerospace"
+      ],
+      "description": "How the african elephant inspired soft robotic arms — the biological mechanism, the engineering principle, and real-world applications."
+    },
+    {
       "page_type": "function",
       "keyword": "biomimicry for adhesion and attachment",
       "title": "Biomimicry for Adhesion And Attachment: How Nature Solves the Problem",
@@ -961,11 +1385,14 @@
         25,
         26,
         36,
-        41
+        41,
+        65,
+        68,
+        70
       ],
       "taxonomy_group": "Make",
       "industries": [],
-      "description": "How nature's materials and manufacturing strategies have inspired engineering solutions — 6 biological examples with real-world applications."
+      "description": "How nature's materials and manufacturing strategies have inspired engineering solutions — 9 biological examples with real-world applications."
     },
     {
       "page_type": "function",
@@ -975,11 +1402,12 @@
       "strategy_ids": [
         14,
         40,
-        42
+        42,
+        80
       ],
       "taxonomy_group": "Modify",
       "industries": [],
-      "description": "How nature's shape-changing and adaptation strategies have inspired engineering solutions — 3 biological examples with real-world applications."
+      "description": "How nature's shape-changing and adaptation strategies have inspired engineering solutions — 4 biological examples with real-world applications."
     },
     {
       "page_type": "function",
@@ -996,11 +1424,16 @@
         35,
         45,
         50,
-        53
+        53,
+        63,
+        71,
+        72,
+        79,
+        82
       ],
       "taxonomy_group": "Move",
       "industries": [],
-      "description": "How nature's movement and locomotion strategies have inspired engineering solutions — 10 biological examples with real-world applications."
+      "description": "How nature's movement and locomotion strategies have inspired engineering solutions — 15 biological examples with real-world applications."
     },
     {
       "page_type": "function",
@@ -1018,11 +1451,17 @@
         46,
         48,
         52,
-        56
+        56,
+        59,
+        60,
+        67,
+        74,
+        76,
+        77
       ],
       "taxonomy_group": "Process",
       "industries": [],
-      "description": "How nature's resource processing and efficiency strategies have inspired engineering solutions — 11 biological examples with real-world applications."
+      "description": "How nature's resource processing and efficiency strategies have inspired engineering solutions — 17 biological examples with real-world applications."
     },
     {
       "page_type": "function",
@@ -1038,11 +1477,13 @@
         30,
         37,
         49,
-        57
+        57,
+        66,
+        69
       ],
       "taxonomy_group": "Protect",
       "industries": [],
-      "description": "How nature's protection and defense strategies have inspired engineering solutions — 9 biological examples with real-world applications."
+      "description": "How nature's protection and defense strategies have inspired engineering solutions — 11 biological examples with real-world applications."
     },
     {
       "page_type": "function",
@@ -1062,11 +1503,19 @@
         44,
         51,
         54,
-        55
+        55,
+        58,
+        61,
+        62,
+        64,
+        73,
+        75,
+        78,
+        81
       ],
       "taxonomy_group": "Sense",
       "industries": [],
-      "description": "How nature's sensing and navigation strategies have inspired engineering solutions — 13 biological examples with real-world applications."
+      "description": "How nature's sensing and navigation strategies have inspired engineering solutions — 21 biological examples with real-world applications."
     },
     {
       "page_type": "industry",
@@ -1098,13 +1547,138 @@
         52,
         54,
         55,
-        56
+        56,
+        61,
+        66,
+        68,
+        69,
+        70,
+        73,
+        75,
+        76,
+        80,
+        82
       ],
       "taxonomy_group": null,
       "industries": [
         "medical devices"
       ],
-      "description": "How nature is transforming medical devices and healthcare — 25 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming medical devices and healthcare — 35 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in robotics",
+      "title": "Biomimicry in Robotics: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-robotics",
+      "strategy_ids": [
+        1,
+        14,
+        17,
+        19,
+        22,
+        24,
+        29,
+        32,
+        35,
+        39,
+        40,
+        44,
+        47,
+        51,
+        52,
+        53,
+        55,
+        58,
+        63,
+        65,
+        66,
+        71,
+        75,
+        77,
+        79,
+        82
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "robotics"
+      ],
+      "description": "How nature is transforming robotics — 26 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in materials science",
+      "title": "Biomimicry in Materials Science: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-materials-science",
+      "strategy_ids": [
+        1,
+        2,
+        6,
+        8,
+        12,
+        13,
+        18,
+        26,
+        30,
+        34,
+        36,
+        41,
+        47,
+        54,
+        56,
+        57,
+        60,
+        62,
+        65,
+        66,
+        68,
+        69,
+        70,
+        72,
+        81
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "materials science"
+      ],
+      "description": "How nature is transforming materials science — 25 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in defense and security",
+      "title": "Biomimicry in Defense and Security: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-defense-and-security",
+      "strategy_ids": [
+        6,
+        15,
+        16,
+        18,
+        19,
+        24,
+        30,
+        32,
+        33,
+        39,
+        45,
+        51,
+        53,
+        55,
+        58,
+        63,
+        65,
+        66,
+        69,
+        71,
+        73,
+        75,
+        79,
+        80,
+        81
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "defense"
+      ],
+      "description": "How nature is transforming defense and security — 25 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
@@ -1130,99 +1704,18 @@
         36,
         41,
         45,
-        53
+        53,
+        59,
+        63,
+        71,
+        72,
+        82
       ],
       "taxonomy_group": null,
       "industries": [
         "aerospace"
       ],
-      "description": "How nature is transforming aerospace engineering — 19 biomimicry examples with real-world products and research."
-    },
-    {
-      "page_type": "industry",
-      "keyword": "biomimicry in robotics",
-      "title": "Biomimicry in Robotics: Nature-Inspired Solutions",
-      "slug": "biomimicry-in-robotics",
-      "strategy_ids": [
-        1,
-        14,
-        17,
-        19,
-        22,
-        24,
-        29,
-        32,
-        35,
-        39,
-        40,
-        44,
-        47,
-        51,
-        52,
-        53,
-        55
-      ],
-      "taxonomy_group": null,
-      "industries": [
-        "robotics"
-      ],
-      "description": "How nature is transforming robotics — 17 biomimicry examples with real-world products and research."
-    },
-    {
-      "page_type": "industry",
-      "keyword": "biomimicry in materials science",
-      "title": "Biomimicry in Materials Science: Nature-Inspired Solutions",
-      "slug": "biomimicry-in-materials-science",
-      "strategy_ids": [
-        1,
-        2,
-        6,
-        8,
-        12,
-        13,
-        18,
-        26,
-        30,
-        34,
-        36,
-        41,
-        47,
-        54,
-        56,
-        57
-      ],
-      "taxonomy_group": null,
-      "industries": [
-        "materials science"
-      ],
-      "description": "How nature is transforming materials science — 16 biomimicry examples with real-world products and research."
-    },
-    {
-      "page_type": "industry",
-      "keyword": "biomimicry in defense and security",
-      "title": "Biomimicry in Defense and Security: Nature-Inspired Solutions",
-      "slug": "biomimicry-in-defense-and-security",
-      "strategy_ids": [
-        6,
-        15,
-        16,
-        18,
-        19,
-        24,
-        30,
-        32,
-        33,
-        39,
-        45,
-        51,
-        53,
-        55
-      ],
-      "taxonomy_group": null,
-      "industries": [
-        "defense"
-      ],
-      "description": "How nature is transforming defense and security — 14 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming aerospace engineering — 24 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
@@ -1242,13 +1735,22 @@
         41,
         46,
         48,
-        57
+        57,
+        59,
+        60,
+        65,
+        68,
+        72,
+        74,
+        76,
+        77,
+        81
       ],
       "taxonomy_group": null,
       "industries": [
         "architecture"
       ],
-      "description": "How nature is transforming architecture and construction — 13 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming architecture and construction — 22 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
@@ -1264,13 +1766,23 @@
         27,
         43,
         52,
-        57
+        57,
+        59,
+        60,
+        61,
+        62,
+        70,
+        71,
+        73,
+        74,
+        76,
+        77
       ],
       "taxonomy_group": null,
       "industries": [
         "energy"
       ],
-      "description": "How nature is transforming energy — 9 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming energy — 19 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
@@ -1285,13 +1797,65 @@
         9,
         14,
         22,
-        56
+        56,
+        58,
+        60,
+        69,
+        76
       ],
       "taxonomy_group": null,
       "industries": [
         "textiles"
       ],
-      "description": "How nature is transforming textiles and wearables — 8 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming textiles and wearables — 12 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in electronics and displays",
+      "title": "Biomimicry in Electronics and Displays: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-electronics-and-displays",
+      "strategy_ids": [
+        8,
+        22,
+        28,
+        54,
+        58,
+        59,
+        61,
+        62,
+        70,
+        73,
+        74,
+        81
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "electronics"
+      ],
+      "description": "How nature is transforming electronics and displays — 12 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in marine engineering",
+      "title": "Biomimicry in Marine Engineering: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-marine-engineering",
+      "strategy_ids": [
+        10,
+        11,
+        20,
+        23,
+        33,
+        50,
+        67,
+        68,
+        72,
+        75
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "marine engineering"
+      ],
+      "description": "How nature is transforming marine engineering — 10 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
@@ -1305,32 +1869,15 @@
         32,
         44,
         49,
-        51
+        51,
+        64,
+        79
       ],
       "taxonomy_group": null,
       "industries": [
         "transportation"
       ],
-      "description": "How nature is transforming transportation — 7 biomimicry examples with real-world products and research."
-    },
-    {
-      "page_type": "industry",
-      "keyword": "biomimicry in marine engineering",
-      "title": "Biomimicry in Marine Engineering: Nature-Inspired Solutions",
-      "slug": "biomimicry-in-marine-engineering",
-      "strategy_ids": [
-        10,
-        11,
-        20,
-        23,
-        33,
-        50
-      ],
-      "taxonomy_group": null,
-      "industries": [
-        "marine engineering"
-      ],
-      "description": "How nature is transforming marine engineering — 6 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming transportation — 9 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
@@ -1343,13 +1890,16 @@
         34,
         37,
         43,
-        48
+        48,
+        64,
+        67,
+        78
       ],
       "taxonomy_group": null,
       "industries": [
         "environmental technology"
       ],
-      "description": "How nature is transforming environmental technology — 6 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming environmental technology — 9 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
@@ -1362,13 +1912,15 @@
         34,
         38,
         42,
-        48
+        48,
+        61,
+        80
       ],
       "taxonomy_group": null,
       "industries": [
         "biotechnology"
       ],
-      "description": "How nature is transforming biotechnology — 6 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming biotechnology — 8 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
@@ -1380,30 +1932,33 @@
         23,
         43,
         46,
-        56
+        56,
+        67
       ],
       "taxonomy_group": null,
       "industries": [
         "water"
       ],
-      "description": "How nature is transforming water technology — 5 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming water technology — 6 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
-      "keyword": "biomimicry in electronics and displays",
-      "title": "Biomimicry in Electronics and Displays: Nature-Inspired Solutions",
-      "slug": "biomimicry-in-electronics-and-displays",
+      "keyword": "biomimicry in computing and ai",
+      "title": "Biomimicry in Computing and AI: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-computing-and-ai",
       "strategy_ids": [
-        8,
-        22,
-        28,
-        54
+        44,
+        64,
+        74,
+        77,
+        78,
+        79
       ],
       "taxonomy_group": null,
       "industries": [
-        "electronics"
+        "computing"
       ],
-      "description": "How nature is transforming electronics and displays — 4 biomimicry examples with real-world products and research."
+      "description": "How nature is transforming computing and ai — 6 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "industry",
@@ -1424,6 +1979,57 @@
     },
     {
       "page_type": "industry",
+      "keyword": "biomimicry in manufacturing",
+      "title": "Biomimicry in Manufacturing: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-manufacturing",
+      "strategy_ids": [
+        17,
+        28,
+        50,
+        82
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "manufacturing"
+      ],
+      "description": "How nature is transforming manufacturing — 4 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in agriculture",
+      "title": "Biomimicry in Agriculture: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-agriculture",
+      "strategy_ids": [
+        19,
+        24,
+        25,
+        78
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "agriculture"
+      ],
+      "description": "How nature is transforming agriculture — 4 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
+      "keyword": "biomimicry in food science",
+      "title": "Biomimicry in Food Science: Nature-Inspired Solutions",
+      "slug": "biomimicry-in-food-science",
+      "strategy_ids": [
+        25,
+        38,
+        67,
+        80
+      ],
+      "taxonomy_group": null,
+      "industries": [
+        "food science"
+      ],
+      "description": "How nature is transforming food science — 4 biomimicry examples with real-world products and research."
+    },
+    {
+      "page_type": "industry",
       "keyword": "biomimicry in sports equipment",
       "title": "Biomimicry in Sports Equipment: Nature-Inspired Solutions",
       "slug": "biomimicry-in-sports-equipment",
@@ -1440,38 +2046,6 @@
     },
     {
       "page_type": "industry",
-      "keyword": "biomimicry in manufacturing",
-      "title": "Biomimicry in Manufacturing: Nature-Inspired Solutions",
-      "slug": "biomimicry-in-manufacturing",
-      "strategy_ids": [
-        17,
-        28,
-        50
-      ],
-      "taxonomy_group": null,
-      "industries": [
-        "manufacturing"
-      ],
-      "description": "How nature is transforming manufacturing — 3 biomimicry examples with real-world products and research."
-    },
-    {
-      "page_type": "industry",
-      "keyword": "biomimicry in agriculture",
-      "title": "Biomimicry in Agriculture: Nature-Inspired Solutions",
-      "slug": "biomimicry-in-agriculture",
-      "strategy_ids": [
-        19,
-        24,
-        25
-      ],
-      "taxonomy_group": null,
-      "industries": [
-        "agriculture"
-      ],
-      "description": "How nature is transforming agriculture — 3 biomimicry examples with real-world products and research."
-    },
-    {
-      "page_type": "industry",
       "keyword": "biomimicry in consumer products",
       "title": "Biomimicry in Consumer Products: Nature-Inspired Solutions",
       "slug": "biomimicry-in-consumer-products",
@@ -1484,21 +2058,6 @@
         "consumer products"
       ],
       "description": "How nature is transforming consumer products — 2 biomimicry examples with real-world products and research."
-    },
-    {
-      "page_type": "industry",
-      "keyword": "biomimicry in food science",
-      "title": "Biomimicry in Food Science: Nature-Inspired Solutions",
-      "slug": "biomimicry-in-food-science",
-      "strategy_ids": [
-        25,
-        38
-      ],
-      "taxonomy_group": null,
-      "industries": [
-        "food science"
-      ],
-      "description": "How nature is transforming food science — 2 biomimicry examples with real-world products and research."
     },
     {
       "page_type": "list",
@@ -1612,14 +2171,15 @@
     {
       "page_type": "list",
       "keyword": "nature-inspired water solutions biomimicry",
-      "title": "Nature-Inspired Water Solutions: 5 Biomimicry Examples",
+      "title": "Nature-Inspired Water Solutions: 6 Biomimicry Examples",
       "slug": "nature-inspired-water-solutions",
       "strategy_ids": [
         12,
         23,
         43,
         46,
-        56
+        56,
+        67
       ],
       "taxonomy_group": null,
       "industries": [
@@ -1662,7 +2222,7 @@
     {
       "page_type": "list",
       "keyword": "nature-inspired structural materials",
-      "title": "6 Nature-Inspired Structural Materials",
+      "title": "7 Nature-Inspired Structural Materials",
       "slug": "nature-inspired-structural-materials",
       "strategy_ids": [
         6,
@@ -1670,7 +2230,8 @@
         25,
         26,
         36,
-        41
+        41,
+        65
       ],
       "taxonomy_group": "Make",
       "industries": [],

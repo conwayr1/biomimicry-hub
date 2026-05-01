@@ -1,7 +1,7 @@
 +++
 title       = "How Glass sponge Inspired Diagonal-braced Structural Lattices"
 description = "How the glass sponge inspired diagonal-braced structural lattices — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "glass-sponge-lattice-skyscraper-diagonal-bracing"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Euplectella aspergillum"
 habitat     = "Deep ocean floor, 100-1000m depth, Indo-Pacific"
 taxonomy_group = "Make"
 industries  = ["architecture", "materials science", "aerospace"]
-related_slugs = ["lily-pad-ribbed-structure-lightweight-architecture", "honeycomb-structure-aerospace-lightweight-panels", "bone-hierarchical-composite-aerospace-materials", "spider-silk-tensile-strength-synthetic-fibers"]
+related_slugs = ["lily-pad-ribbed-structure-lightweight-architecture", "honeycomb-structure-aerospace-lightweight-panels", "fire-ant-raft-self-assembling-modular-robotics", "bone-hierarchical-composite-aerospace-materials"]
 key_principle = "Diagonal bracing of a square lattice — a checkerboard of X-braces — is the most material-efficient way to resist shear forces in a lightweight structure, a principle the sponge evolved before engineers derived it mathematically."
 source_url  = "https://asknature.org/strategy/skeleton-resists-twisting-and-bending/"
 +++

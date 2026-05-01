@@ -1,7 +1,7 @@
 +++
 title       = "How Sea snail Inspired Viscoelastic Reversible Adhesives"
 description = "How the sea snail inspired viscoelastic reversible adhesives — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "sea-snail-mucus-viscoelastic-adhesive-climbing-robots"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Cyphoma gibbosum"
 habitat     = "Caribbean coral reefs"
 taxonomy_group = "Attach"
 industries  = ["robotics", "medical devices", "materials science"]
-related_slugs = ["gecko-adhesion-dry-adhesives", "tree-frog-wet-adhesion-surgical-robots", "mussel-adhesive-proteins-underwater-surgical-glue", "cocklebur-velcro-hook-loop-fastening"]
+related_slugs = ["gecko-adhesion-dry-adhesives", "tree-frog-wet-adhesion-surgical-robots", "seahorse-tail-flexible-armor-surgical-robotics", "mussel-adhesive-proteins-underwater-surgical-glue"]
 key_principle = "A viscoelastic fluid that behaves as a solid under slow shear (preventing sliding) but flows under fast peel (enabling clean release) creates an ideal reversible adhesive — tunable simply by adjusting polymer chain length and density."
 source_url  = "https://asknature.org/strategy/mucus-enables-movement-on-vertical-surfaces/"
 +++

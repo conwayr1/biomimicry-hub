@@ -1,7 +1,7 @@
 +++
 title       = "How Peregrine falcon Inspired Jet Engine Air Intakes"
 description = "How the peregrine falcon inspired jet engine air intakes — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "peregrine-falcon-nostril-jet-engine-intake"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Falco peregrinus"
 habitat     = "Every continent except Antarctica; nests on cliff faces and tall buildings"
 taxonomy_group = "Move"
 industries  = ["aerospace", "energy"]
-related_slugs = ["humpback-whale-tubercles-wind-turbines", "venus-flytrap-snap-through-soft-robotics", "shark-skin-denticles-drag-reduction", "kingfisher-beak-shinkansen-bullet-train"]
+related_slugs = ["maple-samara-autorotation-micro-air-vehicles", "humpback-whale-tubercles-wind-turbines", "venus-flytrap-snap-through-soft-robotics", "shark-skin-denticles-drag-reduction"]
 key_principle = "A precisely shaped internal baffle or spiral ridge redirects high-velocity airflow to reduce dynamic pressure at the intake, preventing compressor surge without restricting overall airflow."
 source_url  = "https://asknature.org/strategy/nostril-tubercles-manage-airflow/"
 +++

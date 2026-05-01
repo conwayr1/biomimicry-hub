@@ -1,7 +1,7 @@
 +++
 title       = "How Bombardier Beetles Inspired Precision Drug Delivery"
 description = "How the bombardier beetle inspired pulsed combustion and drug injection — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "bombardier-beetle-pulsed-combustion-drug-injection"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Brachinus crepitans"
 habitat     = "Meadows, gardens, and woodland edges across Europe and Asia"
 taxonomy_group = "Protect"
 industries  = ["medical devices", "energy", "defense"]
-related_slugs = ["abalone-nacre-tough-ceramic-composites", "woodpecker-skull-shock-absorption-helmets", "silver-ant-hairs-radiative-cooling-building-materials", "pitcher-plant-slippery-surface-slips-coating"]
+related_slugs = ["seahorse-tail-flexible-armor-surgical-robotics", "hagfish-slime-fiber-protective-materials", "abalone-nacre-tough-ceramic-composites", "woodpecker-skull-shock-absorption-helmets"]
 key_principle = "Rapid, pulsed mixing of two reactive chemicals in a catalyst-lined chamber produces a high-pressure, high-temperature output — a micro-scale pulse jet that is more efficient than continuous-flow equivalents."
 source_url  = "https://asknature.org/strategy/bombardier-beetle-sprays-hot-chemical-mixture/"
 +++

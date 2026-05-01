@@ -1,7 +1,7 @@
 +++
 title       = "How Lichen Inspired Living Building Materials and Biocement"
 description = "How the lichen inspired living building materials and biocement — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "lichen-symbiosis-biocement-living-building-materials"
 type        = "organisms"
 kingdom     = "Fungi"
@@ -9,7 +9,7 @@ organism_scientific = "Cladonia rangiferina"
 habitat     = "Arctic tundra, exposed rock faces worldwide"
 taxonomy_group = "Process"
 industries  = ["environmental technology", "construction", "biotechnology"]
-related_slugs = ["osedax-worm-symbiotic-digestion-bioprocessing", "wood-frog-freeze-tolerance-cryopreservation", "mangrove-root-aquaporin-desalination-membranes", "basking-shark-gill-rakers-water-filtration"]
+related_slugs = ["osedax-worm-symbiotic-digestion-bioprocessing", "wood-frog-freeze-tolerance-cryopreservation", "whale-shark-crossflow-filtration-water-treatment", "mangrove-root-aquaporin-desalination-membranes"]
 key_principle = "Pairing organisms with complementary metabolisms in a single composite organism creates a unit that exceeds what either could do alone — a template for engineering mutualistic microbial consortia for industrial bioprocessing."
 source_url  = "https://asknature.org/strategy/lichen-colonizes-bare-rock/"
 +++

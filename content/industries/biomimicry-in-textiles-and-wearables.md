@@ -1,18 +1,18 @@
 +++
 title       = "Biomimicry in Textiles and Wearables: Nature-Inspired Solutions"
-description = "How nature is transforming textiles and wearables — 8 biomimicry examples with real-world products and research. Thermoregulation and structural colour woven into next-generation fabrics."
-date        = "2026-04-18"
+description = "How nature is transforming textiles and wearables — 12 biomimicry examples with real-world products and research. Thermoregulation and structural colour..."
+date        = "2026-04-29"
 slug        = "biomimicry-in-textiles-and-wearables"
 type        = "industries"
 industries  = ["textiles"]
-strategy_slugs = ["lotus-leaf-self-cleaning-superhydrophobic", "shark-skin-denticles-drag-reduction", "spider-silk-tensile-strength-synthetic-fibers", "morpho-butterfly-structural-color-anti-counterfeiting", "cocklebur-velcro-hook-loop-fastening", "pinecone-humidity-responsive-adaptive-facades", "cuttlefish-color-changing-skin-flexible-displays", "thorny-devil-capillary-wicking-microfluidic-chips"]
+strategy_slugs = ["lotus-leaf-self-cleaning-superhydrophobic", "shark-skin-denticles-drag-reduction", "spider-silk-tensile-strength-synthetic-fibers", "morpho-butterfly-structural-color-anti-counterfeiting", "cocklebur-velcro-hook-loop-fastening", "pinecone-humidity-responsive-adaptive-facades", "cuttlefish-color-changing-skin-flexible-displays", "thorny-devil-capillary-wicking-microfluidic-chips", "octopus-chromatophores-adaptive-camouflage-displays", "polar-bear-fur-solar-collector-thermal-insulation", "hagfish-slime-fiber-protective-materials", "camel-thermoregulation-passive-building-cooling"]
 +++
 
 ## Why Textiles Needs Nature
 
 Biomimicry is producing significant advances in textiles.
 
-This page documents **8 biological strategies** with direct relevance to
+This page documents **12 biological strategies** with direct relevance to
 textiles. Each links to a full organism page with the biological mechanism,
 the engineering principle, and the products or research that have already emerged.
 

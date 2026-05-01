@@ -1,7 +1,7 @@
 +++
 title       = "How the Namibian Beetle Inspired Fog-harvesting Design"
 description = "How the namibian fog-basking beetle inspired fog-harvesting water collection — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "namibian-beetle-fog-collection-water-harvesting"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Stenocara gracilipes"
 habitat     = "Namib Desert, southwestern Africa"
 taxonomy_group = "Process"
 industries  = ["water", "architecture", "materials science", "humanitarian technology"]
-related_slugs = ["thorny-devil-capillary-wicking-microfluidic-chips", "baobab-water-storage-evaporative-cooling-architecture", "termite-mound-passive-ventilation-architecture", "saguaro-cactus-pleated-structure-expandable-design"]
+related_slugs = ["thorny-devil-capillary-wicking-microfluidic-chips", "polar-bear-fur-solar-collector-thermal-insulation", "baobab-water-storage-evaporative-cooling-architecture", "whale-shark-crossflow-filtration-water-treatment"]
 key_principle = "Patterning surfaces with alternating wettability — hydrophilic nucleation sites and hydrophobic transport channels — passively collects and channels atmospheric water without energy input."
 source_url  = "https://asknature.org/strategy/fog-basking-collects-water/"
 +++

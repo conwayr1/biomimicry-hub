@@ -1,7 +1,7 @@
 +++
 title       = "How Dinoflagellates Inspired Efficient Cold-light Lighting"
-description = "How the bioluminescent dinoflagellate inspired high-efficiency bioluminescent lighting — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+description = "How the bioluminescent dinoflagellate inspired high-efficiency bioluminescent lighting — the biological mechanism, the engineering principle, and real-world..."
+date        = "2026-04-29"
 slug        = "dinoflagellate-bioluminescence-efficient-lighting"
 type        = "organisms"
 kingdom     = "Protist"
@@ -9,7 +9,7 @@ organism_scientific = "Noctiluca scintillans"
 habitat     = "Coastal marine waters worldwide"
 taxonomy_group = "Sense"
 industries  = ["biotechnology", "medical devices", "environmental technology"]
-related_slugs = ["platypus-electroreception-underwater-sensor-cardiac", "cuttlefish-color-changing-skin-flexible-displays", "brittlestar-calcite-microlens-optical-fiber", "blue-whale-low-frequency-underwater-communication"]
+related_slugs = ["firefly-bioluminescence-efficient-led-lighting", "slime-mold-network-optimization-distributed-computing", "rattlesnake-pit-organ-infrared-sensor-thermal-camera", "platypus-electroreception-underwater-sensor-cardiac"]
 key_principle = "Enzymatic oxidation of luciferin produces electronically excited oxyluciferin, which relaxes to ground state by emitting a photon — a chemical process with quantum yield approaching 90%, operating at ambient temperature without the thermal losses inherent to resistance-based light sources."
 source_url  = "https://asknature.org/strategy/bioluminescence-produces-cold-light/"
 +++

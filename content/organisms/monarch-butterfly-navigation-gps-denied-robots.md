@@ -1,7 +1,7 @@
 +++
 title       = "How Monarch Butterflies Inspired GPS-free Navigation"
 description = "How the migratory monarch butterfly inspired GPS-free navigation algorithms — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "monarch-butterfly-navigation-gps-denied-robots"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Danaus plexippus"
 habitat     = "North America, overwintering in Mexican oyamel fir forests"
 taxonomy_group = "Sense"
 industries  = ["robotics", "defense", "agriculture"]
-related_slugs = ["locust-collision-detection-autonomous-vehicles", "platypus-electroreception-underwater-sensor-cardiac", "homing-pigeon-cognitive-mapping-autonomous-navigation", "dung-beetle-polarized-light-navigation"]
+related_slugs = ["locust-collision-detection-autonomous-vehicles", "platypus-electroreception-underwater-sensor-cardiac", "octopus-chromatophores-adaptive-camouflage-displays", "homing-pigeon-cognitive-mapping-autonomous-navigation"]
 key_principle = "Fusing multiple redundant orientation cues — celestial, polarization, and magnetic — with an internal time reference allows robust navigation without a global reference signal."
 source_url  = "https://asknature.org/strategy/sun-compass-guides-migration/"
 +++

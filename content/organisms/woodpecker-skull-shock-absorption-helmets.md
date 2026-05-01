@@ -1,7 +1,7 @@
 +++
 title       = "How Pileated woodpecker Inspired Impact-absorbing Helmets"
 description = "How the pileated woodpecker inspired impact-absorbing helmets — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "woodpecker-skull-shock-absorption-helmets"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Dryocopus pileatus"
 habitat     = "Mature forests of North America"
 taxonomy_group = "Protect"
 industries  = ["sports equipment", "aerospace", "defense", "packaging"]
-related_slugs = ["mantis-shrimp-helicoidal-impact-resistant-composites", "spittlebug-foam-biodegradable-insulation-packaging", "pitcher-plant-slippery-surface-slips-coating", "flying-squirrel-patagium-wingsuit-membrane-wing"]
+related_slugs = ["mantis-shrimp-helicoidal-impact-resistant-composites", "spittlebug-foam-biodegradable-insulation-packaging", "seahorse-tail-flexible-armor-surgical-robotics", "pitcher-plant-slippery-surface-slips-coating"]
 key_principle = "Hierarchical shock absorption using multiple materials with graduated stiffness — from hard outer shell to increasingly compliant inner layers — dissipates impact energy across structures and timescales rather than concentrating stress."
 source_url  = "https://asknature.org/strategy/skull-absorbs-impact/"
 +++

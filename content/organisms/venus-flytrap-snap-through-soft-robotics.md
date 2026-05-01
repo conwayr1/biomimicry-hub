@@ -1,7 +1,7 @@
 +++
 title       = "How Venus flytrap Inspired Snap-through Soft Robot Actuators"
 description = "How the venus flytrap inspired snap-through soft robot actuators — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "venus-flytrap-snap-through-soft-robotics"
 type        = "organisms"
 kingdom     = "Plant"
@@ -9,7 +9,7 @@ organism_scientific = "Dionaea muscipula"
 habitat     = "Coastal plain bogs of North and South Carolina"
 taxonomy_group = "Move"
 industries  = ["robotics", "aerospace", "medical devices"]
-related_slugs = ["shark-skin-denticles-drag-reduction", "dragonfly-corrugated-wings-micro-air-vehicles", "bat-wing-membrane-morphing-aircraft-wings", "pistol-shrimp-cavitation-cleaning-microfluidics"]
+related_slugs = ["elephant-trunk-soft-robotics-flexible-manipulation", "shark-skin-denticles-drag-reduction", "maple-samara-autorotation-micro-air-vehicles", "hummingbird-hovering-flight-micro-air-vehicles"]
 key_principle = "A bistable elastic shell pre-stressed past its elastic midpoint stores energy in a curved geometry and releases it explosively when triggered, producing rapid movement without motors."
 source_url  = "https://asknature.org/strategy/trap-closes-with-snap-buckling/"
 +++

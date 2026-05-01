@@ -1,18 +1,18 @@
 +++
 title       = "Biomimicry for Adaptive Structures and Shape Change"
-description = "How nature's shape-changing and adaptation strategies have inspired engineering solutions — 3 biological examples with real-world applications."
-date        = "2026-04-18"
+description = "How nature's shape-changing and adaptation strategies have inspired engineering solutions — 4 biological examples with real-world applications."
+date        = "2026-04-29"
 slug        = "biomimicry-for-shape-changing-and-adaptation"
 type        = "functions"
 taxonomy_group = "Modify"
-strategy_slugs = ["pinecone-humidity-responsive-adaptive-facades", "sea-cucumber-variable-stiffness-neural-implants", "immortal-jellyfish-cellular-reprogramming-stem-cells"]
+strategy_slugs = ["pinecone-humidity-responsive-adaptive-facades", "sea-cucumber-variable-stiffness-neural-implants", "immortal-jellyfish-cellular-reprogramming-stem-cells", "tardigrade-cryptobiosis-vaccine-storage-radiation"]
 +++
 
 ## The Challenge
 
 The ability to change — shape, stiffness, color, behavior — in response to environmental conditions is one of nature's most powerful capabilities. Organisms that can adapt in real time gain enormous advantages. Engineers are now learning how to embed that same adaptive capacity into materials and structures.
 
-This page brings together **3 biological strategies** that all address the
+This page brings together **4 biological strategies** that all address the
 **modify** challenge in different ways — drawn from organisms across kingdoms,
 habitats, and evolutionary lineages. Taken together, they reveal a set of design
 principles that engineers are actively translating into real-world technologies.

@@ -1,7 +1,7 @@
 +++
 title       = "How Bone-eating worm Inspired Chemosynthetic Bioprocessing"
 description = "How the bone-eating worm inspired chemosynthetic bioprocessing — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "osedax-worm-symbiotic-digestion-bioprocessing"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Osedax mucofloris"
 habitat     = "Deep ocean floor around whale falls"
 taxonomy_group = "Process"
 industries  = ["biotechnology", "environmental technology", "materials science"]
-related_slugs = ["lichen-symbiosis-biocement-living-building-materials", "wood-frog-freeze-tolerance-cryopreservation", "thorny-devil-capillary-wicking-microfluidic-chips", "namibian-beetle-fog-collection-water-harvesting"]
+related_slugs = ["lichen-symbiosis-biocement-living-building-materials", "wood-frog-freeze-tolerance-cryopreservation", "whale-shark-crossflow-filtration-water-treatment", "thorny-devil-capillary-wicking-microfluidic-chips"]
 key_principle = "Outsourcing complex metabolic functions to specialized symbiotic microorganisms allows the host organism to access energy sources it could never process alone — a division-of-labor principle applicable to industrial bioprocessing."
 source_url  = "https://asknature.org/strategy/worm-digests-bone-without-a-gut/"
 +++

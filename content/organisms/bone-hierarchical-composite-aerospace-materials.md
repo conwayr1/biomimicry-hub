@@ -1,7 +1,7 @@
 +++
 title       = "How Bone Inspired Hierarchical Composite Materials"
 description = "How the bone inspired hierarchical composite materials — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "bone-hierarchical-composite-aerospace-materials"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Homo sapiens / general vertebrate"
 habitat     = "Internal skeleton of vertebrate animals"
 taxonomy_group = "Make"
 industries  = ["aerospace", "medical devices", "materials science"]
-related_slugs = ["spider-silk-tensile-strength-synthetic-fibers", "lily-pad-ribbed-structure-lightweight-architecture", "honeycomb-structure-aerospace-lightweight-panels", "glass-sponge-lattice-skyscraper-diagonal-bracing"]
+related_slugs = ["spider-silk-tensile-strength-synthetic-fibers", "sandcastle-worm-underwater-adhesive-surgical-glue", "lily-pad-ribbed-structure-lightweight-architecture", "honeycomb-structure-aerospace-lightweight-panels"]
 key_principle = "Staggered, mineralized fibrils arranged hierarchically across multiple length scales create crack-deflection and energy-dissipation mechanisms that prevent brittle fracture while maintaining high stiffness."
 source_url  = "https://asknature.org/strategy/bone-combines-stiffness-and-toughness/"
 +++

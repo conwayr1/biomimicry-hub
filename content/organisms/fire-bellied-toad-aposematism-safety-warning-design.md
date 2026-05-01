@@ -1,7 +1,7 @@
 +++
 title       = "How Bombardier frog Inspired Safety Warning Color Design"
 description = "How the bombardier frog inspired safety warning color design — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "fire-bellied-toad-aposematism-safety-warning-design"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Bombina variegata"
 habitat     = "Central and Eastern European forests and meadows"
 taxonomy_group = "Protect"
 industries  = ["safety", "consumer products", "transportation"]
-related_slugs = ["woodpecker-skull-shock-absorption-helmets", "spittlebug-foam-biodegradable-insulation-packaging", "silver-ant-hairs-radiative-cooling-building-materials", "pitcher-plant-slippery-surface-slips-coating"]
+related_slugs = ["woodpecker-skull-shock-absorption-helmets", "spittlebug-foam-biodegradable-insulation-packaging", "silver-ant-hairs-radiative-cooling-building-materials", "seahorse-tail-flexible-armor-surgical-robotics"]
 key_principle = "High-contrast color combinations — particularly yellow-black or red-black — are universally recognized as biological warning signals, making them the most effective choice for passive danger communication without verbal instruction."
 source_url  = "https://asknature.org/strategy/warning-coloration-deters-predators/"
 +++

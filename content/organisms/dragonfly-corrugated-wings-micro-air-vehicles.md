@@ -1,7 +1,7 @@
 +++
 title       = "How Dragonfly Inspired Micro Air Vehicle Wings"
 description = "How the dragonfly inspired micro air vehicle wings — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "dragonfly-corrugated-wings-micro-air-vehicles"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Libellula depressa"
 habitat     = "Near freshwater habitats worldwide"
 taxonomy_group = "Move"
 industries  = ["aerospace", "robotics", "defense"]
-related_slugs = ["venus-flytrap-snap-through-soft-robotics", "flying-squirrel-patagium-wingsuit-membrane-wing", "bat-wing-membrane-morphing-aircraft-wings", "shark-skin-denticles-drag-reduction"]
+related_slugs = ["maple-samara-autorotation-micro-air-vehicles", "hummingbird-hovering-flight-micro-air-vehicles", "venus-flytrap-snap-through-soft-robotics", "starling-murmuration-swarm-robotics-autonomous-drones"]
 key_principle = "Corrugated wing cross-sections maintain structural rigidity at minimal weight while the ridges generate leading-edge vortices that keep airflow attached at high angles of attack — critical for slow, hovering, or highly maneuverable flight."
 source_url  = "https://asknature.org/strategy/wings-are-corrugated-for-strength/"
 +++

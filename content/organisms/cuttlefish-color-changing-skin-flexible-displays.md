@@ -1,7 +1,7 @@
 +++
 title       = "How Cuttlefish Inspired Color-changing Flexible Displays"
 description = "How the cuttlefish inspired color-changing flexible displays — the biological mechanism, the engineering principle, and real-world applications."
-date        = "2026-04-18"
+date        = "2026-04-29"
 slug        = "cuttlefish-color-changing-skin-flexible-displays"
 type        = "organisms"
 kingdom     = "Animal"
@@ -9,7 +9,7 @@ organism_scientific = "Sepia officinalis"
 habitat     = "Coastal waters of Europe, the Mediterranean, and West Africa"
 taxonomy_group = "Sense"
 industries  = ["electronics", "robotics", "medical devices", "textiles"]
-related_slugs = ["platypus-electroreception-underwater-sensor-cardiac", "morpho-butterfly-structural-color-anti-counterfeiting", "brittlestar-calcite-microlens-optical-fiber", "archerfish-precision-liquid-jet-inkjet-printing"]
+related_slugs = ["octopus-chromatophores-adaptive-camouflage-displays", "rattlesnake-pit-organ-infrared-sensor-thermal-camera", "platypus-electroreception-underwater-sensor-cardiac", "morpho-butterfly-structural-color-anti-counterfeiting"]
 key_principle = "Layering passive structural color (iridophores) with actively controllable pigment cells (chromatophores) creates a full-gamut, real-time color system using very little energy."
 source_url  = "https://asknature.org/strategy/skin-changes-color-for-camouflage/"
 +++
