@@ -90,6 +90,37 @@ HOOK_TEMPLATES = [
     "The {organism} doesn't have a research lab or a materials science team. It doesn't need one.",
 ]
 
+# ── Varied text pools ──────────────────────────────────────────────────────────
+# Each pool has 5 alternatives. The strategy ID modulo 5 picks which variant
+# a given page uses — consistent across rebuilds, varied across pages.
+
+# Replaces the boilerplate "Over millions of years of evolutionary pressure..." tail
+HABITAT_BRIDGES = [
+    "That capability was shaped by {years} million years of survival pressure — long enough to produce something engineers are still learning from.",
+    "In {habitat}, this trait was the difference between survival and extinction — an optimization process that ran for {years} million years.",
+    "{years} million years of real-world testing in {habitat} made this one of nature's most refined engineering solutions.",
+    "Evolution had {years} million years to test and refine this in {habitat}. That depth of optimization is what makes it worth reverse-engineering.",
+    "The pressures of {habitat} made this capability essential. Millions of years of selection pressure refined it into something human R&D programmes are still catching up to.",
+]
+
+# Replaces the boilerplate Design Principle opener
+DESIGN_PRINCIPLE_INTROS = [
+    "Distilled to its transferable engineering core:",
+    "The biological insight, expressed as a design principle:",
+    "In engineering terms, what the {organism} does is this:",
+    "Translated into a principle engineers can actually use:",
+    "The underlying rule — stripped of the biology:",
+]
+
+# Replaces the boilerplate Human Applications bridge
+APPLICATIONS_BRIDGES = [
+    "Translating that principle into practice has produced real, deployable technology:",
+    "Engineers working with this strategy have already moved from lab to market:",
+    "That principle has been put to work in several research programmes and commercial products:",
+    "Several teams have taken this biological strategy all the way to manufacturable products:",
+    "The gap between biological observation and engineered product has already been closed here:",
+]
+
 HOOK_DATA = {
     # id: (problem, years)
     1:  ("reversible dry adhesion", "50"),
@@ -170,23 +201,30 @@ def generate_organism_page(s, all_strategies, plan_page):
     title   = plan_page["title"]
     desc    = plan_page["description"]
 
+    # Hook — unique opening question per organism
     hdata   = HOOK_DATA.get(s["id"], ("this engineering challenge", "100"))
     hook    = (f"What if the solution to {hdata[0]} had already been perfected — "
                f"by a {org.lower()} over {hdata[1]} million years of evolution?")
 
-    # Real-world products sentence
-    rp_sentence = ""
-    if rp:
-        rp_sentence = f"\n\nReal-world implementations include: {rp}."
+    # Varied text — selected by organism ID so each page is consistent across rebuilds
+    variant = s["id"] % 5
 
-    # Subgroup context
+    habitat_bridge = HABITAT_BRIDGES[variant].format(
+        years=hdata[1], habitat=habitat, organism=org.lower()
+    )
+
+    dp_intro = DESIGN_PRINCIPLE_INTROS[variant].format(organism=org.lower())
+
+    apps_bridge = APPLICATIONS_BRIDGES[variant]
+
+    # Real-world products line
+    rp_sentence = f"\n\n{apps_bridge}\n\nReal-world implementations include: {rp}." if rp else ""
+
+    # Taxonomy subgroup line (no boilerplate suffix)
     subgroup_line = ""
     if s["biomimicry_taxonomy_subgroup"]:
-        subgroup_line = (f"In the language of biomimicry, this falls under the "
-                         f"**{group} › {s['biomimicry_taxonomy_subgroup']}** category — "
-                         f"one of the most actively researched areas in bio-inspired engineering.")
-
-    industries_str = ", ".join(tags) if tags else "engineering"
+        subgroup_line = (f"\nIn biomimicry, this falls under "
+                         f"**{group} › {s['biomimicry_taxonomy_subgroup']}**.")
 
     content = f"""\
 +++
@@ -207,54 +245,22 @@ source_url  = "{src}"
 
 {hook}
 
-The answer — as engineers have discovered — is yes. The **{org}** (*{sci}*) has evolved a
-solution to this problem that is elegant, efficient, and increasingly influential across
-{industries_str}. This page explains what the {org.lower()} does, why it matters to
-engineers, and what has already been built as a result.
-
 ## The Natural Innovation
 
 {bf}
 
-The {org.lower()} lives in {habitat}. Over millions of years of evolutionary pressure,
-this capability became not just useful but essential — a matter of survival. That kind of
-long-term optimization is precisely what makes biological systems such productive starting
-points for engineering research.
-
-{subgroup_line}
+The {org.lower()} lives in {habitat}. {habitat_bridge}{subgroup_line}
 
 ## The Design Principle
 
-What makes this biologically remarkable also makes it technically transferable. Strip away
-the biology and you're left with a core engineering insight:
+{dp_intro}
 
 > {kp}
-
-This principle is deceptively simple to state but difficult to achieve with conventional
-manufacturing methods — which is exactly why engineers have found it so valuable. Nature
-arrives at this solution through materials and processes that are often room-temperature,
-water-based, and self-assembling. That stands in sharp contrast to the high-energy,
-high-precision fabrication that human industry typically relies on.
 
 ## Human Applications
 
 {ha}
 {rp_sentence}
-
-The translation from biology to engineering is rarely direct — researchers typically spend
-years understanding the mechanism at a molecular or microstructural level before they can
-replicate it synthetically. But the payoff can be significant: solutions that are lighter,
-stronger, more energy-efficient, or capable of things no conventional approach can match.
-
-## Why This Matters
-
-Biomimicry works not because nature is clever for its own sake, but because evolution is
-an extraordinarily long and selective optimization process. Every feature of the {org.lower()}
-described here has been tested across millions of generations in real-world conditions.
-It either worked — conferring survival advantage — or it disappeared.
-
-That track record gives bio-inspired engineers a valuable head start: they're not
-guessing at solutions, they're reverse-engineering ones that are already proven.
 
 {{{{< affiliate "learn-biomimicry" >}}}}
 {{{{< affiliate "amazon-book" >}}}}
