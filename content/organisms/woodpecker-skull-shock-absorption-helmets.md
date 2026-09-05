@@ -1,6 +1,6 @@
 +++
-title       = "How Pileated woodpecker Inspired Impact-absorbing Helmets"
-description = "How the pileated woodpecker inspired impact-absorbing helmets — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Woodpecker Inspired Impact-Absorbing Helmets"
+description = "Woodpeckers strike 20 times a second at 1,200 g without brain damage. Four nested structures make it possible — and now shape helmet and black-box design."
 date        = "2026-04-29"
 slug        = "woodpecker-skull-shock-absorption-helmets"
 type        = "organisms"

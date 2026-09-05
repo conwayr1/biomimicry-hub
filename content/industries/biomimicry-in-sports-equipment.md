@@ -1,6 +1,6 @@
 +++
-title       = "Biomimicry in Sports Equipment: Nature-Inspired Solutions"
-description = "How nature is transforming sports equipment — 3 biomimicry examples with real-world products and research. Swimsuits, helmets, and shoe soles refined by..."
+title       = "Biomimicry in Sports Equipment"
+description = "Woodpecker-inspired helmets, mantis-shrimp impact composites and flying-squirrel wingsuits — how sports gear borrows shock absorption and flight from biology."
 date        = "2026-04-29"
 slug        = "biomimicry-in-sports-equipment"
 type        = "industries"

@@ -1,6 +1,6 @@
 +++
 title       = "Nature-Inspired Adhesives: 5 Biomimicry Examples"
-description = "Geckos, mussels, tree frogs, and more — the natural world's remarkably varied toolkit for sticking things together. Dry, wet, and reversible — nature's..."
+description = "Geckos grip dry, mussels bond underwater, tree frogs stick when wet. Five biological adhesives and the Velcro, surgical glues and dry tapes they produced."
 date        = "2026-04-18"
 slug        = "nature-inspired-adhesives"
 type        = "lists"

@@ -1,6 +1,6 @@
 +++
 title       = "8 Best Biomimicry Examples in Aerospace"
-description = "Nature's blueprints for flight: whale-fin turbines, shark-skin aircraft, bat-wing morphing, and more. Ranked by impact and commercial readiness."
+description = "Eight aerospace innovations copied from nature — kingfisher noses, honeycomb panels, shark-skin drag reduction and woodpecker-inspired impact casings."
 date        = "2026-04-18"
 slug        = "best-biomimicry-examples-aerospace"
 type        = "lists"

@@ -1,6 +1,6 @@
 +++
-title       = "Biomimicry in Packaging: Nature-Inspired Solutions"
-description = "How nature is transforming packaging — 4 biomimicry examples with real-world products and research. Shells and foams inspire biodegradable, impact-absorbing..."
+title       = "Biomimicry in Packaging"
+description = "Honeycomb cores, woodpecker shock absorption, cactus-style folds and spittlebug foam — the biology behind protective and biodegradable packaging."
 date        = "2026-04-29"
 slug        = "biomimicry-in-packaging"
 type        = "industries"

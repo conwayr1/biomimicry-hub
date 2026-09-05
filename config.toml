@@ -11,6 +11,7 @@ pygmentsUseClasses = true
 [params]
   description   = "Explore how engineers and designers copy nature to solve hard problems. Hundreds of biomimicry examples — from gecko adhesives to whale-fin turbines."
   author        = "Biomimicry Hub"
+  brand         = "Biomimicry Hub"   # short form used in the <title> tag
   googleAnalytics = "G-96035Z7LSP"
   amazonTag     = "biomimicryhub-20"
 

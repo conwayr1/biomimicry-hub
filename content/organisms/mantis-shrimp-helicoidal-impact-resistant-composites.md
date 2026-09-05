@@ -1,6 +1,6 @@
 +++
-title       = "How Mantis shrimp Inspired Impact-resistant Composite Armor"
-description = "How the mantis shrimp inspired impact-resistant composite armor — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Mantis Shrimp Inspired Impact-Proof Armor"
+description = "The mantis shrimp punches at 23 m/s and over 10,000 g, thousands of times, without cracking its club. Its helicoidal fibre structure now shapes body armour."
 date        = "2026-04-29"
 slug        = "mantis-shrimp-helicoidal-impact-resistant-composites"
 type        = "organisms"

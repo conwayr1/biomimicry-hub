@@ -4,7 +4,13 @@
 {{ $url   := .Permalink }}
 {{ $site  := .Site.Title }}
 
-<title>{{ $title }} | {{ $site }}</title>
+{{/* Use a short brand in <title> so the page name stays inside Google's ~60-char
+     display limit instead of being crowded out by the full site tagline.
+     The home page shows the full site title alone, rather than doubling it. */}}
+{{ $brand := .Site.Params.brand | default $site }}
+{{ $titleTag := printf "%s | %s" $title $brand }}
+{{ if .IsHome }}{{ $titleTag = $site }}{{ end }}
+<title>{{ $titleTag }}</title>
 <meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ $url }}">
 

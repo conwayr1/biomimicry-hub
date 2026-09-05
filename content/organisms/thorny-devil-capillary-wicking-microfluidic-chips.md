@@ -1,6 +1,6 @@
 +++
-title       = "How the Thorny Devil Inspired Microfluidic Chip Design"
-description = "How the thorny devil lizard inspired capillary wicking microfluidic devices — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Thorny Devil Inspired Microfluidic Chips"
+description = "The thorny devil drinks through its feet — capillary channels between its scales pull water to its mouth. The same trick moves fluid in lab-on-a-chip devices."
 date        = "2026-04-29"
 slug        = "thorny-devil-capillary-wicking-microfluidic-chips"
 type        = "organisms"

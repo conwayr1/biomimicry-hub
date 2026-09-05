@@ -1,6 +1,6 @@
 +++
-title       = "Biomimicry in Electronics and Displays: Nature-Inspired Solutions"
-description = "How nature is transforming electronics and displays — 12 biomimicry examples with real-world products and research. Structural colour and flexible membranes..."
+title       = "Biomimicry in Electronics and Displays"
+description = "Butterfly-wing structural colour, cuttlefish skin, moth-eye anti-glare and firefly LEDs — twelve biological structures behind modern displays and optics."
 date        = "2026-04-29"
 slug        = "biomimicry-in-electronics-and-displays"
 type        = "industries"

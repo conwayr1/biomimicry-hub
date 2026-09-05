@@ -1,6 +1,6 @@
 +++
-title       = "How Boxfish Inspired Aerodynamic Vehicle Design"
-description = "How the boxfish inspired aerodynamic vehicle design — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Boxfish Inspired the Mercedes Bionic Car"
+description = "A boxy reef fish turned out to be remarkably aerodynamic. Mercedes-Benz built a concept car on its shape and cut drag by 20% — here's the mechanism."
 date        = "2026-04-29"
 slug        = "boxfish-aerodynamics-mercedes-bionic-car"
 type        = "organisms"

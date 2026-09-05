@@ -23,7 +23,19 @@ The four "best-of" list pages carry ~37% of impressions but rank page 2 because 
 - [x] Deepen **architecture** list page — 126 -> 1,074 words, expanded to 10 entries (2026-09-04).
 - [x] Deepen **materials-science** list page — 123 -> 1,119 words, re-curated to 12 (2026-09-04).
 - [x] Deepen **most-famous** list page — 141 -> 1,066 words, kept at 10 to preserve the "10 examples of biomimicry" match (2026-09-04).
-- [ ] Quick CTR win: rewrite titles + meta descriptions on page-1, zero-click pages (woodpecker pos 8, boxfish pos 8, aerospace list pos 10).
+- [x] Quick CTR win: rewrote titles + meta descriptions on 10 page-1, zero-click pages
+      (~215 impressions at 0% CTR: woodpecker, boxfish, mantis shrimp, cocklebur, thorny devil,
+      aerospace list, adhesives list, sports-equipment, packaging, electronics) (2026-09-04).
+- [x] Fixed sitewide <title> bloat: the full site tagline was appended to all 202 pages
+      (54-char suffix; home page doubled its own title at 106 chars). Now uses a short
+      `brand` param — saves 38 chars per page (2026-09-04).
+- [ ] **Remaining title/description debt.** 95 pages still render titles over 65 chars, and
+      78 organism pages still share the identical description formula "— the biological mechanism,
+      the engineering principle, and real-world applications." Two follow-ups:
+      (a) shorten the auto-generated organism title pattern ("How Pileated woodpecker Inspired
+      Impact-absorbing Helmets" — note the broken mid-sentence capitalisation);
+      (b) replace the boilerplate description formula with a specific hook per page.
+      Both are in generate_content.py, so fix the generator rather than the files.
 - [x] Fix the architecture **industry** page — 219 -> 959 words, repositioned to industry analysis
       (energy case, built projects, adoption barriers, direction) instead of a second examples list.
       Cannibalization resolved by giving each page a distinct intent + explicit cross-links (2026-09-04).

@@ -1,6 +1,6 @@
 +++
-title       = "12 Best Biomimicry Examples in Robotics (Nature-Inspired Robots)"
-description = "Twelve real robots inspired by nature — gecko-grip climbers, elephant-trunk arms, ant navigation and swarm drones — with the biology and engineering behind each."
+title       = "12 Best Biomimicry Examples in Robotics"
+description = "Twelve real robots inspired by nature — gecko-grip climbers, elephant-trunk arms, ant navigation and swarm drones — and the engineering behind each."
 date        = "2026-04-18"
 lastmod     = "2026-09-04"
 slug        = "best-biomimicry-examples-robotics"

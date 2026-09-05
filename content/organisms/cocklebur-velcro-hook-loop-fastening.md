@@ -1,6 +1,6 @@
 +++
-title       = "How Cocklebur Inspired Velcro Hook-and-Loop Fasteners"
-description = "How the cocklebur inspired Velcro — the biological mechanism, the engineering principle, and real-world applications. One of the most commercially successful..."
+title       = "How the Cocklebur Inspired Velcro"
+description = "In 1941 George de Mestral studied the burs stuck to his dog and found hundreds of tiny hooks. That walk produced Velcro — biomimicry's biggest success."
 date        = "2026-04-29"
 slug        = "cocklebur-velcro-hook-loop-fastening"
 type        = "organisms"
