@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+<style>
+      .kicker { font-size:11px; font-weight:600; letter-spacing:.16em; fill:#8a8a8a; }
+      .group  { font-size:11px; font-weight:600; letter-spacing:.14em; fill:#2d6a4f; }
+      .step   { font-size:11px; font-weight:600; letter-spacing:.12em; }
+      .step .num  { fill:#2d6a4f; }
+      .step .word { fill:#8a8a8a; }
+      .name   { font-size:17px; font-weight:700; fill:#1a1a1a; }
+      .lead   { font-size:13.5px; font-weight:600; fill:#1a1a1a; }
+      .body   { font-size:12.5px; font-weight:400; fill:#5b5b5b; }
+      .cap    { font-size:11.5px; font-weight:400; fill:#8a8a8a; }
+    </style>
+<rect x="0.5" y="0.5" width="899" height="319" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
+<text x="40" y="44" class="kicker">BIOMIMICRY MECHANISM</text>
+<circle cx="804" cy="40" r="3" fill="#2d6a4f"/>
+<text x="860" y="44" class="group" text-anchor="end">SENSE</text>
+<line x1="40" y1="60" x2="860" y2="60" stroke="#e7e7e7"/>
+<path d="M 295 143 L 305 150 L 295 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M 585 143 L 595 150 L 585 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<text x="58" y="90" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
+<text x="58" y="124" class="name" text-anchor="start">
+<tspan x="58" dy="0">Bees (honeybee swarm)</tspan>
+</text>
+<text x="58" y="176" class="body" text-anchor="start">
+<tspan x="58" dy="0">When a honeybee colony scouts for</tspan>
+<tspan x="58" dy="18">a new nest site, hundreds of</tspan>
+<tspan x="58" dy="18">scouts investigate different</tspan>
+<tspan x="58" dy="18">options and report back with…</tspan>
+</text>
+<text x="348" y="90" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
+<circle cx="450" cy="150" r="58" fill="#f6f8f6"/>
+<path d="M 437.52 172 A 16 16 0 0 1 462.48 172" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.00"/><path d="M 426.6 172 A 30 30 0 0 1 473.4 172" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.78"/><path d="M 415.68 172 A 44 44 0 0 1 484.32 172" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.56"/><path d="M 404.76 172 A 58 58 0 0 1 495.24 172" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.34"/><circle cx="450" cy="172" r="3.2" fill="#2d6a4f"/>
+<text x="348" y="240" class="body" text-anchor="start">
+<tspan x="348" dy="0">A positive-feedback quorum-sensing</tspan>
+<tspan x="348" dy="17">mechanism allows distributed</tspan>
+<tspan x="348" dy="17">agents to reach consensus on the…</tspan>
+</text>
+<text x="612" y="90" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
+<text x="612" y="124" class="lead" text-anchor="start">
+<tspan x="612" dy="0">Swarm intelligence algorithms</tspan>
+<tspan x="612" dy="19">for distributed problem-solving</tspan>
+<tspan x="612" dy="19">in robotics, network routing</tspan>
+<tspan x="612" dy="19">(internet traffic management)…</tspan>
+</text>
+<text x="612" y="214" class="cap" text-anchor="start">
+<tspan x="612" dy="0">Real-world: Ant Colony</tspan>
+<tspan x="612" dy="16">Optimization (ACO) algorithms for</tspan>
+<tspan x="612" dy="16">logistics</tspan>
+</text>
+</svg>

@@ -14,15 +14,15 @@ biomimicry-seo/
 │   └── workflows/
 │       └── deploy.yml          # Auto-deploys to GitHub Pages on push to main
 ├── content/
-│   ├── organisms/              # 57 organism strategy pages (the core content)
+│   ├── organisms/              # 82 organism strategy pages (the core content)
 │   ├── functions/              # 7 biomimicry function pages
-│   ├── industries/             # 20 industry pages
+│   ├── industries/             # 21 industry pages
 │   └── lists/                  # 12 "Best of" list pages
 ├── data/
 │   ├── affiliates.json         # Affiliate link config (update with real IDs)
 │   └── keyword_plan.json       # Generated keyword/page plan
 ├── database/
-│   └── biomimicry.db           # SQLite database — 57 biological strategies
+│   └── biomimicry.db           # SQLite database — 82 biological strategies
 ├── layouts/                    # Hugo templates (no theme — all custom)
 │   ├── _default/
 │   ├── organisms/
@@ -36,7 +36,10 @@ biomimicry-seo/
 │   ├── add_strategy.py         # Interactive CLI to add new strategies
 │   ├── generate_keywords.py    # Generates data/keyword_plan.json
 │   ├── generate_content.py     # Generates all Hugo markdown files
-│   └── build_internal_links.py # Audits + fixes SEO and internal linking
+│   ├── build_internal_links.py # Audits + fixes SEO and internal linking
+│   ├── expand_database.py      # Bulk-adds strategies to grow the database
+│   ├── fix_boilerplate.py      # One-off cleanup: removes repeated boilerplate
+│   └── fix_meta_descriptions.py # One-off cleanup: dedupes/fixes meta descriptions
 ├── static/
 │   └── robots.txt
 └── config.toml                 # Hugo config — update baseURL before deploying

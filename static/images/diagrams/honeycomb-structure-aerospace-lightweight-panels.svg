@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+<style>
+      .kicker { font-size:11px; font-weight:600; letter-spacing:.16em; fill:#8a8a8a; }
+      .group  { font-size:11px; font-weight:600; letter-spacing:.14em; fill:#2d6a4f; }
+      .step   { font-size:11px; font-weight:600; letter-spacing:.12em; }
+      .step .num  { fill:#2d6a4f; }
+      .step .word { fill:#8a8a8a; }
+      .name   { font-size:17px; font-weight:700; fill:#1a1a1a; }
+      .lead   { font-size:13.5px; font-weight:600; fill:#1a1a1a; }
+      .body   { font-size:12.5px; font-weight:400; fill:#5b5b5b; }
+      .cap    { font-size:11.5px; font-weight:400; fill:#8a8a8a; }
+    </style>
+<rect x="0.5" y="0.5" width="899" height="319" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
+<text x="40" y="44" class="kicker">BIOMIMICRY MECHANISM</text>
+<circle cx="812" cy="40" r="3" fill="#2d6a4f"/>
+<text x="860" y="44" class="group" text-anchor="end">MAKE</text>
+<line x1="40" y1="60" x2="860" y2="60" stroke="#e7e7e7"/>
+<path d="M 295 143 L 305 150 L 295 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M 585 143 L 595 150 L 585 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<text x="58" y="90" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
+<text x="58" y="124" class="name" text-anchor="start">
+<tspan x="58" dy="0">Honeybee</tspan>
+</text>
+<text x="58" y="176" class="body" text-anchor="start">
+<tspan x="58" dy="0">Honeybees build honeycomb from</tspan>
+<tspan x="58" dy="18">beeswax using hexagonal cells</tspan>
+<tspan x="58" dy="18">packed together</tspan>
+</text>
+<text x="348" y="90" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
+<circle cx="450" cy="150" r="58" fill="#f6f8f6"/>
+<path d="M 404 120 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 416 140 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 404 160 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 416 180 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="348" y="240" class="body" text-anchor="start">
+<tspan x="348" dy="0">The hexagonal tessellation</tspan>
+<tspan x="348" dy="17">achieves the highest</tspan>
+<tspan x="348" dy="17">area-to-perimeter ratio of any…</tspan>
+</text>
+<text x="612" y="90" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
+<text x="612" y="124" class="lead" text-anchor="start">
+<tspan x="612" dy="0">Lightweight aerospace sandwich</tspan>
+<tspan x="612" dy="19">panels, impact-absorbing</tspan>
+<tspan x="612" dy="19">packaging, structural core</tspan>
+<tspan x="612" dy="19">materials for aircraft flooring…</tspan>
+</text>
+<text x="612" y="214" class="cap" text-anchor="start">
+<tspan x="612" dy="0">Real-world: Hexcel aerospace</tspan>
+<tspan x="612" dy="16">honeycomb panels</tspan>
+</text>
+</svg>

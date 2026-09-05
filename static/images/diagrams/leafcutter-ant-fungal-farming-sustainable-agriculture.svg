@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+<style>
+      .kicker { font-size:11px; font-weight:600; letter-spacing:.16em; fill:#8a8a8a; }
+      .group  { font-size:11px; font-weight:600; letter-spacing:.14em; fill:#2d6a4f; }
+      .step   { font-size:11px; font-weight:600; letter-spacing:.12em; }
+      .step .num  { fill:#2d6a4f; }
+      .step .word { fill:#8a8a8a; }
+      .name   { font-size:17px; font-weight:700; fill:#1a1a1a; }
+      .lead   { font-size:13.5px; font-weight:600; fill:#1a1a1a; }
+      .body   { font-size:12.5px; font-weight:400; fill:#5b5b5b; }
+      .cap    { font-size:11.5px; font-weight:400; fill:#8a8a8a; }
+    </style>
+<rect x="0.5" y="0.5" width="899" height="319" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
+<text x="40" y="44" class="kicker">BIOMIMICRY MECHANISM</text>
+<circle cx="812" cy="40" r="3" fill="#2d6a4f"/>
+<text x="860" y="44" class="group" text-anchor="end">MAKE</text>
+<line x1="40" y1="60" x2="860" y2="60" stroke="#e7e7e7"/>
+<path d="M 295 143 L 305 150 L 295 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M 585 143 L 595 150 L 585 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<text x="58" y="90" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
+<text x="58" y="124" class="name" text-anchor="start">
+<tspan x="58" dy="0">Leafcutter ant</tspan>
+</text>
+<text x="58" y="176" class="body" text-anchor="start">
+<tspan x="58" dy="0">Leafcutter ants don&#39;t eat leaves —</tspan>
+<tspan x="58" dy="18">they use them to cultivate a</tspan>
+<tspan x="58" dy="18">specific fungus (Leucoagaricus</tspan>
+<tspan x="58" dy="18">gongylophorus) underground</tspan>
+</text>
+<text x="348" y="90" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
+<circle cx="450" cy="150" r="58" fill="#f6f8f6"/>
+<path d="M 404 120 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 416 140 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 404 160 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 416 180 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="348" y="240" class="body" text-anchor="start">
+<tspan x="348" dy="0">Cultivating a single, optimized</tspan>
+<tspan x="348" dy="17">microbial partner in a controlled</tspan>
+<tspan x="348" dy="17">environment converts otherwise…</tspan>
+</text>
+<text x="612" y="90" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
+<text x="612" y="124" class="lead" text-anchor="start">
+<tspan x="612" dy="0">Industrial fermentation</tspan>
+<tspan x="612" dy="19">processes and fungal</tspan>
+<tspan x="612" dy="19">biotechnology inspired by the</tspan>
+<tspan x="612" dy="19">ant-fungus mutualism</tspan>
+</text>
+<text x="612" y="214" class="cap" text-anchor="start">
+<tspan x="612" dy="0">Real-world: EcoloGreen fungal</tspan>
+<tspan x="612" dy="16">biofertilizer research</tspan>
+</text>
+</svg>
