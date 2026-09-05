@@ -16,11 +16,16 @@ Running list of improvements to come back to. Newest at top.
 - [ ] Add real images (public-domain organism photos) as a second visual layer — see the image
       strategy discussed: NOAA / USFWS / NASA / Wikimedia CC0 only, with attribution tracked in the DB.
 
-## SEO / growth (pending Search Console data)
-- [ ] Deepen the pages that get the most impressions (check GSC Performance after ~1-2 weeks;
-      sitemap submitted 2026-08-13).
-- [ ] Consider new page types: comparison pages ("X adhesive vs Y adhesive") and mechanism
-      "how it works" explainers.
+## SEO / growth (driven by GSC data pulled 2026-09-04)
+GSC baseline (28d): 1,289 impressions, 19 clicks, ~1.5% CTR, avg position ~20.
+The four "best-of" list pages carry ~37% of impressions but rank page 2 because they were thin (~130 words). Plan: deepen them to ~1,000+ words with themed sections, internal links, and an FAQ.
+- [x] Deepen **robotics** list page — 135 → 1,094 words, re-curated to 12 robotics strategies, FAQ added (2026-09-04).
+- [ ] Deepen **architecture** list page (118 impr, pos 12) — same pattern.
+- [ ] Deepen **materials-science** list page (97 impr, pos 18).
+- [ ] Deepen **most-famous** list page (95 impr, pos 18) — also target the "biomimicry examples/inventions/products" head cluster.
+- [ ] Quick CTR win: rewrite titles + meta descriptions on page-1, zero-click pages (woodpecker pos 8, boxfish pos 8, aerospace list pos 10).
+- [ ] Fix the architecture **industry** page (76 impr but buried at pos 61) + resolve architecture list/industry cannibalization.
+- [ ] Consider new page types: comparison pages ("X adhesive vs Y adhesive") and mechanism "how it works" explainers.
 
 ## Housekeeping
 - [ ] Homepage still hardcodes "83 documented strategies"; database has 82. Fold into a future edit.
