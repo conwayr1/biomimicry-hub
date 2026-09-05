@@ -1,6 +1,6 @@
 +++
-title       = "How Mycorrhizal fungi network Inspired Decentralized Mesh Communication Networks"
-description = "How the mycorrhizal fungi network inspired decentralized mesh communication networks — the biological mechanism, the engineering principle, and real-world..."
+title       = "How the Mycorrhizal Fungi Network Inspired Decentralized Mesh Communication Networks"
+description = "Extends plant root reach up to 100-fold via fungal hyphae that trade phosphorus, water — the biology behind decentralized mesh communication networks."
 date        = "2026-04-29"
 slug        = "mycorrhizal-network-distributed-computing-internet"
 type        = "organisms"

@@ -1,6 +1,6 @@
 +++
-title       = "How Basking shark Inspired Water Filtration Membranes"
-description = "How the basking shark inspired water filtration membranes — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Basking Shark Inspired Water Filtration Membranes"
+description = "The basking shark filter-feeds on plankton by swimming with its mouth open — the biology behind water filtration membranes."
 date        = "2026-04-29"
 slug        = "basking-shark-gill-rakers-water-filtration"
 type        = "organisms"

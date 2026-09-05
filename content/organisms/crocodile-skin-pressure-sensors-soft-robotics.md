@@ -1,6 +1,6 @@
 +++
-title       = "How American crocodile Inspired Distributed Pressure-sensing Robotic Skin"
-description = "How the american crocodile inspired distributed pressure-sensing robotic skin — the biological mechanism, the engineering principle, and real-world..."
+title       = "How the American Crocodile Inspired Distributed Pressure-sensing Robotic Skin"
+description = "Thousands of dome-shaped sensory organs (integumentary sense organs) embedded in the scutes — the biology behind distributed pressure-sensing robotic skin."
 date        = "2026-04-29"
 slug        = "crocodile-skin-pressure-sensors-soft-robotics"
 type        = "organisms"

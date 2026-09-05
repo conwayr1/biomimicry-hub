@@ -1,6 +1,6 @@
 +++
-title       = "How Bone-dry wood frog Inspired Cryopreservation Technology"
-description = "How the bone-dry wood frog inspired cryopreservation technology — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Bone-dry Wood Frog Inspired Cryopreservation Technology"
+description = "The wood frog can survive being frozen solid — the biology behind cryopreservation technology."
 date        = "2026-04-29"
 slug        = "wood-frog-freeze-tolerance-cryopreservation"
 type        = "organisms"

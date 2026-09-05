@@ -1,6 +1,6 @@
 +++
-title       = "How African elephant Inspired Soft Robotic Arms"
-description = "How the african elephant inspired soft robotic arms — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the African Elephant Inspired Soft Robotic Arms"
+description = "The trunk contains ~150,000 muscle fascicles and no rigid skeleton — achieving six degrees of freedom — the biology behind soft robotic arms."
 date        = "2026-04-29"
 slug        = "elephant-trunk-soft-robotics-flexible-manipulation"
 type        = "organisms"

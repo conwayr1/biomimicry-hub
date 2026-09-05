@@ -1,6 +1,6 @@
 +++
-title       = "How Lily pad Inspired Lightweight Ribbed Structural Panels"
-description = "How the lily pad inspired lightweight ribbed structural panels — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Lily Pad Inspired Lightweight Ribbed Structural Panels"
+description = "The giant Amazonian lily pad can support the weight of a small child (up to 40 kg) on its surface — the biology behind lightweight ribbed structural panels."
 date        = "2026-04-29"
 slug        = "lily-pad-ribbed-structure-lightweight-architecture"
 type        = "organisms"

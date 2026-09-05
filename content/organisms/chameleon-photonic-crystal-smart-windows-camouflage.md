@@ -1,6 +1,6 @@
 +++
-title       = "How Veiled chameleon Inspired Electrochromic Smart Windows"
-description = "How the veiled chameleon inspired electrochromic smart windows — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Veiled Chameleon Inspired Electrochromic Smart Windows"
+description = "Rapidly shifts skin color through active tuning of iridophore crystal lattice spacing — the biology behind electrochromic smart windows."
 date        = "2026-04-29"
 slug        = "chameleon-photonic-crystal-smart-windows-camouflage"
 type        = "organisms"

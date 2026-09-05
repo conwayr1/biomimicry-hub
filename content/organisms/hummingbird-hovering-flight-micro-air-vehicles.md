@@ -1,6 +1,6 @@
 +++
-title       = "How Ruby-throated hummingbird Inspired Hovering Micro Air Vehicles"
-description = "How the ruby-throated hummingbird inspired hovering micro air vehicles — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Ruby-throated Hummingbird Inspired Hovering Micro Air Vehicles"
+description = "Hovers in place with precision by beating asymmetric figure-eight wingstrokes at 50-80 Hz — the biology behind hovering micro air vehicles."
 date        = "2026-04-29"
 slug        = "hummingbird-hovering-flight-micro-air-vehicles"
 type        = "organisms"

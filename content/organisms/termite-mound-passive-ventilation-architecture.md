@@ -1,6 +1,6 @@
 +++
-title       = "How African termite Inspired Passive Building Ventilation"
-description = "How the african termite inspired passive building ventilation — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the African Termite Inspired Passive Building Ventilation"
+description = "Termite mounds maintain a near-constant internal temperature of 31°C despite outside temperatures swinging — the biology behind passive building ventilation."
 date        = "2026-04-29"
 slug        = "termite-mound-passive-ventilation-architecture"
 type        = "organisms"

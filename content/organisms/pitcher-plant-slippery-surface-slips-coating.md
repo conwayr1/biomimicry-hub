@@ -1,6 +1,6 @@
 +++
-title       = "How Pitcher plant Inspired SLIPS Non-stick Coatings"
-description = "How the pitcher plant inspired SLIPS non-stick coatings — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Pitcher Plant Inspired SLIPS Non-stick Coatings"
+description = "The pitcher plant traps insects using a slippery rim (peristome) that becomes nearly frictionless when wet — the biology behind SLIPS non-stick coatings."
 date        = "2026-04-29"
 slug        = "pitcher-plant-slippery-surface-slips-coating"
 type        = "organisms"

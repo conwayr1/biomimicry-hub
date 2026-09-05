@@ -1,6 +1,6 @@
 +++
-title       = "How Indian flying fox bat Inspired Morphing Aircraft Wings"
-description = "How the indian flying fox bat inspired morphing aircraft wings — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Indian Flying Fox Bat Inspired Morphing Aircraft Wings"
+description = "Bat wings are built from a thin, highly elastic membrane stretched over elongated finger bones — the biology behind morphing aircraft wings."
 date        = "2026-04-29"
 slug        = "bat-wing-membrane-morphing-aircraft-wings"
 type        = "organisms"

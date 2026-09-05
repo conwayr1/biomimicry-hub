@@ -1,6 +1,6 @@
 +++
-title       = "How Mangrove tree Inspired Aquaporin Desalination Membranes"
-description = "How the mangrove tree inspired aquaporin desalination membranes — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Mangrove Tree Inspired Aquaporin Desalination Membranes"
+description = "Mangrove roots filter salt from seawater so effectively that the tree can drink pure saltwater — the biology behind aquaporin desalination membranes."
 date        = "2026-04-29"
 slug        = "mangrove-root-aquaporin-desalination-membranes"
 type        = "organisms"

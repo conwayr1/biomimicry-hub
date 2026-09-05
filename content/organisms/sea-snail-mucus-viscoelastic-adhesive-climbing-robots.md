@@ -1,6 +1,6 @@
 +++
-title       = "How Sea snail Inspired Viscoelastic Reversible Adhesives"
-description = "How the sea snail inspired viscoelastic reversible adhesives — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Sea Snail Inspired Viscoelastic Reversible Adhesives"
+description = "The flamingo tongue snail moves across sea fans (gorgonian coral) by secreting a mucus trail — the biology behind viscoelastic reversible adhesives."
 date        = "2026-04-29"
 slug        = "sea-snail-mucus-viscoelastic-adhesive-climbing-robots"
 type        = "organisms"

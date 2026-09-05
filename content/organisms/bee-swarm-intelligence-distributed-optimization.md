@@ -1,6 +1,6 @@
 +++
 title       = "How Bees Inspired Swarm Intelligence Algorithms"
-description = "How the bees inspired swarm intelligence algorithms — the biological mechanism, the engineering principle, and real-world applications."
+description = "When a honeybee colony scouts for a new nest site, hundreds of scouts investigate different options — the biology behind swarm intelligence algorithms."
 date        = "2026-04-29"
 slug        = "bee-swarm-intelligence-distributed-optimization"
 type        = "organisms"

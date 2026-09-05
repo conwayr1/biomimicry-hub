@@ -1,6 +1,6 @@
 +++
 title       = "How Tardigrade Inspired Room-temperature Vaccine Storage"
-description = "How the tardigrade inspired room-temperature vaccine storage — the biological mechanism, the engineering principle, and real-world applications."
+description = "Enters cryptobiosis by replacing cellular water with a glass-like sugar (trehalose) and producing — the biology behind room-temperature vaccine storage."
 date        = "2026-04-29"
 slug        = "tardigrade-cryptobiosis-vaccine-storage-radiation"
 type        = "organisms"

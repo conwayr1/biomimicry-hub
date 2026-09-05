@@ -35,12 +35,15 @@ biomimicry-seo/
 │   ├── seed_database.py        # Populates the SQLite database
 │   ├── add_strategy.py         # Interactive CLI to add new strategies
 │   ├── generate_keywords.py    # Generates data/keyword_plan.json
-│   ├── generate_content.py     # Generates all Hugo markdown files
+│   ├── generate_content.py     # Generates Hugo markdown (never overwrites existing files)
+│   ├── generate_diagrams.py    # Generates the SVG mechanism diagram for each strategy
 │   ├── build_internal_links.py # Audits + fixes SEO and internal linking
 │   ├── expand_database.py      # Bulk-adds strategies to grow the database
+│   ├── fix_organism_meta.py    # Retro-fixes titles/meta descriptions on existing pages
 │   ├── fix_boilerplate.py      # One-off cleanup: removes repeated boilerplate
-│   └── fix_meta_descriptions.py # One-off cleanup: dedupes/fixes meta descriptions
+│   └── fix_meta_descriptions.py # One-off cleanup: trims over-long meta descriptions
 ├── static/
+│   ├── images/diagrams/        # 82 generated SVG mechanism diagrams
 │   └── robots.txt
 └── config.toml                 # Hugo config — update baseURL before deploying
 ```
@@ -71,12 +74,21 @@ py scripts/seed_database.py
 # 2. Generate the keyword/page plan
 py scripts/generate_keywords.py
 
-# 3. Generate all Hugo markdown content files
+# 3. Generate Hugo markdown for any pages that don't exist yet
 py scripts/generate_content.py
 
-# 4. Audit and fix SEO + internal links
+# 4. Generate the SVG mechanism diagrams
+py scripts/generate_diagrams.py
+
+# 5. Audit and fix SEO + internal links
 py scripts/build_internal_links.py
 ```
+
+> **Existing pages are never overwritten.** `generate_content.py` only creates
+> files that don't exist yet, so pages you've edited by hand are safe to
+> re-run against. It reports how many it kept. Passing `--force` overwrites
+> everything from the database and **will discard hand-written content** — only
+> use it if that's genuinely what you want.
 
 To add a new organism strategy interactively:
 ```bash

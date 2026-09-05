@@ -1,6 +1,6 @@
 +++
 title       = "How Dragonfly Inspired Micro Air Vehicle Wings"
-description = "How the dragonfly inspired micro air vehicle wings — the biological mechanism, the engineering principle, and real-world applications."
+description = "Dragonflies have four independently controlled wings, each with a corrugated cross-section — the biology behind micro air vehicle wings."
 date        = "2026-04-29"
 slug        = "dragonfly-corrugated-wings-micro-air-vehicles"
 type        = "organisms"

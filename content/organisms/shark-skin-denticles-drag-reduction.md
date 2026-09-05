@@ -1,6 +1,6 @@
 +++
-title       = "How Shortfin mako shark Inspired Drag-reducing Surfaces"
-description = "How the shortfin mako shark inspired drag-reducing surfaces — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Shortfin Mako Shark Inspired Drag-reducing Surfaces"
+description = "Tiny tooth-like scales called denticles cover the shark's skin in a precise pattern that disrupts the boundary — the biology behind drag-reducing surfaces."
 date        = "2026-04-29"
 slug        = "shark-skin-denticles-drag-reduction"
 type        = "organisms"

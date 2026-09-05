@@ -1,6 +1,6 @@
 +++
-title       = "How Sea cucumber Inspired Variable-stiffness Neural Implants"
-description = "How the sea cucumber inspired variable-stiffness neural implants — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Sea Cucumber Inspired Variable-stiffness Neural Implants"
+description = "Sea cucumbers can rapidly change their body stiffness from rigid (when threatened) to soft and fluid — the biology behind variable-stiffness neural implants."
 date        = "2026-04-29"
 slug        = "sea-cucumber-variable-stiffness-neural-implants"
 type        = "organisms"

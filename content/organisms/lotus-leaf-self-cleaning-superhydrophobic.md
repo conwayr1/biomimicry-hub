@@ -1,6 +1,6 @@
 +++
-title       = "How Sacred lotus Inspired Self-cleaning Surfaces"
-description = "How the sacred lotus inspired self-cleaning surfaces — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Sacred Lotus Inspired Self-cleaning Surfaces"
+description = "The lotus leaf surface is covered with microscopic waxy bumps (papillae) that repel water so effectively — the biology behind self-cleaning surfaces."
 date        = "2026-04-29"
 slug        = "lotus-leaf-self-cleaning-superhydrophobic"
 type        = "organisms"

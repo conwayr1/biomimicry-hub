@@ -1,6 +1,6 @@
 +++
-title       = "How Desert ant Inspired Dead-reckoning Robot Navigation"
-description = "How the desert ant inspired dead-reckoning robot navigation — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Desert Ant Inspired Dead-reckoning Robot Navigation"
+description = "Desert ants forage solo, ranging up to 500 meters from the nest with no landmarks in featureless terrain — the biology behind dead-reckoning robot navigation."
 date        = "2026-04-29"
 slug        = "desert-ant-path-integration-robot-navigation"
 type        = "organisms"

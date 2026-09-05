@@ -1,6 +1,6 @@
 +++
-title       = "How Polar bear Inspired Fiber-optic Solar Collectors"
-description = "How the polar bear inspired fiber-optic solar collectors — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Polar Bear Inspired Fiber-optic Solar Collectors"
+description = "Hollow, transparent fur fibers scatter and channel ultraviolet light down to the black skin beneath — the biology behind fiber-optic solar collectors."
 date        = "2026-04-29"
 slug        = "polar-bear-fur-solar-collector-thermal-insulation"
 type        = "organisms"

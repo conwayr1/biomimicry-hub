@@ -1,6 +1,6 @@
 +++
-title       = "How Peregrine falcon Inspired Jet Engine Air Intakes"
-description = "How the peregrine falcon inspired jet engine air intakes — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Peregrine Falcon Inspired Jet Engine Air Intakes"
+description = "The peregrine falcon is the fastest animal on Earth, diving at over 320 km/h — the biology behind jet engine air intakes."
 date        = "2026-04-29"
 slug        = "peregrine-falcon-nostril-jet-engine-intake"
 type        = "organisms"

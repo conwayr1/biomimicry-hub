@@ -1,6 +1,6 @@
 +++
-title       = "How Leafcutter ant Inspired Sustainable Fungal Farming Systems"
-description = "How the leafcutter ant inspired sustainable fungal farming systems — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Leafcutter Ant Inspired Sustainable Fungal Farming Systems"
+description = "Leafcutter ants don't eat leaves — they use them to cultivate a specific fungus (Leucoagaricus — the biology behind sustainable fungal farming systems."
 date        = "2026-04-29"
 slug        = "leafcutter-ant-fungal-farming-sustainable-agriculture"
 type        = "organisms"

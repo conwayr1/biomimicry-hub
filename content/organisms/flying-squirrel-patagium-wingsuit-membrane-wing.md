@@ -1,6 +1,6 @@
 +++
-title       = "How Flying squirrel Inspired Membrane Wing Aircraft and Wingsuits"
-description = "How the flying squirrel inspired membrane wing aircraft and wingsuits — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Flying Squirrel Inspired Membrane Wing Aircraft and Wingsuits"
+description = "The flying squirrel glides up to 90 meters by extending a skin membrane (patagium) between — the biology behind membrane wing aircraft and wingsuits."
 date        = "2026-04-29"
 slug        = "flying-squirrel-patagium-wingsuit-membrane-wing"
 type        = "organisms"

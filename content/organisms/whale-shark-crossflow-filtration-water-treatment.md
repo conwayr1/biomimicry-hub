@@ -1,6 +1,6 @@
 +++
-title       = "How Whale shark Inspired Self-cleaning Water Filtration Membranes"
-description = "How the whale shark inspired self-cleaning water filtration membranes — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Whale Shark Inspired Self-cleaning Water Filtration Membranes"
+description = "Filters up to 6,000 litres of water per hour through cephalic lobes using cross-flow — the biology behind self-cleaning water filtration membranes."
 date        = "2026-04-29"
 slug        = "whale-shark-crossflow-filtration-water-treatment"
 type        = "organisms"

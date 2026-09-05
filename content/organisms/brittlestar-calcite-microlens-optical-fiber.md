@@ -1,6 +1,6 @@
 +++
-title       = "How Brittle star Inspired Biomimetic Microlens Arrays"
-description = "How the brittle star inspired biomimetic microlens arrays — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Brittle Star Inspired Biomimetic Microlens Arrays"
+description = "Brittlestars have no eyes, yet they can change color and seek shade in response to light changes — the biology behind biomimetic microlens arrays."
 date        = "2026-04-29"
 slug        = "brittlestar-calcite-microlens-optical-fiber"
 type        = "organisms"

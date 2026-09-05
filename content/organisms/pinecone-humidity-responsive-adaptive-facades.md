@@ -1,6 +1,6 @@
 +++
 title       = "How Pinecones Inspired Humidity-responsive Architecture"
-description = "How the european pinecone inspired humidity-responsive building facades — the biological mechanism, the engineering principle, and real-world applications."
+description = "Pinecone scales open when dry to release seeds and close when wet to protect them — the biology behind humidity-responsive building facades."
 date        = "2026-04-29"
 slug        = "pinecone-humidity-responsive-adaptive-facades"
 type        = "organisms"

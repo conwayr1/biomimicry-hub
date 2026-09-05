@@ -1,6 +1,6 @@
 +++
-title       = "How Physarum polycephalum Inspired Network Optimization Algorithms"
-description = "How the physarum polycephalum inspired network optimization algorithms — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Physarum Polycephalum Inspired Network Optimization Algorithms"
+description = "Without a brain or nervous system, solves shortest-path problems between food sources by reinforcing — the biology behind network optimization algorithms."
 date        = "2026-04-29"
 slug        = "slime-mold-network-optimization-distributed-computing"
 type        = "organisms"

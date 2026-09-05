@@ -314,13 +314,88 @@ def title_case_tech(tech):
     return " ".join(result)
 
 
+# Organisms that read wrong with a leading article — a plural and two mass nouns.
+# Everything else ("the Boxfish", "the Platypus", "the Nautilus") takes "the".
+NO_ARTICLE = {"bees", "bone", "lichen"}
+
+
+def organism_display(org):
+    """Title-case an organism name for use inside a page title, with an article.
+
+    The database stores names in sentence case ("Pileated woodpecker"), which
+    reads like a typo mid-title: "How Pileated woodpecker Inspired ...".
+    """
+    name = " ".join(w[0].upper() + w[1:] if w else w for w in org.split())
+    if org.lower() in NO_ARTICLE:
+        return name
+    return f"the {name}"
+
+
+# Openers that turn a clause into a fragment if we stop at the first comma
+# ("When a honeybee colony scouts for a new nest site" reads as an unfinished
+# thought), so for these we take a longer cut instead.
+SUBORDINATORS = {"when", "if", "while", "although", "because", "as", "after",
+                 "before", "since", "unless", "though", "whereas", "despite"}
+
+# Words a trimmed phrase should never end on.
+DANGLING = {"and", "or", "but", "with", "from", "to", "of", "the", "a", "an",
+            "in", "on", "at", "for", "by", "into", "that", "which", "as",
+            "its", "their", "this", "these", "than", "then", "so", "up"}
+
+
+def clean_phrase(text, max_len, ellipsis=True):
+    """Trim text to a complete phrase, breaking at a natural boundary.
+
+    Prefers to end at punctuation (em dash, comma, semicolon) so the result
+    reads as a finished thought rather than a mid-clause cut.
+    """
+    if not text:
+        return ""
+    s = text.split(". ")[0].strip()
+    if len(s) <= max_len:
+        return s.rstrip(".")
+    boundary = -1
+    for d in ("—", "; ", ", ", ": "):
+        i = s.rfind(d, 0, max_len)
+        if i > boundary:
+            boundary = i
+    opener = s.split(" ", 1)[0].lower()
+    if boundary >= 45 and opener not in SUBORDINATORS:
+        return s[:boundary].rstrip(" ,;:—")
+    cut = s[:max_len].rsplit(" ", 1)[0].rstrip(" ,;:—")
+    # Don't end on a connective or article — "...investigate options and" reads
+    # as though the sentence was chopped mid-thought.
+    words = cut.split()
+    while len(words) > 6 and words[-1].lower().strip(",;:") in DANGLING:
+        words.pop()
+    cut = " ".join(words).rstrip(" ,;:—")
+    return cut + "…" if ellipsis else cut
+
+
+def organism_title(org, tech):
+    """e.g. 'How the Tokay Gecko Inspired Dry Adhesives'"""
+    return f"How {organism_display(org)} Inspired {title_case_tech(tech)}"
+
+
+def organism_description(bio_function, tech, max_len=158):
+    """Lead with a specific fact about this organism, then what it produced.
+
+    The old template appended the same 79-character clause to all 82 organism
+    pages, which is duplicate boilerplate and tells a searcher nothing. Leading
+    with the organism's own biology makes every description distinct.
+    """
+    tail = f" — the biology behind {tech}."
+    # No ellipsis: the em dash already signals that the thought continues.
+    return clean_phrase(bio_function, max_len - len(tail), ellipsis=False) + tail
+
+
 def build_organism_pages(strategies):
     pages = []
     for s in strategies:
         org = short_organism(s["organism"])
         tech = derive_technology(s)
         keyword = f"how {org.lower()} inspired {tech}"
-        title = f"How {org} Inspired {title_case_tech(tech)}"
+        title = organism_title(org, tech)
         pages.append({
             "page_type": "organism",
             "keyword": keyword,
@@ -329,10 +404,7 @@ def build_organism_pages(strategies):
             "strategy_ids": [s["id"]],
             "taxonomy_group": s["biomimicry_taxonomy_group"],
             "industries": [t.strip() for t in (s["industry_tags"] or "").split(",") if t.strip()],
-            "description": (
-                f"How the {org.lower()} inspired {tech} — "
-                f"the biological mechanism, the engineering principle, and real-world applications."
-            ),
+            "description": organism_description(s["biological_function"], tech),
         })
     return pages
 

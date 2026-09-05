@@ -1,6 +1,6 @@
 +++
 title       = "How the Immortal Jellyfish Inspired Stem Cell Research"
-description = "How the turritopsis dohrnii jellyfish inspired cellular reprogramming and stem cells — the biological mechanism, the engineering principle, and real-world..."
+description = "This jellyfish is effectively biologically immortal — when stressed — the biology behind cellular reprogramming and stem cells."
 date        = "2026-04-29"
 slug        = "immortal-jellyfish-cellular-reprogramming-stem-cells"
 type        = "organisms"

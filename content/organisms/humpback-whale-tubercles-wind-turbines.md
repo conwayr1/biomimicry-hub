@@ -1,6 +1,6 @@
 +++
-title       = "How Humpback whale Inspired Wind Turbine Blades"
-description = "How the humpback whale inspired wind turbine blades — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Humpback Whale Inspired Wind Turbine Blades"
+description = "Despite weighing around 30 tonnes (up to 36 tonnes for large adults), humpback whales are remarkably agile — the biology behind wind turbine blades."
 date        = "2026-04-29"
 slug        = "humpback-whale-tubercles-wind-turbines"
 type        = "organisms"

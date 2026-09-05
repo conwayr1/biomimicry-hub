@@ -1,6 +1,6 @@
 +++
-title       = "How Red-eyed tree frog Inspired Wet-surface Adhesive Grippers"
-description = "How the red-eyed tree frog inspired wet-surface adhesive grippers — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Red-eyed Tree Frog Inspired Wet-surface Adhesive Grippers"
+description = "This frog can cling to smooth, wet leaves using toe pads that work via a wet adhesion mechanism — the biology behind wet-surface adhesive grippers."
 date        = "2026-04-29"
 slug        = "tree-frog-wet-adhesion-surgical-robots"
 type        = "organisms"

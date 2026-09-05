@@ -1,6 +1,6 @@
 +++
-title       = "How Baobab tree Inspired Passive Evaporative Cooling Structures"
-description = "How the baobab tree inspired passive evaporative cooling structures — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Baobab Tree Inspired Passive Evaporative Cooling Structures"
+description = "The baobab stores up to 120,000 liters of water in its fibrous, spongy trunk — the biology behind passive evaporative cooling structures."
 date        = "2026-04-29"
 slug        = "baobab-water-storage-evaporative-cooling-architecture"
 type        = "organisms"

@@ -1,6 +1,6 @@
 +++
-title       = "How Lined seahorse Inspired Flexible Protective Armor"
-description = "How the lined seahorse inspired flexible protective armor — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Lined Seahorse Inspired Flexible Protective Armor"
+description = "The bony tail is built from square cross-section rings that slide and rotate against each other — the biology behind flexible protective armor."
 date        = "2026-04-29"
 slug        = "seahorse-tail-flexible-armor-surgical-robotics"
 type        = "organisms"

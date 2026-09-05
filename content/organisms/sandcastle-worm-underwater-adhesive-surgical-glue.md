@@ -1,6 +1,6 @@
 +++
-title       = "How Sandcastle worm Inspired Underwater Surgical Adhesives"
-description = "How the sandcastle worm inspired underwater surgical adhesives — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Sandcastle Worm Inspired Underwater Surgical Adhesives"
+description = "Secretes a two-part underwater adhesive from separate glands — the biology behind underwater surgical adhesives."
 date        = "2026-04-29"
 slug        = "sandcastle-worm-underwater-adhesive-surgical-glue"
 type        = "organisms"

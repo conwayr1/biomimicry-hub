@@ -1,6 +1,6 @@
 +++
 title       = "How Morpho Butterflies Inspired Structural Color Tech"
-description = "How the morpho butterfly inspired structural color and anti-counterfeiting — the biological mechanism, the engineering principle, and real-world applications."
+description = "The Morpho butterfly's brilliant iridescent blue color contains no blue pigment — the biology behind structural color and anti-counterfeiting."
 date        = "2026-04-29"
 slug        = "morpho-butterfly-structural-color-anti-counterfeiting"
 type        = "organisms"

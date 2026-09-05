@@ -1,6 +1,6 @@
 +++
-title       = "How Electric eel Inspired Soft Biobatteries"
-description = "How the electric eel inspired soft biobatteries — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Electric Eel Inspired Soft Biobatteries"
+description = "The electric eel generates up to 860 volts using thousands of electrocytes — the biology behind soft biobatteries."
 date        = "2026-04-29"
 slug        = "electric-eel-stacked-electrocytes-soft-biobattery"
 type        = "organisms"

@@ -1,6 +1,6 @@
 +++
-title       = "How Abalone shell Inspired Ultra-tough Ceramic Composites"
-description = "How the abalone shell inspired ultra-tough ceramic composites — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Abalone Shell Inspired Ultra-tough Ceramic Composites"
+description = "Abalone shell (nacre) is made from the same calcium carbonate as blackboard chalk — the biology behind ultra-tough ceramic composites."
 date        = "2026-04-29"
 slug        = "abalone-nacre-tough-ceramic-composites"
 type        = "organisms"

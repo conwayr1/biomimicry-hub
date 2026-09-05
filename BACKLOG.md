@@ -29,13 +29,16 @@ The four "best-of" list pages carry ~37% of impressions but rank page 2 because 
 - [x] Fixed sitewide <title> bloat: the full site tagline was appended to all 202 pages
       (54-char suffix; home page doubled its own title at 106 chars). Now uses a short
       `brand` param — saves 38 chars per page (2026-09-04).
-- [ ] **Remaining title/description debt.** 95 pages still render titles over 65 chars, and
-      78 organism pages still share the identical description formula "— the biological mechanism,
-      the engineering principle, and real-world applications." Two follow-ups:
-      (a) shorten the auto-generated organism title pattern ("How Pileated woodpecker Inspired
-      Impact-absorbing Helmets" — note the broken mid-sentence capitalisation);
-      (b) replace the boilerplate description formula with a specific hook per page.
-      Both are in generate_content.py, so fix the generator rather than the files.
+- [x] **Title/description debt — done (2026-09-04).** Fixed the duplicate description formula
+      (all 82 organism descriptions are now unique and specific), the sentence-case organism
+      title bug, and 4 pages whose meta had been truncated mid-word by fix_meta_descriptions.py.
+      Applied via scripts/fix_organism_meta.py, which only touches pages still carrying the
+      boilerplate, so hand-written meta is left alone.
+- [x] **Fixed a data-loss bug: generate_content.py overwrote every file** despite the README
+      claiming it skipped existing ones. It now preserves existing pages and reports what it kept;
+      --force is required to overwrite (2026-09-04).
+- [ ] Retire or fix `fix_meta_descriptions.py` — it blunt-trims to 159 chars + "..." and is what
+      truncated those 4 descriptions mid-word. Superseded by fix_organism_meta.py for organisms.
 - [x] Fix the architecture **industry** page — 219 -> 959 words, repositioned to industry analysis
       (energy case, built projects, adoption barriers, direction) instead of a second examples list.
       Cannibalization resolved by giving each page a distinct intent + explicit cross-links (2026-09-04).

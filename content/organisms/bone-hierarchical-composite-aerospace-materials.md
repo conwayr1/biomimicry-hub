@@ -1,6 +1,6 @@
 +++
 title       = "How Bone Inspired Hierarchical Composite Materials"
-description = "How the bone inspired hierarchical composite materials — the biological mechanism, the engineering principle, and real-world applications."
+description = "Cortical bone achieves a remarkable combination of stiffness and toughness through a hierarchical — the biology behind hierarchical composite materials."
 date        = "2026-04-29"
 slug        = "bone-hierarchical-composite-aerospace-materials"
 type        = "organisms"

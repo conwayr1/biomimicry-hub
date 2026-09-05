@@ -1,6 +1,6 @@
 +++
 title       = "How Hagfish Inspired Ultra-strong Lightweight Fibres"
-description = "How the hagfish inspired ultra-strong lightweight fibres — the biological mechanism, the engineering principle, and real-world applications."
+description = "When threatened, releases a small volume of mucus that expands 10,000-fold in a fraction of a second — the biology behind ultra-strong lightweight fibres."
 date        = "2026-04-29"
 slug        = "hagfish-slime-fiber-protective-materials"
 type        = "organisms"

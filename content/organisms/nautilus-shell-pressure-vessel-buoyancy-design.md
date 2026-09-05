@@ -1,6 +1,6 @@
 +++
 title       = "How Nautilus Inspired Deep-sea Pressure Vessel Design"
-description = "How the nautilus inspired deep-sea pressure vessel design — the biological mechanism, the engineering principle, and real-world applications."
+description = "The shell is divided into gas-filled chambers connected by a siphuncle tube — the biology behind deep-sea pressure vessel design."
 date        = "2026-04-29"
 slug        = "nautilus-shell-pressure-vessel-buoyancy-design"
 type        = "organisms"

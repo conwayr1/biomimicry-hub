@@ -1,6 +1,6 @@
 +++
-title       = "How Starling murmuration Inspired Autonomous Drone Swarm Coordination"
-description = "How the starling murmuration inspired autonomous drone swarm coordination — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Starling Murmuration Inspired Autonomous Drone Swarm Coordination"
+description = "Flocks of up to a million starlings produce fluid, shapeshifting aerial formations with no leader — the biology behind autonomous drone swarm coordination."
 date        = "2026-04-29"
 slug        = "starling-murmuration-swarm-robotics-autonomous-drones"
 type        = "organisms"

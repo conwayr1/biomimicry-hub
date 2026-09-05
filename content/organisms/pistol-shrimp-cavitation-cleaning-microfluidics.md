@@ -1,6 +1,6 @@
 +++
 title       = "How Pistol Shrimp Inspired Cavitation Microfluidics"
-description = "How the pistol shrimp inspired cavitation-based cleaning and microfluidics — the biological mechanism, the engineering principle, and real-world applications."
+description = "The pistol shrimp snaps its oversized claw so fast it creates a cavitation bubble — the biology behind cavitation-based cleaning and microfluidics."
 date        = "2026-04-29"
 slug        = "pistol-shrimp-cavitation-cleaning-microfluidics"
 type        = "organisms"

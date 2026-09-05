@@ -1,6 +1,6 @@
 +++
-title       = "How Desert locust Inspired Collision-avoidance Sensors"
-description = "How the desert locust inspired collision-avoidance sensors — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Desert Locust Inspired Collision-avoidance Sensors"
+description = "Locusts can fly in dense swarms of millions without colliding — the biology behind collision-avoidance sensors."
 date        = "2026-04-29"
 slug        = "locust-collision-detection-autonomous-vehicles"
 type        = "organisms"

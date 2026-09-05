@@ -1,6 +1,6 @@
 +++
-title       = "How Saguaro cactus Inspired Expandable and Foldable Structures"
-description = "How the saguaro cactus inspired expandable and foldable structures — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Saguaro Cactus Inspired Expandable and Foldable Structures"
+description = "The saguaro's pleated, accordion-like trunk expands to store up to 750 liters of water after rain — the biology behind expandable and foldable structures."
 date        = "2026-04-29"
 slug        = "saguaro-cactus-pleated-structure-expandable-design"
 type        = "organisms"

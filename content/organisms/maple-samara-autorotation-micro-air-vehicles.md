@@ -1,6 +1,6 @@
 +++
-title       = "How Maple tree Inspired Single-wing Micro Air Vehicles"
-description = "How the maple tree inspired single-wing micro air vehicles — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Maple Tree Inspired Single-wing Micro Air Vehicles"
+description = "The asymmetric single-winged seed (samara) autorotates as it falls — the biology behind single-wing micro air vehicles."
 date        = "2026-04-29"
 slug        = "maple-samara-autorotation-micro-air-vehicles"
 type        = "organisms"

@@ -1,6 +1,6 @@
 +++
-title       = "How Bactrian camel Inspired Passive Building Thermal Management"
-description = "How the bactrian camel inspired passive building thermal management — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Bactrian Camel Inspired Passive Building Thermal Management"
+description = "Tolerates 30% body water loss, body temperature swings of 6°C over a day — the biology behind passive building thermal management."
 date        = "2026-04-29"
 slug        = "camel-thermoregulation-passive-building-cooling"
 type        = "organisms"

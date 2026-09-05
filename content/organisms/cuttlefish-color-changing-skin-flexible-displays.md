@@ -1,6 +1,6 @@
 +++
 title       = "How Cuttlefish Inspired Color-changing Flexible Displays"
-description = "How the cuttlefish inspired color-changing flexible displays — the biological mechanism, the engineering principle, and real-world applications."
+description = "Cuttlefish change skin color and pattern within milliseconds using three layers of specialized cells — the biology behind color-changing flexible displays."
 date        = "2026-04-29"
 slug        = "cuttlefish-color-changing-skin-flexible-displays"
 type        = "organisms"

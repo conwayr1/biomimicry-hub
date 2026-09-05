@@ -1,6 +1,6 @@
 +++
 title       = "How Rattlesnake Inspired Ultra-sensitive Infrared Sensors"
-description = "How the rattlesnake inspired ultra-sensitive infrared sensors — the biological mechanism, the engineering principle, and real-world applications."
+description = "Detects infrared radiation (body heat) from prey using pit organs containing a thin membrane just 15 — the biology behind ultra-sensitive infrared sensors."
 date        = "2026-04-29"
 slug        = "rattlesnake-pit-organ-infrared-sensor-thermal-camera"
 type        = "organisms"

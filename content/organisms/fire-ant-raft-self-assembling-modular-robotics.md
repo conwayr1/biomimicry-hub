@@ -1,6 +1,6 @@
 +++
-title       = "How Fire ant Inspired Self-assembling Modular Robotics"
-description = "How the fire ant inspired self-assembling modular robotics — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Fire Ant Inspired Self-assembling Modular Robotics"
+description = "When flooded, thousands of fire ants link legs and bodies into a self-assembling, waterproof raft — the biology behind self-assembling modular robotics."
 date        = "2026-04-29"
 slug        = "fire-ant-raft-self-assembling-modular-robotics"
 type        = "organisms"

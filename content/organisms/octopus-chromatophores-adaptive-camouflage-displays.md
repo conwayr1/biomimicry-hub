@@ -1,6 +1,6 @@
 +++
-title       = "How Common octopus Inspired Adaptive Camouflage and Flexible Displays"
-description = "How the common octopus inspired adaptive camouflage and flexible displays — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Common Octopus Inspired Adaptive Camouflage and Flexible Displays"
+description = "Changes skin color, texture, and pattern in milliseconds using chromatophores, papillae — the biology behind adaptive camouflage and flexible displays."
 date        = "2026-04-29"
 slug        = "octopus-chromatophores-adaptive-camouflage-displays"
 type        = "organisms"

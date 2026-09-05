@@ -1,6 +1,6 @@
 +++
-title       = "How Common firefly Inspired High-efficiency LED Coatings"
-description = "How the common firefly inspired high-efficiency LED coatings — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Common Firefly Inspired High-efficiency LED Coatings"
+description = "Produces light via bioluminescence with near-100% efficiency — the biology behind high-efficiency LED coatings."
 date        = "2026-04-29"
 slug        = "firefly-bioluminescence-efficient-led-lighting"
 type        = "organisms"

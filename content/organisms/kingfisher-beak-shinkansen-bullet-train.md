@@ -1,6 +1,6 @@
 +++
-title       = "How Common kingfisher Inspired The Shinkansen Bullet Train Nose"
-description = "How the common kingfisher inspired the Shinkansen bullet train nose — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Common Kingfisher Inspired The Shinkansen Bullet Train Nose"
+description = "The kingfisher dives from air into water — two media with very different densities — the biology behind the Shinkansen bullet train nose."
 date        = "2026-04-29"
 slug        = "kingfisher-beak-shinkansen-bullet-train"
 type        = "organisms"

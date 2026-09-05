@@ -1,6 +1,6 @@
 +++
-title       = "How Golden silk orb-weaver spider Inspired Synthetic Spider Silk"
-description = "How the golden silk orb-weaver spider inspired synthetic spider silk — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Golden Silk Orb-weaver Spider Inspired Synthetic Spider Silk"
+description = "Spider silk is five times stronger than steel by weight, yet more elastic than nylon — the biology behind synthetic spider silk."
 date        = "2026-04-29"
 slug        = "spider-silk-tensile-strength-synthetic-fibers"
 type        = "organisms"

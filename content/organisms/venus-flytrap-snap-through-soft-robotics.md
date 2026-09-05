@@ -1,6 +1,6 @@
 +++
-title       = "How Venus flytrap Inspired Snap-through Soft Robot Actuators"
-description = "How the venus flytrap inspired snap-through soft robot actuators — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Venus Flytrap Inspired Snap-through Soft Robot Actuators"
+description = "The Venus flytrap snaps shut in 100 milliseconds — one of the fastest movements in the plant kingdom — the biology behind snap-through soft robot actuators."
 date        = "2026-04-29"
 slug        = "venus-flytrap-snap-through-soft-robotics"
 type        = "organisms"

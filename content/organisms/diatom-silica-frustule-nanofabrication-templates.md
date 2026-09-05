@@ -1,6 +1,6 @@
 +++
-title       = "How Marine diatom Inspired Nanofabrication Templates"
-description = "How the marine diatom inspired nanofabrication templates — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Marine Diatom Inspired Nanofabrication Templates"
+description = "Single-celled algae build intricate silica shells (frustules) with species-specific nanoscale pore patterns — the biology behind nanofabrication templates."
 date        = "2026-04-29"
 slug        = "diatom-silica-frustule-nanofabrication-templates"
 type        = "organisms"

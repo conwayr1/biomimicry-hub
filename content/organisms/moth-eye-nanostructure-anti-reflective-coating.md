@@ -1,6 +1,6 @@
 +++
 title       = "How Moth Inspired Anti-reflective Surface Coatings"
-description = "How the moth inspired anti-reflective surface coatings — the biological mechanism, the engineering principle, and real-world applications."
+description = "Corneal nanostructures on moth eyes form a gradient refractive index that eliminates surface — the biology behind anti-reflective surface coatings."
 date        = "2026-04-29"
 slug        = "moth-eye-nanostructure-anti-reflective-coating"
 type        = "organisms"

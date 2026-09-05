@@ -1,6 +1,6 @@
 +++
-title       = "How Tokay gecko Inspired Dry Adhesives"
-description = "How the tokay gecko inspired dry adhesives — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Tokay Gecko Inspired Dry Adhesives"
+description = "Millions of microscopic hair-like structures called setae on the gecko's toe pads create van der Waals forces — the biology behind dry adhesives."
 date        = "2026-04-29"
 slug        = "gecko-adhesion-dry-adhesives"
 type        = "organisms"

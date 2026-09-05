@@ -2,9 +2,14 @@
 generate_content.py — Generates Hugo markdown files for all pages in keyword_plan.json.
 
 Usage:
-  python scripts/generate_content.py            # generate all pages
+  python scripts/generate_content.py            # generate only pages that don't exist yet
   python scripts/generate_content.py --sample   # generate 1 page of each type only
   python scripts/generate_content.py --type organisms  # one type only
+  python scripts/generate_content.py --force    # OVERWRITE existing pages (destroys hand edits)
+
+By default this script never overwrites an existing markdown file, so adding a
+new strategy and re-running is safe. Use --force only when you intend to discard
+hand-written content and rebuild from the database.
 """
 
 import sqlite3
@@ -21,6 +26,9 @@ PLAN_PATH    = os.path.join(os.path.dirname(__file__), "..", "data", "keyword_pl
 CONTENT_ROOT = os.path.join(os.path.dirname(__file__), "..", "content")
 
 TODAY = date.today().isoformat()
+
+# When false (the default), existing markdown files are never overwritten.
+FORCE = "--force" in sys.argv
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
@@ -39,9 +47,21 @@ def fm_list(items):
 
 
 def write_page(path, content):
+    """Write a generated page.
+
+    Existing files are PRESERVED by default. Pages get hand-edited after
+    generation (expanded prose, rewritten titles and meta descriptions), and
+    silently overwriting that work is unrecoverable. Pass --force to
+    deliberately regenerate everything from the database.
+
+    Returns True if the file was written, False if an existing file was kept.
+    """
+    if os.path.exists(path) and not FORCE:
+        return False
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
+    return True
 
 
 def fetch_all_strategies(conn):
@@ -770,6 +790,7 @@ def main():
     generate_section_indexes()
 
     counts = defaultdict(int)
+    skipped = defaultdict(int)
     for page in pages:
         ptype = page["page_type"]
         if sample_only and counts[ptype] >= 1:
@@ -798,16 +819,25 @@ def main():
         else:
             continue
 
-        write_page(path, content)
-        counts[ptype] += 1
-        label = "SAMPLE" if sample_only else ""
-        print(f"  {label} [{ptype:10}] {page['slug']}")
+        if write_page(path, content):
+            counts[ptype] += 1
+            label = "SAMPLE" if sample_only else ""
+            print(f"  {label} [{ptype:10}] {page['slug']}")
+        else:
+            skipped[ptype] += 1
 
     print()
     print("Pages generated:")
     for ptype, n in sorted(counts.items()):
         print(f"  {ptype:12} {n}")
     print(f"  {'total':12} {sum(counts.values())}")
+
+    if sum(skipped.values()):
+        print()
+        print(f"Kept {sum(skipped.values())} existing pages (not overwritten):")
+        for ptype, n in sorted(skipped.items()):
+            print(f"  {ptype:12} {n}")
+        print("  Re-run with --force to regenerate them from the database.")
 
 
 if __name__ == "__main__":

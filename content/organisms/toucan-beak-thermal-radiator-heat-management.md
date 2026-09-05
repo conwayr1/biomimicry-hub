@@ -1,6 +1,6 @@
 +++
-title       = "How Toco toucan Inspired Lightweight Thermal Management Panels"
-description = "How the toco toucan inspired lightweight thermal management panels — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Toco Toucan Inspired Lightweight Thermal Management Panels"
+description = "Uses its oversized hollow bill — a foam-filled composite of keratin tiles over a closed-cell bone — the biology behind lightweight thermal management panels."
 date        = "2026-04-29"
 slug        = "toucan-beak-thermal-radiator-heat-management"
 type        = "organisms"

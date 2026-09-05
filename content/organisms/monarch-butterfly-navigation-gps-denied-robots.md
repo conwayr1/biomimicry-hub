@@ -1,6 +1,6 @@
 +++
 title       = "How Monarch Butterflies Inspired GPS-free Navigation"
-description = "How the migratory monarch butterfly inspired GPS-free navigation algorithms — the biological mechanism, the engineering principle, and real-world applications."
+description = "Monarch butterflies navigate up to 4,000 km using a time-compensated sun compass in their antennae — the biology behind GPS-free navigation algorithms."
 date        = "2026-04-29"
 slug        = "monarch-butterfly-navigation-gps-denied-robots"
 type        = "organisms"

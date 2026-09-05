@@ -1,6 +1,6 @@
 +++
-title       = "How Bone-eating worm Inspired Chemosynthetic Bioprocessing"
-description = "How the bone-eating worm inspired chemosynthetic bioprocessing — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Bone-eating Worm Inspired Chemosynthetic Bioprocessing"
+description = "Osedax worms have no mouth, gut, or digestive organs — the biology behind chemosynthetic bioprocessing."
 date        = "2026-04-29"
 slug        = "osedax-worm-symbiotic-digestion-bioprocessing"
 type        = "organisms"

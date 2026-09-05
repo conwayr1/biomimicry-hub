@@ -1,6 +1,6 @@
 +++
 title       = "How Bombardier Beetles Inspired Precision Drug Delivery"
-description = "How the bombardier beetle inspired pulsed combustion and drug injection — the biological mechanism, the engineering principle, and real-world applications."
+description = "The bombardier beetle defends itself by mixing hydroquinone and hydrogen peroxide from separate — the biology behind pulsed combustion and drug injection."
 date        = "2026-04-29"
 slug        = "bombardier-beetle-pulsed-combustion-drug-injection"
 type        = "organisms"

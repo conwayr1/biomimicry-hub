@@ -1,6 +1,6 @@
 +++
 title       = "How Honeybee Inspired Honeycomb Structural Panels"
-description = "How the honeybee inspired honeycomb structural panels — the biological mechanism, the engineering principle, and real-world applications."
+description = "Honeybees build honeycomb from beeswax using hexagonal cells packed together — the biology behind honeycomb structural panels."
 date        = "2026-04-29"
 slug        = "honeycomb-structure-aerospace-lightweight-panels"
 type        = "organisms"

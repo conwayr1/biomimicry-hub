@@ -1,6 +1,6 @@
 +++
 title       = "How Platypus Inspired Electroreception Sensors"
-description = "How the platypus inspired electroreception sensors — the biological mechanism, the engineering principle, and real-world applications."
+description = "The platypus hunts underwater with its eyes closed — the biology behind electroreception sensors."
 date        = "2026-04-29"
 slug        = "platypus-electroreception-underwater-sensor-cardiac"
 type        = "organisms"

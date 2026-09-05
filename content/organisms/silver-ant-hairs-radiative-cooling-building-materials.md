@@ -1,6 +1,6 @@
 +++
 title       = "How Saharan Silver Ants Inspired Passive Cooling"
-description = "How the saharan silver ant inspired passive radiative cooling materials — the biological mechanism, the engineering principle, and real-world applications."
+description = "Active at midday when surface temperatures reach 70°C — the biology behind passive radiative cooling materials."
 date        = "2026-04-29"
 slug        = "silver-ant-hairs-radiative-cooling-building-materials"
 type        = "organisms"

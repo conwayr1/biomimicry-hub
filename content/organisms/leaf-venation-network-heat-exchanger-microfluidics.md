@@ -1,6 +1,6 @@
 +++
-title       = "How Leaf venation Inspired Efficient Heat Exchanger Networks"
-description = "How the leaf venation inspired efficient heat exchanger networks — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Leaf Venation Inspired Efficient Heat Exchanger Networks"
+description = "Hierarchical branching networks in leaves deliver water and nutrients to every cell within 1-2 cells — the biology behind efficient heat exchanger networks."
 date        = "2026-04-29"
 slug        = "leaf-venation-network-heat-exchanger-microfluidics"
 type        = "organisms"

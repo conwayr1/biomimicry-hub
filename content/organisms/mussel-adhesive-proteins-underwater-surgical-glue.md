@@ -1,6 +1,6 @@
 +++
-title       = "How California mussel Inspired Underwater Surgical Adhesives"
-description = "How the california mussel inspired underwater surgical adhesives — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the California Mussel Inspired Underwater Surgical Adhesives"
+description = "Mussels anchor themselves to rocks in crashing surf using thread-like byssal fibers tipped with adhesive — the biology behind underwater surgical adhesives."
 date        = "2026-04-29"
 slug        = "mussel-adhesive-proteins-underwater-surgical-glue"
 type        = "organisms"

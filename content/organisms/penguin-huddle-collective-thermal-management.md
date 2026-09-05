@@ -1,6 +1,6 @@
 +++
-title       = "How Emperor penguin Inspired Collective Thermal Management Systems"
-description = "How the emperor penguin inspired collective thermal management systems — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Emperor Penguin Inspired Collective Thermal Management Systems"
+description = "Huddles of thousands of penguins rotate continuously — the biology behind collective thermal management systems."
 date        = "2026-04-29"
 slug        = "penguin-huddle-collective-thermal-management"
 type        = "organisms"

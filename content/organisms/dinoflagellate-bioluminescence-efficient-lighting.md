@@ -1,6 +1,6 @@
 +++
 title       = "How Dinoflagellates Inspired Efficient Cold-light Lighting"
-description = "How the bioluminescent dinoflagellate inspired high-efficiency bioluminescent lighting — the biological mechanism, the engineering principle, and real-world..."
+description = "These single-celled organisms produce cold blue light through a luciferin-luciferase reaction — the biology behind high-efficiency bioluminescent lighting."
 date        = "2026-04-29"
 slug        = "dinoflagellate-bioluminescence-efficient-lighting"
 type        = "organisms"

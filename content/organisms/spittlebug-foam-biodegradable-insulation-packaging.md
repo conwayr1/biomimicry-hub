@@ -1,6 +1,6 @@
 +++
 title       = "How Spittlebug Inspired Biodegradable Foam Insulation"
-description = "How the spittlebug inspired biodegradable foam insulation — the biological mechanism, the engineering principle, and real-world applications."
+description = "The spittlebug nymph wraps itself in foam made from plant sap and a foaming agent secreted — the biology behind biodegradable foam insulation."
 date        = "2026-04-29"
 slug        = "spittlebug-foam-biodegradable-insulation-packaging"
 type        = "organisms"

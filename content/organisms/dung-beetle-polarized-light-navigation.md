@@ -1,6 +1,6 @@
 +++
-title       = "How Dung beetle Inspired Polarized-light Navigation"
-description = "How the dung beetle inspired polarized-light navigation — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Dung Beetle Inspired Polarized-light Navigation"
+description = "On dark, cloudy nights when stars are invisible — the biology behind polarized-light navigation."
 date        = "2026-04-29"
 slug        = "dung-beetle-polarized-light-navigation"
 type        = "organisms"

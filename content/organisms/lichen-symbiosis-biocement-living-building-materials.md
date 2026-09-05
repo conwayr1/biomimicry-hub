@@ -1,6 +1,6 @@
 +++
 title       = "How Lichen Inspired Living Building Materials and Biocement"
-description = "How the lichen inspired living building materials and biocement — the biological mechanism, the engineering principle, and real-world applications."
+description = "Lichen is a symbiosis between fungus and photosynthetic algae or cyanobacteria — the biology behind living building materials and biocement."
 date        = "2026-04-29"
 slug        = "lichen-symbiosis-biocement-living-building-materials"
 type        = "organisms"

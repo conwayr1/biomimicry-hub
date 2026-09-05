@@ -1,6 +1,6 @@
 +++
-title       = "How Bombardier frog Inspired Safety Warning Color Design"
-description = "How the bombardier frog inspired safety warning color design — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Bombardier Frog Inspired Safety Warning Color Design"
+description = "The fire-bellied toad uses aposematic warning coloration — a vivid yellow-and-black belly — the biology behind safety warning color design."
 date        = "2026-04-29"
 slug        = "fire-bellied-toad-aposematism-safety-warning-design"
 type        = "organisms"

@@ -1,6 +1,6 @@
 +++
 title       = "How Blue Whales Inspired Underwater Communication"
-description = "How the blue whale inspired long-range underwater acoustic communication — the biological mechanism, the engineering principle, and real-world applications."
+description = "Blue whales communicate across ocean basins using ultra-low frequency (10–40 Hz) sound — the biology behind long-range underwater acoustic communication."
 date        = "2026-04-29"
 slug        = "blue-whale-low-frequency-underwater-communication"
 type        = "organisms"

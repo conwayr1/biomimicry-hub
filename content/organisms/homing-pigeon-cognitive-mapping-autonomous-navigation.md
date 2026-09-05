@@ -1,6 +1,6 @@
 +++
 title       = "How Homing Pigeons Inspired Autonomous Navigation AI"
-description = "How the homing pigeon inspired cognitive mapping for autonomous vehicles — the biological mechanism, the engineering principle, and real-world applications."
+description = "Homing pigeons can find their way home from 1,800 km away using a combination of magnetic — the biology behind cognitive mapping for autonomous vehicles."
 date        = "2026-04-29"
 slug        = "homing-pigeon-cognitive-mapping-autonomous-navigation"
 type        = "organisms"

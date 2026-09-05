@@ -1,6 +1,6 @@
 +++
 title       = "How the Namibian Beetle Inspired Fog-harvesting Design"
-description = "How the namibian fog-basking beetle inspired fog-harvesting water collection — the biological mechanism, the engineering principle, and real-world applications."
+description = "In one of the world's driest habitats, this beetle collects drinking water from early-morning coastal — the biology behind fog-harvesting water collection."
 date        = "2026-04-29"
 slug        = "namibian-beetle-fog-collection-water-harvesting"
 type        = "organisms"

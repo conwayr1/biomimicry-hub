@@ -1,6 +1,6 @@
 +++
-title       = "How Glass sponge Inspired Diagonal-braced Structural Lattices"
-description = "How the glass sponge inspired diagonal-braced structural lattices — the biological mechanism, the engineering principle, and real-world applications."
+title       = "How the Glass Sponge Inspired Diagonal-braced Structural Lattices"
+description = "This deep-sea sponge builds a cylindrical cage of glass (silica spicules) that withstands — the biology behind diagonal-braced structural lattices."
 date        = "2026-04-29"
 slug        = "glass-sponge-lattice-skyscraper-diagonal-bracing"
 type        = "organisms"

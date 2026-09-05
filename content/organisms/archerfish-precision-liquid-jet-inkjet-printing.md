@@ -1,6 +1,6 @@
 +++
 title       = "How Archerfish Inspired Precision Liquid-jet Systems"
-description = "How the archerfish inspired precision liquid-jet systems — the biological mechanism, the engineering principle, and real-world applications."
+description = "The archerfish shoots precisely aimed jets of water at insects sitting on vegetation above the water — the biology behind precision liquid-jet systems."
 date        = "2026-04-29"
 slug        = "archerfish-precision-liquid-jet-inkjet-printing"
 type        = "organisms"
