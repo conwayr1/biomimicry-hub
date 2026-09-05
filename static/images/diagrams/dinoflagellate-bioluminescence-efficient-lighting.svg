@@ -1,51 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
 <style>
       .kicker { font-size:11px; font-weight:600; letter-spacing:.16em; fill:#8a8a8a; }
       .group  { font-size:11px; font-weight:600; letter-spacing:.14em; fill:#2d6a4f; }
       .step   { font-size:11px; font-weight:600; letter-spacing:.12em; }
       .step .num  { fill:#2d6a4f; }
       .step .word { fill:#8a8a8a; }
-      .name   { font-size:17px; font-weight:700; fill:#1a1a1a; }
-      .lead   { font-size:13.5px; font-weight:600; fill:#1a1a1a; }
-      .body   { font-size:12.5px; font-weight:400; fill:#5b5b5b; }
-      .cap    { font-size:11.5px; font-weight:400; fill:#8a8a8a; }
     </style>
-<rect x="0.5" y="0.5" width="899" height="319" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
+<rect x="0.5" y="0.5" width="899" height="339" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
 <text x="40" y="44" class="kicker">BIOMIMICRY MECHANISM</text>
 <circle cx="804" cy="40" r="3" fill="#2d6a4f"/>
 <text x="860" y="44" class="group" text-anchor="end">SENSE</text>
-<line x1="40" y1="60" x2="860" y2="60" stroke="#e7e7e7"/>
-<path d="M 295 143 L 305 150 L 295 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
-<path d="M 585 143 L 595 150 L 585 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
-<text x="58" y="90" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
-<text x="58" y="124" class="name" text-anchor="start">
-<tspan x="58" dy="0">Bioluminescent</tspan>
-<tspan x="58" dy="21">dinoflagellate</tspan>
+<line x1="40" y1="64" x2="860" y2="64" stroke="#e7e7e7"/>
+<path d="M 285 207 L 295 214 L 285 221" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M 565 207 L 575 214 L 565 221" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<text x="58" y="120" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
+<text x="58" y="148.5" text-anchor="start" style="font-size:16.5px;font-weight:700;fill:#1a1a1a;">
+<tspan x="58" dy="0.0">Bioluminescent</tspan>
+<tspan x="58" dy="21.4">dinoflagellate</tspan>
 </text>
-<text x="58" y="176" class="body" text-anchor="start">
-<tspan x="58" dy="0">These single-celled organisms</tspan>
-<tspan x="58" dy="18">produce cold blue light through a</tspan>
-<tspan x="58" dy="18">luciferin-luciferase reaction</tspan>
-<tspan x="58" dy="18">triggered by mechanical…</tspan>
+<text x="58" y="198.5" text-anchor="start" style="font-size:12.5px;font-weight:400;fill:#5b5b5b;">
+<tspan x="58" dy="0.0">These single-celled</tspan>
+<tspan x="58" dy="16.2">organisms produce cold blue</tspan>
+<tspan x="58" dy="16.2">light through a</tspan>
+<tspan x="58" dy="16.2">luciferin-luciferase</tspan>
+<tspan x="58" dy="16.2">reaction triggered by…</tspan>
 </text>
-<text x="348" y="90" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
-<circle cx="450" cy="150" r="58" fill="#f6f8f6"/>
-<path d="M 437.52 172 A 16 16 0 0 1 462.48 172" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.00"/><path d="M 426.6 172 A 30 30 0 0 1 473.4 172" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.78"/><path d="M 415.68 172 A 44 44 0 0 1 484.32 172" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.56"/><path d="M 404.76 172 A 58 58 0 0 1 495.24 172" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.34"/><circle cx="450" cy="172" r="3.2" fill="#2d6a4f"/>
-<text x="348" y="240" class="body" text-anchor="start">
-<tspan x="348" dy="0">Enzymatic oxidation of luciferin</tspan>
-<tspan x="348" dy="17">produces electronically excited</tspan>
-<tspan x="348" dy="17">oxyluciferin, which relaxes to…</tspan>
+<text x="338" y="120" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
+<circle cx="430" cy="176" r="46" fill="#f6f8f6"/>
+<path d="M 418 196 A 15 15 0 0 1 442 196" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.00"/><path d="M 408 196 A 28 28 0 0 1 452 196" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.78"/><path d="M 398 196 A 41 41 0 0 1 462 196" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.56"/><path d="M 388 196 A 54 54 0 0 1 472 196" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.34"/><circle cx="430" cy="196" r="3" fill="#2d6a4f"/>
+<text x="338" y="240.0" text-anchor="start" style="font-size:12.0px;font-weight:400;fill:#5b5b5b;">
+<tspan x="338" dy="0.0">Enzymatic oxidation of</tspan>
+<tspan x="338" dy="15.6">luciferin produces</tspan>
+<tspan x="338" dy="15.6">electronically excited</tspan>
+<tspan x="338" dy="15.6">oxyluciferin</tspan>
 </text>
-<text x="612" y="90" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
-<text x="612" y="124" class="lead" text-anchor="start">
-<tspan x="612" dy="0">High-efficiency bioluminescent</tspan>
-<tspan x="612" dy="19">lighting systems, biochemical</tspan>
-<tspan x="612" dy="19">sensors, and medical imaging</tspan>
-<tspan x="612" dy="19">agents that produce light…</tspan>
+<text x="618" y="120" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
+<text x="618" y="145.0" text-anchor="start" style="font-size:13.0px;font-weight:600;fill:#1a1a1a;">
+<tspan x="618" dy="0.0">High-efficiency</tspan>
+<tspan x="618" dy="16.9">bioluminescent lighting</tspan>
+<tspan x="618" dy="16.9">systems, biochemical</tspan>
+<tspan x="618" dy="16.9">sensors</tspan>
 </text>
-<text x="612" y="214" class="cap" text-anchor="start">
-<tspan x="612" dy="0">Real-world: Luciferase reporter</tspan>
-<tspan x="612" dy="16">assays (widely used in</tspan>
-<tspan x="612" dy="16">pharmaceuticals)</tspan>
+<text x="618" y="271.0" text-anchor="start" style="font-size:11.0px;font-weight:400;fill:#8a8a8a;">
+<tspan x="618" dy="0.0">Real-world: Luciferase reporter</tspan>
+<tspan x="618" dy="14.3">assays</tspan>
 </text>
 </svg>

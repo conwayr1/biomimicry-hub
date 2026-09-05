@@ -13,6 +13,12 @@ The centre step carries a fine line-art "motif" chosen by the strategy's
 biomimicry_taxonomy_group (Attach, Move, Make, Modify, Process, Protect,
 Sense), so the seven families stay visually distinct.
 
+Text handling (so nothing gets cut off awkwardly):
+  * short_phrase() trims each DB field to a complete phrase at a natural
+    boundary (comma, em dash, semicolon) rather than a hard character cut.
+  * fit_text() shrinks the font just enough to fit its box, so long phrases
+    stay fully visible instead of being truncated with an ellipsis.
+
 Every shape is drawn from scratch, so the figures are 100% original work
 with no copyright or licensing concerns.
 
@@ -42,12 +48,21 @@ WASH = "#f6f8f6"     # very light ground for the motif
 BG = "#ffffff"
 
 # Drawing canvas (scales responsively via width="100%")
-W, H = 900, 320
+W, H = 900, 340
 
-# Column geometry
-COLS = [186, 450, 714]          # x-centre of each step
-COL_X = [58, 348, 612]          # left text edge of each step
-COL_W = 232                     # usable text width per step
+# Panel geometry: left edge, width, centre, right edge, text-left, text-width
+PL = [28, 308, 588]          # panel left edges
+PW = 244                     # panel width
+PC = [pl + PW // 2 for pl in PL]   # panel centres -> [150, 430, 710]
+PR = [pl + PW for pl in PL]        # panel right edges
+TX = [pl + 30 for pl in PL]        # text left edges -> [58, 338, 618]
+TW = 196                     # usable text width (px)
+PANEL_TOP = 96
+PANEL_BOT = 332
+
+# Average glyph advance as a fraction of font size (slightly generous so text
+# never overruns the right edge). Used to estimate characters-per-line.
+CHAR_W = 0.55
 
 
 # --- Small helpers ----------------------------------------------------------
@@ -82,46 +97,83 @@ def wrap(text, max_chars):
     return lines
 
 
-def tspans(text, x, y, max_chars, line_height, max_lines, cls, anchor="start"):
-    """Render wrapped text as stacked <tspan> lines, truncating with an ellipsis."""
-    lines = wrap(text, max_chars)
-    if len(lines) > max_lines:
-        lines = lines[:max_lines]
-        lines[-1] = lines[-1].rstrip(".,;") + "…"
-    out = [f'<text x="{x}" y="{y}" class="{cls}" text-anchor="{anchor}">']
+def short_phrase(text, max_len=120):
+    """Trim a long field to a complete-reading phrase.
+
+    Keeps the first sentence; if that's still too long, cuts at the last
+    natural boundary (em dash, comma, semicolon, colon) before max_len so the
+    result reads as a finished thought. Only falls back to a word-boundary cut
+    with an ellipsis when no punctuation boundary is available.
+    """
+    if not text:
+        return ""
+    s = text.split(". ")[0].strip()
+    if len(s) <= max_len:
+        return s.rstrip(".")
+    boundary = -1
+    for d in ("—", "; ", ", ", ": "):
+        i = s.rfind(d, 0, max_len)
+        if i > boundary:
+            boundary = i
+    if boundary >= 45:                      # a boundary that leaves a real phrase
+        return s[:boundary].rstrip(" ,;:—")
+    return s[:max_len].rsplit(" ", 1)[0].rstrip(" ,;:—") + "…"
+
+
+def fit_text(text, x, y_top, box_w, box_h, color, weight,
+             max_font=13.0, min_font=9.5, anchor="start"):
+    """Render text shrunk just enough to fit inside (box_w x box_h).
+
+    Tries progressively smaller fonts until the wrapped text fits the box; only
+    at the minimum size (a near-impossible case for our trimmed phrases) does it
+    fall back to truncating with an ellipsis.
+    """
+    if not text:
+        return ""
+    font = max_font
+    while font >= min_font:
+        cpl = max(6, int(box_w / (CHAR_W * font)))
+        lh = font * 1.3
+        lines = wrap(text, cpl)
+        if len(lines) * lh <= box_h:
+            break
+        font -= 0.5
+    else:
+        font = min_font
+        cpl = max(6, int(box_w / (CHAR_W * font)))
+        lh = font * 1.3
+        lines = wrap(text, cpl)
+        max_lines = max(1, int(box_h / lh))
+        if len(lines) > max_lines:
+            lines = lines[:max_lines]
+            lines[-1] = lines[-1].rstrip(" ,;:—") + "…"
+
+    y0 = y_top + font                        # first baseline sits just below top
+    out = [f'<text x="{x}" y="{y0:.1f}" text-anchor="{anchor}" '
+           f'style="font-size:{font:.1f}px;font-weight:{weight};fill:{color};">']
     for i, ln in enumerate(lines):
-        dy = 0 if i == 0 else line_height
-        out.append(f'<tspan x="{x}" dy="{dy}">{esc(ln)}</tspan>')
+        dy = 0 if i == 0 else lh
+        out.append(f'<tspan x="{x}" dy="{dy:.1f}">{esc(ln)}</tspan>')
     out.append("</text>")
     return "\n".join(out)
 
 
-def first_clause(text, max_len=120):
-    """A short, single-clause snippet from a longer field."""
-    if not text:
-        return ""
-    snippet = text.split(". ")[0].strip()
-    if len(snippet) > max_len:
-        snippet = snippet[:max_len].rsplit(" ", 1)[0] + "…"
-    return snippet
-
-
 # --- Line-art motifs --------------------------------------------------------
 # All motifs are stroke-only line art centred on (cx, cy), sized to sit inside
-# a ~112px circle. Consistent 1.6px accent strokes keep the visual language calm.
+# a ~90px circle. Consistent 1.6px accent strokes keep the visual language calm.
 STROKE = f'fill="none" stroke="{ACCENT}" stroke-width="1.6" ' \
          f'stroke-linecap="round" stroke-linejoin="round"'
 
 
 def motif_attach(cx, cy):
     # Hierarchical fibres branching from a pad (gecko setae -> spatulae)
-    top = cy - 34
-    parts = [f'<line x1="{cx-40}" y1="{top}" x2="{cx+40}" y2="{top}" {STROKE}/>']
-    for bx in (cx - 26, cx, cx + 26):
-        midy = top + 26
+    top = cy - 30
+    parts = [f'<line x1="{cx-38}" y1="{top}" x2="{cx+38}" y2="{top}" {STROKE}/>']
+    for bx in (cx - 24, cx, cx + 24):
+        midy = top + 22
         parts.append(f'<line x1="{bx}" y1="{top}" x2="{bx}" y2="{midy}" {STROKE}/>')
-        for dx in (-11, 11):
-            tipx, tipy = bx + dx, midy + 24
+        for dx in (-10, 10):
+            tipx, tipy = bx + dx, midy + 20
             parts.append(f'<line x1="{bx}" y1="{midy}" x2="{tipx}" y2="{tipy}" {STROKE}/>')
             parts.append(f'<line x1="{tipx-4}" y1="{tipy}" x2="{tipx+4}" y2="{tipy}" {STROKE}/>')
     return "".join(parts)
@@ -129,12 +181,12 @@ def motif_attach(cx, cy):
 
 def motif_move(cx, cy):
     # Streamlined profile with laminar flow lines
-    body = (f'<path d="M {cx-46} {cy} C {cx-30} {cy-26}, {cx+18} {cy-22}, {cx+50} {cy} '
-            f'C {cx+18} {cy+22}, {cx-30} {cy+26}, {cx-46} {cy} Z" {STROKE}/>')
+    body = (f'<path d="M {cx-42} {cy} C {cx-28} {cy-24}, {cx+16} {cy-20}, {cx+46} {cy} '
+            f'C {cx+16} {cy+20}, {cx-28} {cy+24}, {cx-42} {cy} Z" {STROKE}/>')
     flow = "".join(
-        f'<path d="M {cx-60} {cy+dy} C {cx-20} {cy+dy//2}, {cx+20} {cy+dy//2}, {cx+60} {cy+dy}" '
+        f'<path d="M {cx-54} {cy+dy} C {cx-18} {cy+dy//2}, {cx+18} {cy+dy//2}, {cx+54} {cy+dy}" '
         f'{STROKE} opacity="0.55"/>'
-        for dy in (-34, 34)
+        for dy in (-30, 30)
     )
     return body + flow
 
@@ -143,50 +195,48 @@ def motif_make(cx, cy):
     # Offset stacked plates (nacre / laminated composite), light isometric skew
     parts = []
     for i in range(4):
-        y = cy - 30 + i * 20
-        sx = cx - 46 + (i % 2) * 12
-        parts.append(
-            f'<path d="M {sx} {y} l 70 0 l 14 -10 l -70 0 z" {STROKE}/>'
-        )
+        y = cy - 26 + i * 18
+        sx = cx - 42 + (i % 2) * 10
+        parts.append(f'<path d="M {sx} {y} l 64 0 l 12 -9 l -64 0 z" {STROKE}/>')
     return "".join(parts)
 
 
 def motif_modify(cx, cy):
     # Structured surface with a high-contact-angle droplet resting on it
-    surf = (f'<path d="M {cx-52} {cy+28} '
-            + " ".join(f"q 6.5 -16 13 0" for _ in range(8))
+    surf = (f'<path d="M {cx-48} {cy+26} '
+            + " ".join("q 6 -15 12 0" for _ in range(8))
             + f'" {STROKE}/>')
-    drop = (f'<path d="M {cx} {cy-18} C {cx+22} {cy-8}, {cx+22} {cy+18}, {cx} {cy+18} '
-            f'C {cx-22} {cy+18}, {cx-22} {cy-8}, {cx} {cy-18} Z" {STROKE}/>')
+    drop = (f'<path d="M {cx} {cy-16} C {cx+20} {cy-7}, {cx+20} {cy+16}, {cx} {cy+16} '
+            f'C {cx-20} {cy+16}, {cx-20} {cy-7}, {cx} {cy-16} Z" {STROKE}/>')
     return surf + drop
 
 
 def motif_process(cx, cy):
     # Two curved arrows forming a cycle (resource processing / efficiency loop)
-    a1 = (f'<path d="M {cx+30} {cy-14} A 30 30 0 1 1 {cx-24} {cy+18}" {STROKE}/>'
-          f'<path d="M {cx+30} {cy-14} l 3 -13 l -12 4" {STROKE}/>')
-    a2 = (f'<path d="M {cx-30} {cy+14} A 30 30 0 1 1 {cx+24} {cy-18}" {STROKE}/>'
-          f'<path d="M {cx-30} {cy+14} l -3 13 l 12 -4" {STROKE}/>')
+    a1 = (f'<path d="M {cx+28} {cy-13} A 28 28 0 1 1 {cx-22} {cy+16}" {STROKE}/>'
+          f'<path d="M {cx+28} {cy-13} l 3 -12 l -11 4" {STROKE}/>')
+    a2 = (f'<path d="M {cx-28} {cy+13} A 28 28 0 1 1 {cx+22} {cy-16}" {STROKE}/>'
+          f'<path d="M {cx-28} {cy+13} l -3 12 l 11 -4" {STROKE}/>')
     return a1 + a2
 
 
 def motif_protect(cx, cy):
     # Minimal shield with an inner layer arc
-    shield = (f'<path d="M {cx} {cy-38} L {cx+30} {cy-26} L {cx+30} {cy+2} '
-              f'C {cx+30} {cy+24}, {cx+16} {cy+34}, {cx} {cy+40} '
-              f'C {cx-16} {cy+34}, {cx-30} {cy+24}, {cx-30} {cy+2} '
-              f'L {cx-30} {cy-26} Z" {STROKE}/>')
-    arc = f'<path d="M {cx-18} {cy-8} C {cx-6} {cy-2}, {cx+6} {cy-2}, {cx+18} {cy-8}" {STROKE} opacity="0.6"/>'
+    shield = (f'<path d="M {cx} {cy-34} L {cx+27} {cy-23} L {cx+27} {cy+2} '
+              f'C {cx+27} {cy+22}, {cx+14} {cy+31}, {cx} {cy+36} '
+              f'C {cx-14} {cy+31}, {cx-27} {cy+22}, {cx-27} {cy+2} '
+              f'L {cx-27} {cy-23} Z" {STROKE}/>')
+    arc = f'<path d="M {cx-16} {cy-7} C {cx-5} {cy-1}, {cx+5} {cy-1}, {cx+16} {cy-7}" {STROKE} opacity="0.6"/>'
     return shield + arc
 
 
 def motif_sense(cx, cy):
     # Concentric wavefronts radiating from a source (detection / navigation)
-    src = f'<circle cx="{cx}" cy="{cy+22}" r="3.2" fill="{ACCENT}"/>'
+    src = f'<circle cx="{cx}" cy="{cy+20}" r="3" fill="{ACCENT}"/>'
     waves = "".join(
-        f'<path d="M {cx-r*0.78} {cy+22} A {r} {r} 0 0 1 {cx+r*0.78} {cy+22}" '
+        f'<path d="M {cx-r*0.78:.0f} {cy+20} A {r} {r} 0 0 1 {cx+r*0.78:.0f} {cy+20}" '
         f'{STROKE} opacity="{1 - i*0.22:.2f}"/>'
-        for i, r in enumerate((16, 30, 44, 58))
+        for i, r in enumerate((15, 28, 41, 54))
     )
     return waves + src
 
@@ -209,9 +259,9 @@ def chevron(x, y):
             f'stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>')
 
 
-def step_label(x, num, word):
+def step_label(x, y, num, word):
     """Numbered step label, e.g. '01 ORGANISM' — accent number, muted word."""
-    return (f'<text x="{x}" y="90" class="step">'
+    return (f'<text x="{x}" y="{y}" class="step">'
             f'<tspan class="num">{num}</tspan>'
             f'<tspan dx="8" class="word">{esc(word)}</tspan></text>')
 
@@ -224,8 +274,11 @@ def build_svg(row):
     organism = row["organism"] or ""
     principle = row["key_principle"] or ""
     application = row["human_application"] or ""
-    product = (row["real_world_products"] or "").split(",")[0].strip()
+    # First named product only; drop a trailing "(source)" so it can't be left
+    # dangling by the comma split (e.g. "HygroSkin pavilion (Achim Menges").
+    product = (row["real_world_products"] or "").split(",")[0].split(" (")[0].strip()
 
+    label_y = PANEL_TOP + 24            # 120
     s = []
     s.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
@@ -238,10 +291,6 @@ def build_svg(row):
       .step   {{ font-size:11px; font-weight:600; letter-spacing:.12em; }}
       .step .num  {{ fill:{ACCENT}; }}
       .step .word {{ fill:{FAINT}; }}
-      .name   {{ font-size:17px; font-weight:700; fill:{INK}; }}
-      .lead   {{ font-size:13.5px; font-weight:600; fill:{INK}; }}
-      .body   {{ font-size:12.5px; font-weight:400; fill:{MUTED}; }}
-      .cap    {{ font-size:11.5px; font-weight:400; fill:{FAINT}; }}
     </style>''')
 
     # Card
@@ -249,34 +298,35 @@ def build_svg(row):
              f'fill="{BG}" stroke="{HAIR}"/>')
 
     # Header row + hairline
-    s.append(f'<text x="40" y="44" class="kicker">BIOMIMICRY MECHANISM</text>')
+    s.append('<text x="40" y="44" class="kicker">BIOMIMICRY MECHANISM</text>')
     s.append(f'<circle cx="{W-40-len(group)*8-16}" cy="40" r="3" fill="{ACCENT}"/>')
     s.append(f'<text x="{W-40}" y="44" class="group" text-anchor="end">{esc(group.upper())}</text>')
-    s.append(f'<line x1="40" y1="60" x2="{W-40}" y2="60" stroke="{HAIR}"/>')
+    s.append(f'<line x1="40" y1="64" x2="{W-40}" y2="64" stroke="{HAIR}"/>')
 
     # Connector chevrons between steps
-    s.append(chevron(300, 150))
-    s.append(chevron(590, 150))
+    s.append(chevron((PR[0] + PL[1]) // 2, 214))
+    s.append(chevron((PR[1] + PL[2]) // 2, 214))
 
     # --- Step 1: ORGANISM ---
-    s.append(step_label(COL_X[0], "01", "ORGANISM"))
-    s.append(tspans(organism, COL_X[0], 124, 24, 21, 2, "name"))
-    s.append(tspans(first_clause(row["biological_function"], 150),
-                    COL_X[0], 176, 34, 18, 4, "body"))
+    s.append(step_label(TX[0], label_y, "01", "ORGANISM"))
+    s.append(fit_text(organism, TX[0], 132, TW, 46, INK, 700, max_font=16.5, min_font=12.5))
+    s.append(fit_text(short_phrase(row["biological_function"], 115),
+                      TX[0], 186, TW, 134, MUTED, 400, max_font=12.5, min_font=9.5))
 
     # --- Step 2: MECHANISM (line-art motif) ---
-    s.append(step_label(COL_X[1], "02", "MECHANISM"))
-    s.append(f'<circle cx="{COLS[1]}" cy="150" r="58" fill="{WASH}"/>')
-    s.append(motif_fn(COLS[1], 150))
-    s.append(tspans(first_clause(principle, 150),
-                    COL_X[1], 240, 34, 17, 3, "body"))
+    s.append(step_label(TX[1], label_y, "02", "MECHANISM"))
+    s.append(f'<circle cx="{PC[1]}" cy="176" r="46" fill="{WASH}"/>')
+    s.append(motif_fn(PC[1], 176))
+    s.append(fit_text(short_phrase(principle, 130),
+                      TX[1], 228, TW, 96, MUTED, 400, max_font=12.0, min_font=9.5))
 
     # --- Step 3: APPLICATION ---
-    s.append(step_label(COL_X[2], "03", "APPLICATION"))
-    s.append(tspans(first_clause(application, 150),
-                    COL_X[2], 124, 32, 19, 4, "lead"))
+    s.append(step_label(TX[2], label_y, "03", "APPLICATION"))
+    s.append(fit_text(short_phrase(application, 120),
+                      TX[2], 132, TW, 118, INK, 600, max_font=13.0, min_font=9.5))
     if product:
-        s.append(tspans("Real-world: " + product, COL_X[2], 214, 34, 16, 3, "cap"))
+        s.append(fit_text("Real-world: " + product, TX[2], 260, TW, 50,
+                          FAINT, 400, max_font=11.0, min_font=8.5))
 
     s.append("</svg>")
     return "\n".join(s)

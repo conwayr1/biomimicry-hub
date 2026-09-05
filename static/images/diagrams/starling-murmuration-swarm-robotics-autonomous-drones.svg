@@ -1,50 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
 <style>
       .kicker { font-size:11px; font-weight:600; letter-spacing:.16em; fill:#8a8a8a; }
       .group  { font-size:11px; font-weight:600; letter-spacing:.14em; fill:#2d6a4f; }
       .step   { font-size:11px; font-weight:600; letter-spacing:.12em; }
       .step .num  { fill:#2d6a4f; }
       .step .word { fill:#8a8a8a; }
-      .name   { font-size:17px; font-weight:700; fill:#1a1a1a; }
-      .lead   { font-size:13.5px; font-weight:600; fill:#1a1a1a; }
-      .body   { font-size:12.5px; font-weight:400; fill:#5b5b5b; }
-      .cap    { font-size:11.5px; font-weight:400; fill:#8a8a8a; }
     </style>
-<rect x="0.5" y="0.5" width="899" height="319" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
+<rect x="0.5" y="0.5" width="899" height="339" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
 <text x="40" y="44" class="kicker">BIOMIMICRY MECHANISM</text>
 <circle cx="812" cy="40" r="3" fill="#2d6a4f"/>
 <text x="860" y="44" class="group" text-anchor="end">MOVE</text>
-<line x1="40" y1="60" x2="860" y2="60" stroke="#e7e7e7"/>
-<path d="M 295 143 L 305 150 L 295 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
-<path d="M 585 143 L 595 150 L 585 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
-<text x="58" y="90" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
-<text x="58" y="124" class="name" text-anchor="start">
-<tspan x="58" dy="0">Starling murmuration</tspan>
+<line x1="40" y1="64" x2="860" y2="64" stroke="#e7e7e7"/>
+<path d="M 285 207 L 295 214 L 285 221" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M 565 207 L 575 214 L 565 221" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<text x="58" y="120" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
+<text x="58" y="148.5" text-anchor="start" style="font-size:16.5px;font-weight:700;fill:#1a1a1a;">
+<tspan x="58" dy="0.0">Starling murmuration</tspan>
 </text>
-<text x="58" y="176" class="body" text-anchor="start">
-<tspan x="58" dy="0">Flocks of up to a million</tspan>
-<tspan x="58" dy="18">starlings produce fluid,</tspan>
-<tspan x="58" dy="18">shapeshifting aerial formations</tspan>
-<tspan x="58" dy="18">with no leader — each bird follows…</tspan>
+<text x="58" y="198.5" text-anchor="start" style="font-size:12.5px;font-weight:400;fill:#5b5b5b;">
+<tspan x="58" dy="0.0">Flocks of up to a million</tspan>
+<tspan x="58" dy="16.2">starlings produce fluid,</tspan>
+<tspan x="58" dy="16.2">shapeshifting aerial</tspan>
+<tspan x="58" dy="16.2">formations with no leader</tspan>
 </text>
-<text x="348" y="90" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
-<circle cx="450" cy="150" r="58" fill="#f6f8f6"/>
-<path d="M 404 150 C 420 124, 468 128, 500 150 C 468 172, 420 176, 404 150 Z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 390 116 C 430 133, 470 133, 510 116" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/><path d="M 390 184 C 430 167, 470 167, 510 184" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
-<text x="348" y="240" class="body" text-anchor="start">
-<tspan x="348" dy="0">Local interaction rules applied</tspan>
-<tspan x="348" dy="17">consistently across thousands of</tspan>
-<tspan x="348" dy="17">individuals produce emergent…</tspan>
+<text x="338" y="120" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
+<circle cx="430" cy="176" r="46" fill="#f6f8f6"/>
+<path d="M 388 176 C 402 152, 446 156, 476 176 C 446 196, 402 200, 388 176 Z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 376 146 C 412 161, 448 161, 484 146" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/><path d="M 376 206 C 412 191, 448 191, 484 206" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+<text x="338" y="240.0" text-anchor="start" style="font-size:12.0px;font-weight:400;fill:#5b5b5b;">
+<tspan x="338" dy="0.0">Local interaction rules</tspan>
+<tspan x="338" dy="15.6">applied consistently across</tspan>
+<tspan x="338" dy="15.6">thousands of individuals</tspan>
+<tspan x="338" dy="15.6">produce emergent global</tspan>
+<tspan x="338" dy="15.6">behaviour that is cohesive</tspan>
 </text>
-<text x="612" y="90" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
-<text x="612" y="124" class="lead" text-anchor="start">
-<tspan x="612" dy="0">Swarm robotics coordination,</tspan>
-<tspan x="612" dy="19">autonomous drone fleet</tspan>
-<tspan x="612" dy="19">management, traffic flow</tspan>
-<tspan x="612" dy="19">optimisation, collective AI for…</tspan>
+<text x="618" y="120" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
+<text x="618" y="145.0" text-anchor="start" style="font-size:13.0px;font-weight:600;fill:#1a1a1a;">
+<tspan x="618" dy="0.0">Swarm robotics</tspan>
+<tspan x="618" dy="16.9">coordination, autonomous</tspan>
+<tspan x="618" dy="16.9">drone fleet management,</tspan>
+<tspan x="618" dy="16.9">traffic flow optimisation</tspan>
 </text>
-<text x="612" y="214" class="cap" text-anchor="start">
-<tspan x="612" dy="0">Real-world: Swarmanoid project</tspan>
-<tspan x="612" dy="16">(EPFL/ULB); Amazon warehouse robot</tspan>
-<tspan x="612" dy="16">coordination; multiple autonomous…</tspan>
+<text x="618" y="271.0" text-anchor="start" style="font-size:11.0px;font-weight:400;fill:#8a8a8a;">
+<tspan x="618" dy="0.0">Real-world: Swarmanoid project</tspan>
 </text>
 </svg>

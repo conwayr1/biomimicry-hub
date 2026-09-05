@@ -1,50 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
 <style>
       .kicker { font-size:11px; font-weight:600; letter-spacing:.16em; fill:#8a8a8a; }
       .group  { font-size:11px; font-weight:600; letter-spacing:.14em; fill:#2d6a4f; }
       .step   { font-size:11px; font-weight:600; letter-spacing:.12em; }
       .step .num  { fill:#2d6a4f; }
       .step .word { fill:#8a8a8a; }
-      .name   { font-size:17px; font-weight:700; fill:#1a1a1a; }
-      .lead   { font-size:13.5px; font-weight:600; fill:#1a1a1a; }
-      .body   { font-size:12.5px; font-weight:400; fill:#5b5b5b; }
-      .cap    { font-size:11.5px; font-weight:400; fill:#8a8a8a; }
     </style>
-<rect x="0.5" y="0.5" width="899" height="319" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
+<rect x="0.5" y="0.5" width="899" height="339" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
 <text x="40" y="44" class="kicker">BIOMIMICRY MECHANISM</text>
 <circle cx="796" cy="40" r="3" fill="#2d6a4f"/>
 <text x="860" y="44" class="group" text-anchor="end">MODIFY</text>
-<line x1="40" y1="60" x2="860" y2="60" stroke="#e7e7e7"/>
-<path d="M 295 143 L 305 150 L 295 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
-<path d="M 585 143 L 595 150 L 585 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
-<text x="58" y="90" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
-<text x="58" y="124" class="name" text-anchor="start">
-<tspan x="58" dy="0">Turritopsis dohrnii</tspan>
-<tspan x="58" dy="21">jellyfish</tspan>
+<line x1="40" y1="64" x2="860" y2="64" stroke="#e7e7e7"/>
+<path d="M 285 207 L 295 214 L 285 221" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M 565 207 L 575 214 L 565 221" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<text x="58" y="120" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
+<text x="58" y="148.5" text-anchor="start" style="font-size:16.5px;font-weight:700;fill:#1a1a1a;">
+<tspan x="58" dy="0.0">Turritopsis dohrnii</tspan>
+<tspan x="58" dy="21.4">jellyfish</tspan>
 </text>
-<text x="58" y="176" class="body" text-anchor="start">
-<tspan x="58" dy="0">This jellyfish is effectively</tspan>
-<tspan x="58" dy="18">biologically immortal — when</tspan>
-<tspan x="58" dy="18">stressed, it reverts from its</tspan>
-<tspan x="58" dy="18">adult medusa form back to a…</tspan>
+<text x="58" y="198.5" text-anchor="start" style="font-size:12.5px;font-weight:400;fill:#5b5b5b;">
+<tspan x="58" dy="0.0">This jellyfish is</tspan>
+<tspan x="58" dy="16.2">effectively biologically</tspan>
+<tspan x="58" dy="16.2">immortal — when stressed</tspan>
 </text>
-<text x="348" y="90" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
-<circle cx="450" cy="150" r="58" fill="#f6f8f6"/>
-<path d="M 398 178 q 6.5 -16 13 0 q 6.5 -16 13 0 q 6.5 -16 13 0 q 6.5 -16 13 0 q 6.5 -16 13 0 q 6.5 -16 13 0 q 6.5 -16 13 0 q 6.5 -16 13 0" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 450 132 C 472 142, 472 168, 450 168 C 428 168, 428 142, 450 132 Z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="348" y="240" class="body" text-anchor="start">
-<tspan x="348" dy="0">Applying a defined set of</tspan>
-<tspan x="348" dy="17">transcription factors to a</tspan>
-<tspan x="348" dy="17">differentiated adult cell can…</tspan>
+<text x="338" y="120" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
+<circle cx="430" cy="176" r="46" fill="#f6f8f6"/>
+<path d="M 382 202 q 6 -15 12 0 q 6 -15 12 0 q 6 -15 12 0 q 6 -15 12 0 q 6 -15 12 0 q 6 -15 12 0 q 6 -15 12 0 q 6 -15 12 0" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 430 160 C 450 169, 450 192, 430 192 C 410 192, 410 169, 430 160 Z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="338" y="240.0" text-anchor="start" style="font-size:12.0px;font-weight:400;fill:#5b5b5b;">
+<tspan x="338" dy="0.0">Applying a defined set of</tspan>
+<tspan x="338" dy="15.6">transcription factors to a</tspan>
+<tspan x="338" dy="15.6">differentiated adult cell can</tspan>
+<tspan x="338" dy="15.6">reset its epigenetic program</tspan>
+<tspan x="338" dy="15.6">to a pluripotent…</tspan>
 </text>
-<text x="612" y="90" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
-<text x="612" y="124" class="lead" text-anchor="start">
-<tspan x="612" dy="0">The jellyfish&#39;s</tspan>
-<tspan x="612" dy="19">transdifferentiation has</tspan>
-<tspan x="612" dy="19">inspired research into cellular</tspan>
-<tspan x="612" dy="19">reprogramming, including induced…</tspan>
+<text x="618" y="120" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
+<text x="618" y="145.0" text-anchor="start" style="font-size:13.0px;font-weight:600;fill:#1a1a1a;">
+<tspan x="618" dy="0.0">The jellyfish&#39;s</tspan>
+<tspan x="618" dy="16.9">transdifferentiation has</tspan>
+<tspan x="618" dy="16.9">inspired research into</tspan>
+<tspan x="618" dy="16.9">cellular reprogramming</tspan>
 </text>
-<text x="612" y="214" class="cap" text-anchor="start">
-<tspan x="612" dy="0">Real-world: Yamanaka factor iPSC</tspan>
-<tspan x="612" dy="16">technology (Nobel Prize 2012)</tspan>
+<text x="618" y="271.0" text-anchor="start" style="font-size:11.0px;font-weight:400;fill:#8a8a8a;">
+<tspan x="618" dy="0.0">Real-world: Yamanaka factor iPSC</tspan>
+<tspan x="618" dy="14.3">technology</tspan>
 </text>
 </svg>

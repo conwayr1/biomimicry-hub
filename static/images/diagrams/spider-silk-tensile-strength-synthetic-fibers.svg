@@ -1,49 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img" width="100%" style="max-width:900px;height:auto;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
 <style>
       .kicker { font-size:11px; font-weight:600; letter-spacing:.16em; fill:#8a8a8a; }
       .group  { font-size:11px; font-weight:600; letter-spacing:.14em; fill:#2d6a4f; }
       .step   { font-size:11px; font-weight:600; letter-spacing:.12em; }
       .step .num  { fill:#2d6a4f; }
       .step .word { fill:#8a8a8a; }
-      .name   { font-size:17px; font-weight:700; fill:#1a1a1a; }
-      .lead   { font-size:13.5px; font-weight:600; fill:#1a1a1a; }
-      .body   { font-size:12.5px; font-weight:400; fill:#5b5b5b; }
-      .cap    { font-size:11.5px; font-weight:400; fill:#8a8a8a; }
     </style>
-<rect x="0.5" y="0.5" width="899" height="319" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
+<rect x="0.5" y="0.5" width="899" height="339" rx="16" fill="#ffffff" stroke="#e7e7e7"/>
 <text x="40" y="44" class="kicker">BIOMIMICRY MECHANISM</text>
 <circle cx="812" cy="40" r="3" fill="#2d6a4f"/>
 <text x="860" y="44" class="group" text-anchor="end">MAKE</text>
-<line x1="40" y1="60" x2="860" y2="60" stroke="#e7e7e7"/>
-<path d="M 295 143 L 305 150 L 295 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
-<path d="M 585 143 L 595 150 L 585 157" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
-<text x="58" y="90" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
-<text x="58" y="124" class="name" text-anchor="start">
-<tspan x="58" dy="0">Golden silk orb-weaver</tspan>
-<tspan x="58" dy="21">spider</tspan>
+<line x1="40" y1="64" x2="860" y2="64" stroke="#e7e7e7"/>
+<path d="M 285 207 L 295 214 L 285 221" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M 565 207 L 575 214 L 565 221" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<text x="58" y="120" class="step"><tspan class="num">01</tspan><tspan dx="8" class="word">ORGANISM</tspan></text>
+<text x="58" y="148.5" text-anchor="start" style="font-size:16.5px;font-weight:700;fill:#1a1a1a;">
+<tspan x="58" dy="0.0">Golden silk</tspan>
+<tspan x="58" dy="21.4">orb-weaver spider</tspan>
 </text>
-<text x="58" y="176" class="body" text-anchor="start">
-<tspan x="58" dy="0">Spider silk is five times stronger</tspan>
-<tspan x="58" dy="18">than steel by weight, yet more</tspan>
-<tspan x="58" dy="18">elastic than nylon</tspan>
+<text x="58" y="198.5" text-anchor="start" style="font-size:12.5px;font-weight:400;fill:#5b5b5b;">
+<tspan x="58" dy="0.0">Spider silk is five times</tspan>
+<tspan x="58" dy="16.2">stronger than steel by</tspan>
+<tspan x="58" dy="16.2">weight, yet more elastic</tspan>
+<tspan x="58" dy="16.2">than nylon</tspan>
 </text>
-<text x="348" y="90" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
-<circle cx="450" cy="150" r="58" fill="#f6f8f6"/>
-<path d="M 404 120 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 416 140 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 404 160 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 416 180 l 70 0 l 14 -10 l -70 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="348" y="240" class="body" text-anchor="start">
-<tspan x="348" dy="0">Beta-sheet protein nanocrystals</tspan>
-<tspan x="348" dy="17">embedded in an amorphous matrix</tspan>
-<tspan x="348" dy="17">create a hierarchical structure…</tspan>
+<text x="338" y="120" class="step"><tspan class="num">02</tspan><tspan dx="8" class="word">MECHANISM</tspan></text>
+<circle cx="430" cy="176" r="46" fill="#f6f8f6"/>
+<path d="M 388 150 l 64 0 l 12 -9 l -64 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 398 168 l 64 0 l 12 -9 l -64 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 388 186 l 64 0 l 12 -9 l -64 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M 398 204 l 64 0 l 12 -9 l -64 0 z" fill="none" stroke="#2d6a4f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="338" y="240.0" text-anchor="start" style="font-size:12.0px;font-weight:400;fill:#5b5b5b;">
+<tspan x="338" dy="0.0">Beta-sheet protein</tspan>
+<tspan x="338" dy="15.6">nanocrystals embedded in an</tspan>
+<tspan x="338" dy="15.6">amorphous matrix create a</tspan>
+<tspan x="338" dy="15.6">hierarchical structure that</tspan>
+<tspan x="338" dy="15.6">is simultaneously stiff…</tspan>
 </text>
-<text x="612" y="90" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
-<text x="612" y="124" class="lead" text-anchor="start">
-<tspan x="612" dy="0">Ultra-strong biodegradable</tspan>
-<tspan x="612" dy="19">fibers for bulletproof</tspan>
-<tspan x="612" dy="19">materials, medical sutures,</tspan>
-<tspan x="612" dy="19">parachute cords, and lightweight…</tspan>
+<text x="618" y="120" class="step"><tspan class="num">03</tspan><tspan dx="8" class="word">APPLICATION</tspan></text>
+<text x="618" y="145.0" text-anchor="start" style="font-size:13.0px;font-weight:600;fill:#1a1a1a;">
+<tspan x="618" dy="0.0">Ultra-strong biodegradable</tspan>
+<tspan x="618" dy="16.9">fibers for bulletproof</tspan>
+<tspan x="618" dy="16.9">materials, medical sutures,</tspan>
+<tspan x="618" dy="16.9">parachute cords</tspan>
 </text>
-<text x="612" y="214" class="cap" text-anchor="start">
-<tspan x="612" dy="0">Real-world: Bolt Threads synthetic</tspan>
-<tspan x="612" dy="16">spider silk</tspan>
+<text x="618" y="271.0" text-anchor="start" style="font-size:11.0px;font-weight:400;fill:#8a8a8a;">
+<tspan x="618" dy="0.0">Real-world: Bolt Threads</tspan>
+<tspan x="618" dy="14.3">synthetic spider silk</tspan>
 </text>
 </svg>
