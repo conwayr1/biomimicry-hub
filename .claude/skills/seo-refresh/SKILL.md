@@ -22,28 +22,47 @@ recommend, never sign up or swap links unilaterally.
 
 Ask the user to export fresh data if they have not already:
 
-> Search Console → property `https://biomimicry-hub.com` → **Performance** →
-> date **Last 28 days** (matches the baseline) → **Export** → **Download XLSX**.
-> Leave it in Downloads.
-> Optional: a screenshot of **Indexing → Pages**. To see which URLs were not
-> indexed, click a row in the "Why pages aren't indexed" table — the URL list is
-> one level deeper than it looks.
+> **Both exports, please — they find different problems.**
+>
+> 1. **Performance:** Search Console → property `https://biomimicry-hub.com` →
+>    **Performance** → date **Last 28 days** → **Export** → **Download XLSX**.
+> 2. **Coverage:** **Indexing → Pages** → **Export**. Then click the
+>    **"Not found (404)"** row (and any other row with a real count) and export
+>    that drilldown too — the URL list lives one level deeper than it looks.
+>
+> Leave them all in Downloads.
 
-Then run:
+Then run both scripts:
 
 ```bash
-py .claude/skills/seo-refresh/scripts/analyze_gsc.py
+py .claude/skills/seo-refresh/scripts/analyze_gsc.py        # rankings
+py .claude/skills/seo-refresh/scripts/check_indexation.py   # indexation + links
 ```
 
-It auto-finds the newest `*Performance-on-Search*.xlsx` in Downloads, prints
-headline metrics versus the previous run, and flags all five patterns. Add
-`--save` once the run is accepted to append it to `biomimicry-seo/data/seo-baseline.json`.
+`analyze_gsc.py` auto-finds the newest `*Performance-on-Search*.xlsx`, prints
+headline metrics versus the previous run, and flags the five ranking patterns.
+Add `--save` once the run is accepted to append it to `data/seo-baseline.json`.
+
+`check_indexation.py` parses the Coverage exports (indexed-vs-not trend, issue
+counts, and the 404 URL list grouped by prefix to expose systematic causes) and,
+given `--build <dir>`, crawls a Hugo build for broken internal links, baseURL
+leakage, and sitemap sanity.
 
 Always use **28-day windows** so runs are comparable.
 
 ## Phase 2 — Diagnose
 
-The script reports five patterns. Interpret them, don't just relay them:
+**Check indexation first.** An unindexed page cannot rank at all, so indexation
+problems outrank every ranking optimization. If `check_indexation.py` reports the
+indexed count falling, make that the headline finding regardless of how good the
+Performance numbers look. Likewise a 404 or a broken sitewide link beats any
+amount of content polish.
+
+The October run is the cautionary example: Performance looked excellent (clicks
++95%, position 19.6 → 8.3) while indexed pages had quietly fallen 92 → 83 and a
+footer link to `/about/` was 404ing on all 161 pages.
+
+Then the ranking patterns. Interpret them, don't just relay them:
 
 1. **DEEPEN** — real impressions, ranked just off page 1, thin content. The
    highest-value pattern. Fix with the deepening playbook.
@@ -136,3 +155,15 @@ Hard-won; re-learning these costs hours.
 - **Impressions falling while position improves is often good** — the page
   stopped appearing for junk queries it never converted. Check clicks, not
   impressions, before calling it a regression.
+- **Never let the deploy workflow override `baseURL`.** `deploy.yml` used to pass
+  `--baseURL "${{ steps.pages.outputs.base_url }}/"`, which before the custom
+  domain was configured resolved to the GitHub Pages *project path* and baked a
+  `/biomimicry-hub/` prefix into every URL. Google indexed 27 of them and they all
+  404. `config.toml` is the single source of truth; `check_indexation.py` asserts
+  the prefix never reappears.
+- **Antivirus quarantines `hugo.exe`** from the scratchpad between runs. If the
+  binary vanishes or extraction throws "access denied", re-extract to a new
+  directory name rather than retrying the same path.
+- **Don't trust counts from summarized web fetches.** A "231 URLs in the sitemap"
+  figure from a fetch summary was wrong and sent me chasing 70 URLs that were
+  never missing. Count locally from the build.

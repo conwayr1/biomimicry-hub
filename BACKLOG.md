@@ -50,5 +50,22 @@ The four "best-of" list pages carry ~37% of impressions but rank page 2 because 
       treatment (unique industry-specific prose, no shared block) across the remaining 20.
 - [ ] Consider new page types: comparison pages ("X adhesive vs Y adhesive") and mechanism "how it works" explainers.
 
+## Indexation (found 2026-10-06 via Coverage export)
+- [x] Fixed `/about/` 404 — footer linked it from all 161 pages but the page did not
+      exist. Created content/about.md with sourcing methodology + a proper affiliate
+      disclosure (Amazon Associates requires one) (2026-10-06).
+- [x] Fixed the baseURL override in deploy.yml that caused 27 indexed `/biomimicry-hub/*`
+      URLs to 404. config.toml is now the single source of truth (2026-10-06).
+- [ ] **Indexed pages are declining: 92 -> 83** (Aug 4 -> Sep 20), not-indexed 59 -> 68.
+      Google knows 151 URLs; roughly half are not indexed. This outranks ranking work.
+      Re-check after the /about/ and baseURL fixes land.
+- [ ] **32 auto-generated taxonomy term pages** under /industries/ (aerospace,
+      architecture, ...) share a URL namespace with the 21 real industry pages and
+      exactly match the "Alternate page with proper canonical tag - 32 pages" count.
+      Decide: noindex the term pages, or drop the `industry` taxonomy since the
+      hand-written industry pages already serve that purpose.
+- [ ] 8 pages "Crawled - currently not indexed" = thin-content signal; cross-reference
+      with the DEEPEN list.
+
 ## Housekeeping
 - [ ] Homepage still hardcodes "83 documented strategies"; database has 82. Fold into a future edit.

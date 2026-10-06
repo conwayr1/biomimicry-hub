@@ -47,9 +47,15 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build site
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --minify
         # --minify shrinks HTML/CSS/JS for faster page loads
-        # --baseURL is set automatically to your GitHub Pages URL
+        #
+        # baseURL deliberately comes from config.toml (https://biomimicry-hub.com/)
+        # rather than from steps.pages.outputs.base_url. Before the custom domain
+        # was configured in repo settings that output resolved to the project path
+        # (conwayr1.github.io/biomimicry-hub), which baked a "/biomimicry-hub/"
+        # prefix into every URL. Google indexed 27 of those and they now 404.
+        # Keeping config.toml as the single source of truth stops that recurring.
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
