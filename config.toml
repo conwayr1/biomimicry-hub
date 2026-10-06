@@ -8,17 +8,25 @@ enableRobotsTXT = true
 enableGitInfo    = false
 pygmentsUseClasses = true
 
+# Taxonomies are disabled deliberately.
+#
+# Hugo generated 34 term pages (/industries/aerospace/, /industries/architecture/,
+# ...) that shared a URL namespace with the 21 hand-written industry pages, were
+# linked from nowhere on the site, and still appeared in the sitemap. Search
+# Console reported exactly those 32 under "Alternate page with proper canonical
+# tag" while only about half the site's URLs were being indexed at all.
+#
+# No template references .Site.Taxonomies; organism pages render their industry
+# tags from .Params.industries directly, so nothing depends on these.
+# disableKinds removes the term and term-list pages without touching front matter.
+disableKinds = ["taxonomy", "term"]
+
 [params]
   description   = "Explore how engineers and designers copy nature to solve hard problems. Hundreds of biomimicry examples — from gecko adhesives to whale-fin turbines."
   author        = "Biomimicry Hub"
   brand         = "Biomimicry Hub"   # short form used in the <title> tag
   googleAnalytics = "G-96035Z7LSP"
   amazonTag     = "biomimicryhub-20"
-
-[taxonomies]
-  taxonomy_group = "taxonomy_groups"
-  industry       = "industries"
-  tag            = "tags"
 
 [outputs]
   home    = ["HTML", "RSS"]

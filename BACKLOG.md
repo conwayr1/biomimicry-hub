@@ -59,11 +59,11 @@ The four "best-of" list pages carry ~37% of impressions but rank page 2 because 
 - [ ] **Indexed pages are declining: 92 -> 83** (Aug 4 -> Sep 20), not-indexed 59 -> 68.
       Google knows 151 URLs; roughly half are not indexed. This outranks ranking work.
       Re-check after the /about/ and baseURL fixes land.
-- [ ] **32 auto-generated taxonomy term pages** under /industries/ (aerospace,
-      architecture, ...) share a URL namespace with the 21 real industry pages and
-      exactly match the "Alternate page with proper canonical tag - 32 pages" count.
-      Decide: noindex the term pages, or drop the `industry` taxonomy since the
-      hand-written industry pages already serve that purpose.
+- [x] Removed 34 orphan taxonomy pages via `disableKinds = ["taxonomy", "term"]`.
+      They were linked from nowhere, duplicated the 21 hand-written industry pages in
+      the same URL namespace, and matched the "Alternate page with proper canonical
+      tag - 32 pages" count exactly. Sitemap 162 -> 128 URLs, all real content
+      preserved (2026-10-06).
 - [ ] 8 pages "Crawled - currently not indexed" = thin-content signal; cross-reference
       with the DEEPEN list.
 
