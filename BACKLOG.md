@@ -67,5 +67,32 @@ The four "best-of" list pages carry ~37% of impressions but rank page 2 because 
 - [ ] 8 pages "Crawled - currently not indexed" = thin-content signal; cross-reference
       with the DEEPEN list.
 
+## Security (reviewed 2026-10-27)
+Scope: Hugo static site on GitHub Pages. No PHP, no server-side execution, no forms
+or upload handlers, no runtime database - so server-side injection and web-shell
+classes of attack do not apply structurally.
+
+- [ ] **Enforce HTTPS** (GitHub repo > Settings > Pages > "Enforce HTTPS").
+      http://biomimicry-hub.com currently returns 200 with full content and no
+      redirect, and there is no HSTS header. Allows content/affiliate-link tampering
+      on hostile networks, and may be creating http/https duplicates in the index.
+      USER ACTION - cannot be changed from the repo.
+- [x] **CI supply chain hardened** (2026-10-27): all four actions pinned to commit
+      SHAs instead of mutable tags, Hugo tarball verified against a hardcoded SHA256
+      (checked byte-for-byte against the published artifact), `set -euo pipefail` so
+      a failed download aborts the build, and `persist-credentials: false` on
+      checkout. Bump HUGO_SHA256 whenever HUGO_VERSION changes.
+- [ ] **No security headers** - GitHub Pages cannot set CSP, X-Frame-Options,
+      X-Content-Type-Options or Referrer-Policy. Low risk today (no user input, no
+      auth, no cookies beyond GA4), but nothing would contain an XSS if one appeared.
+      The real fix is fronting the site with Cloudflare, which also provides HSTS.
+- [ ] **`unsafe = true` in config.toml** allows raw HTML in markdown (needed for
+      shortcodes). No content uses it today - all 133 files checked - but pages are
+      generated from the SQLite database, so an HTML-bearing field would render live.
+      Only treat the database as trusted input.
+- Clean at review: no secrets committed, no safeHTML/safeJS escaping bypasses, no
+  string-built SQL, all external links carry rel="noopener", workflow permissions
+  scoped to contents:read, one third-party script (GA4), database not published.
+
 ## Housekeeping
 - [ ] Homepage still hardcodes "83 documented strategies"; database has 82. Fold into a future edit.
