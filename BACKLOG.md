@@ -72,11 +72,16 @@ Scope: Hugo static site on GitHub Pages. No PHP, no server-side execution, no fo
 or upload handlers, no runtime database - so server-side injection and web-shell
 classes of attack do not apply structurally.
 
-- [ ] **Enforce HTTPS** (GitHub repo > Settings > Pages > "Enforce HTTPS").
-      http://biomimicry-hub.com currently returns 200 with full content and no
-      redirect, and there is no HSTS header. Allows content/affiliate-link tampering
-      on hostile networks, and may be creating http/https duplicates in the index.
-      USER ACTION - cannot be changed from the repo.
+- [x] **Enforce HTTPS enabled and verified** (2026-10-27). http:// now returns
+      301 -> https:// with the path preserved on every URL tested (apex, organism
+      page, /about/). Certificate SAN covers both biomimicry-hub.com and
+      www.biomimicry-hub.com.
+- [ ] **HSTS is still absent.** GitHub Pages performs the 301 but sends no
+      Strict-Transport-Security header, so a visitor's *first* request on a new
+      browser still goes out over plaintext before being redirected, and that one
+      request is interceptable. Closing this requires a proxy that can set headers -
+      Cloudflare's free tier in front of Pages would provide HSTS and the other
+      missing headers in one move.
 - [x] **CI supply chain hardened** (2026-10-27): all four actions pinned to commit
       SHAs instead of mutable tags, Hugo tarball verified against a hardcoded SHA256
       (checked byte-for-byte against the published artifact), `set -euo pipefail` so
